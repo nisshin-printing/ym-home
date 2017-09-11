@@ -1,0 +1,57 @@
+.page-id-2512 {
+	.box02 {
+		@include clearfix();
+		@include breakpoint( medium down ) {
+			th {
+				float: left;
+				width: 100% !important;
+				text-align: left;
+			}
+			td {
+				float: left;
+				display: block;
+				width: 100% !important;
+			}
+		}
+		margin: 20px auto 30px;
+		table {
+			border: 1px slid #DADADA;
+			position: relative;
+			margin: 0 0 3px;
+		}
+		th {
+			width: 166px;
+			color: #FFF;
+			vertical-align: middle;
+			font-weight: bold;
+			font-size: 20px;
+			padding: 10px 0 10px 66px;
+		}
+		@for $i from 1 through 5 {
+			.icon#{$i} {
+				background: $rosai url(//i0.wp.com/www.hiroshima-rosai.com/img/base/icon_0#{$i}.jpg) 15px 50% no-repeat;
+			}
+		}
+		td {
+			padding: 10px 10px 10px 20px;
+			overflow: hidden;
+			&.button {
+				display: table-cell;
+				width: 200px;
+				vertical-align: middle;
+				padding: 10px 10px 10px 0;
+				background: none;
+				border-radius: 0;
+				margin: 0;
+				border: 0;
+				box-shadow: none;
+			}
+		}
+		a.button {
+			background-color: $rosai;
+		}
+	}
+	.arrow {
+		margin: 0 0 3px 60px;
+	}
+}

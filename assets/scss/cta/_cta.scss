@@ -1,0 +1,65 @@
+// Landing Page
+.cta-lp {
+	padding: 3rem 0;
+	@extend .text-center;
+	p { color: $white; }
+	ul {
+		@extend .no-bullet;
+		@extend .m2;
+		li {
+			width: 45%;
+			display: inline-block;
+			vertical-align: middle;
+			@include breakpoint( small only ) {
+				width: 100%;
+			}
+			&.bg-white {
+				a {
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+				img {
+					@extend .p2;
+				}
+			}
+		}
+		.button {
+			@extend .m0;
+			display: block;
+			width: 100%;
+			height: 108px;
+			padding: 42px 32px 32px;
+		}
+	}
+}
+
+
+// お問い合わせフォーム
+.cta-contact {
+	padding: 1rem 0;
+	margin: 4rem auto;
+	@extend .text-center;
+}
+
+.article-body {
+	.cta-contact {
+		padding: 2rem 0;
+		margin: 3rem auto;
+		@extend .row;
+		.button {
+			.fa {
+				margin-right: 1rem;
+			}
+		}
+	}
+}
+
+
+
+// CTA ボタン
+.cta-button {
+	font-size: 123%;
+	@extend .b0;
+	@extend .bg-haikus;
+}

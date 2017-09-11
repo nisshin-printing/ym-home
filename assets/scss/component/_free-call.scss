@@ -1,0 +1,28 @@
+.free-call {
+		display: block;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 3.1rem;
+		line-height: 42px;
+		margin-top: 3px;
+		margin-bottom: 0;
+		a {
+				color: map-get($ym_color, home);
+				letter-spacing: -6px;
+		}
+}
+
+.free-call--icon {
+		padding: 0 5px 0 0;
+		vertical-align: middle;
+		width: .6em;
+		height: .6em;
+}
+
+.free-call--button__button {
+		margin-left: 1rem;
+}
+
+.free-call--hours {
+		color: $dark-gray;
+}

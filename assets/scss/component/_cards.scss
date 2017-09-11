@@ -1,0 +1,136 @@
+.card--panel {
+		transition: box-shadow .25s;
+		padding: 24px;
+		margin: 1rem 0;
+		border-radius: 2px;
+		background-color: #FFF;
+}
+
+.card {
+		position: relative;
+		margin: 1rem 0;
+		background-color: #FFF;
+		transition: box-shadow .25s;
+		border-radius: 2px;
+		.card--title {
+				&.activator {
+						cursor: pointer;
+				}
+		}
+		// Horizontal Cards
+		&.horizontal {
+				display: flex;
+				.card--img {
+						height: 100%;
+						max-height: none;
+						overflow: visible;
+						img {
+								height: 100%;
+						}
+				}
+		}
+		// Sticky Action Section
+		.sticky-action {
+				.card--action {
+						z-index: 2;
+				}
+				.card--reveal {
+						z-index: 1;
+						padding-bottom: 64px;
+				}
+		}
+}
+
+.card--img {
+		img {
+				border-radius: 2px 0 0 2px;
+				max-width: 100%;
+				width: auto;
+		}
+}
+
+.card--stacked {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		position: relative;
+		.card--content {
+				flex-grow: 1;
+		}
+}
+
+.card--img {
+		position: relative;
+		// Image background for content
+		img {
+				display: block;
+				border-radius: 2px 2px 0 0;
+				position: relative;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				width: 100%;
+		}
+		.card--title {
+				color: #FFF;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				max-width: 100%;
+				padding: 24px;
+		}
+}
+
+.card--content {
+		padding: 24px;
+		border-radius: 0 0 2px 2px;
+		p {
+				margin: 0;
+				color: inherit;
+		}
+		.card--title {
+				display: block;
+				line-height: 32px;
+				margin-bottom: 8px;
+				i {
+						line-height: 32px;
+				}
+		}
+}
+
+.card--action {
+		&:last-child {
+				border-radius: 0 0 2px 2px;
+		}
+		position: relative;
+		background-color: inherit;
+		border-top: 1px solid rgba(160, 160, 160, .2);
+		padding: 16px 24px;
+		a:not(.btn):not(.btn-large):not(.btn-floating) {
+				color: $primary-color;
+				margin-right: 24px;
+				transition: color .3s ease;
+				text-transform: uppercase;
+				&:hover {
+						color: $primary-color;
+				}
+		}
+}
+
+.card--reveal {
+		padding: 24px;
+		position: absolute;
+		background-color: #FFF;
+		width: 100%;
+		overflow-y: auto;
+		left: 0;
+		top: 100%;
+		height: 100%;
+		z-index: 3;
+		display: none;
+		.card--title {
+				cursor: pointer;
+				display: block;
+		}
+}

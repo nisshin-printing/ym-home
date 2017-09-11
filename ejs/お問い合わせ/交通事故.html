@@ -1,0 +1,92 @@
+<div class="row">
+<div class="large-12 column text-center">[response]</div>
+<div class="large-2 column">
+<label class="large-text-right">お名前（カナ）</label>
+</div>
+<div class="large-10 column">[text name-kana placeholder "ヤマダ　タロウ"]</div>
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">Eメール<span class="round alert label">必須</span></label>
+</div>
+<div class="large-10 column">[email* email]</div>
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">電話番号</label>
+</div>
+<div class="large-10 column">[tel tel placeholder "082-223-0695, 0822230695"]</div>
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">相手方（カナ）</label>
+</div>
+<div class="large-10 column">[text aite-kana placeholder "サトウ　ハナコ"]</div>
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">事故概要</label>
+</div>
+<div class="large-10 column">[textarea textarea-1 placeholder "何と何の事故か、どのようにぶつかったのか"]</div>
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">受傷について
+<br>（該当者のみ）</label>
+</div>
+<div class="large-10 column">[textarea textarea-2 placeholder "受傷部分・傷病名・後遺障害等級の有無（ある場合は等級も）"]</div>
+</div>
+<div class="row">
+<div class="section bg-snow p1 br1 bl1">
+<dl class="dt-info">
+<dt>営業時間</dt>
+<dd>平日　9：00 ～ 18：00</dd>
+<dt class="inner-float">相談受付時間</dt>
+<dl class="inner">
+<dt>電話受付</dt>
+<dd>平日　9：00 ～ 19：00<span>土曜　10：00 ～ 17：00</span></dd>
+<dt>メール受付</dt>
+<dd>24時間対応</dd>
+</dl>
+<dt>相談時間</dt>
+<dd>
+月曜　　　　9：00 ～ 21：00（夜間相談あり）
+<br> 火曜～金曜　9：00 ～ 18：00
+<br> 土曜　　　　10：00 ～ 17：00
+<br>
+</dd>
+</dl>
+<p>※上記以外の時間帯でも対応可能な弁護士がいれば、相談時間を設けることが可能です。
+<br>※ご相談には、原則面談が必要です。</p>
+</div>
+<div class="large-2 column">
+<label class="large-text-right">面談ご希望日</label>
+</div>
+<div class="large-10 column">
+[date date-1 placeholder "第1希望"] [date date-2 placeholder "第2希望"] [date date-3 placeholder "第3希望"]
+<p>当日や翌営業日の相談をご希望の方はお電話にてご連絡ください。</p>
+</div>
+</div>
+<div class="large-12 column select-member-wrapper">
+<p class="m1-auto button no-btn bg-info color-black expand b1">注意事項</p>
+<ul>
+	<li>弁護士の予定により、面談希望日に添えない可能性があります。ご了承ください。</li>
+	<li>指名した場合、予約が取りにくくなります。</li>
+	<li>所長弁護士である山下江をご希望される場合は相談料1時間3万円です。</li>
+</ul>
+[select_members]
+[text member class:js-select-member "指名しない"]
+</div>
+<div class="row">
+<div class="large-2 column">
+<label class="large-text-right">お問い合わせ内容</label>
+</div>
+<div class="large-10 column">[textarea textarea-2 placeholder "弁護士に聞きたいことなど"]</div>
+</div>
+<div class="row">
+<div class="large-12 column text-center">
+<label>[acceptance final-check]　確認画面は表示されません。上記内容にて送信しますので、よろしければチェックを入れてください。</label>
+</div>
+<div class="large-12 column text-center">[response]</div>
+<div class="large-12 column">[submit class:large-12 class:column class:button "送信"]</div>
+</div>

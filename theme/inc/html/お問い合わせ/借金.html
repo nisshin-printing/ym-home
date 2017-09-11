@@ -1,0 +1,46 @@
+<div class="row">
+<div class="large-12 column text-center">[response]</div>
+<div class="large-2 column"><label class="large-text-right">会社名</label></div>
+<div class="large-10 column">[text company-name placeholder "○△□株式会社"]</div>
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">お名前（カナ）</label></div>
+<div class="large-10 column">[text name-kana placeholder "ヤマダ　タロウ"]</div>
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">Eメール</label></div>
+<div class="large-10 column">[email email]</div>
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">郵便番号</label></div>
+<div class="large-10 column"><span class="inline">〒</span><span class="inline">[text zip id:zip 10/ watermark]</span></div>
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">住所</label></div>
+<div class="large-10 column">[text addr id:addr placeholder "広島市中区上八丁堀4-27上八丁堀ビル703"]</div>
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">電話番号</label></div>
+<div class="large-10 column">[tel tel placeholder "082-223-0695, 0822230695"]</div>
+</div>
+<div class="large-12 column select-member-wrapper">
+<p class="m1-auto button no-btn bg-info color-black expand b1">注意事項</p>
+<ul>
+	<li>弁護士の予定により、面談希望日に添えない可能性があります。ご了承ください。</li>
+	<li>指名した場合、予約が取りにくくなります。</li>
+	<li>所長弁護士である山下江をご希望される場合は相談料1時間3万円です。</li>
+</ul>
+[select_members]
+[text member class:js-select-member "指名しない"]
+</div>
+<div class="row">
+<div class="large-2 column"><label class="large-text-right">お問い合わせ内容</label></div>
+<div class="large-10 column">[textarea textarea-874]</div>
+</div>
+<div class="row">
+<div class="large-12 column text-center">
+<label>[acceptance final-check]　確認画面は表示されません。上記内容にて送信しますので、よろしければチェックを入れてください。</label>
+</div>
+<div class="large-12 column text-center">[response]</div>
+<div class="large-12 column">[submit class:large-12 class:column class:button "送信"]</div>
+</div>

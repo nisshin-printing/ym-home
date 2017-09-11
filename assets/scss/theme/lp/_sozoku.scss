@@ -1,0 +1,21 @@
+.postid-#{$sozoku_id} {
+		.header-lp {
+				background: {
+						image: url(#{$p_images}sozoku-lp-bg.jpg);
+						size: cover;
+				}
+		}
+		.sub-nav .active {
+				@extend .color-sozoku;
+		}
+		.content-header {
+				.fa-ul {
+						font-size: 1.5rem;
+						padding-left: 3rem;
+						margin: auto;
+						@include breakpoint( large) {
+								margin: 2rem auto;
+						}
+				}
+		}
+}

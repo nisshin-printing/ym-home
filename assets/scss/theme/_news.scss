@@ -1,0 +1,119 @@
+.fp--news {
+		padding: {
+				top: 2rem;
+				bottom: 2rem;
+		}
+		>.row {
+				@extend .align-middle;
+		}
+}
+
+.news--block-title {
+		text-align: center;
+		span {
+				display: block;
+				font-size: .5em;
+		}
+}
+
+.news--list {
+		@extend .no-bullet;
+		li {
+				margin-bottom: 1rem;
+				>* {
+						display: inline-block;
+						vertical-align: middle;
+				}
+				>p {
+						margin-bottom: 0;
+				}
+		}
+}
+
+.news--category {
+		transition: .3s;
+		font-weight: bold;
+		cursor: pointer;
+		&:hover {
+				color: #FFF;
+				opacity: .8;
+		}
+		&.-my-best-pro {
+				background-color: rgba(#1EB8E5, .3);
+				color: #1eb8e5;
+		}
+		&.-kairo-for-business {
+				background-color: rgba(#E71E23, .3);
+				color: #E71E23;
+		}
+		&.-news {
+				background-color: rgba(#47885e, .3);
+				color: #47885e;
+		}
+		&.-support {
+				background-color: rgba(#e85298, .3);
+				color: #e85298;
+		}
+		&.-media {
+				background-color: rgba(#7FBFFF, .3);
+				color: #7FBFFF;
+		}
+		&.-recruit {
+				background-color: rgba(#191970, .3);
+				color: #191970;
+		}
+		&.-csr {
+				background-color: rgba(#006400, .3);
+				color: #006400;
+		}
+		&.-seminer {
+				border: 1px solid $primary-color;
+				color: $primary-color;
+				background-color: transparent;
+				box-sizing: content-box;
+		}
+		&.-jiko {
+				@extend .bg-jiko;
+				color: darken(map-get($ym_color, jiko), 30%);
+		}
+		&.-rikon {
+				@extend .bg-rikon;
+				color: darken(map-get($ym_color, rikon), 30%);
+		}
+		&.-sozoku {
+				@extend .bg-sozoku;
+				color: darken(map-get($ym_color, sozoku), 30%);
+		}
+		&.-saimu {
+				@extend .bg-saimu;
+				color: darken(map-get($ym_color, saimu), 30%);
+		}
+		&.-kabarai {
+				@extend .bg-kabarai;
+				color: darken(map-get($ym_color, kabarai), 30%);
+		}
+		&.-keiji {
+				@extend .bg-keiji;
+				color: darken(map-get($ym_color, keiji), 30%);
+		}
+		&.-fudosan {
+				@extend .bg-fudosan;
+				color: darken(map-get($ym_color, fudosan), 30%);
+		}
+		&.-hasan {
+				@extend .bg-hasan;
+				color: darken(map-get($ym_color, hasan), 30%);
+		}
+		&.-kigyo {
+				@extend .bg-kigyo;
+				color: darken(map-get($ym_color, kigyo), 30%);
+		}
+		&.-rosai {
+				@extend .bg-rosai;
+				color: darken(map-get($ym_color, rosai), 30%);
+		}
+}
+
+.news--title-link:not(:hover) {
+		text-decoration: underline;
+}

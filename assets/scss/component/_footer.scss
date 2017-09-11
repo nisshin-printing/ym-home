@@ -1,0 +1,78 @@
+.footer {
+		background-color: map-get($matelial_color, red);
+		padding-bottom: 2rem;
+		p:not(.footer--title),
+		a {
+				color: #FFF;
+		}
+}
+
+.footer--title {
+		color: #DDD;
+		font-weight: bold;
+		padding-bottom: .5em;
+		border-bottom: 1px solid #DDD;
+		margin: 1rem auto;
+		&.-no-border {
+				border-bottom: 0;
+				margin-top: 1.5rem;
+		}
+		&-icon {
+				vertical-align: middle;
+				width: 1.5em;
+				height: 1.5em;
+				margin-right: 1rem;
+		}
+}
+
+.footer--social {
+		margin: 2rem auto;
+		text-align: center;
+		.button--circle {
+				margin: 1rem;
+				border: 1px solid rgba(#000, .2);
+				@include b-shadow('1');
+		}
+}
+
+.footer--copy {
+		color: #DDD;
+		margin: 1rem auto;
+		text-align: center;
+}
+
+.footer--menu {
+		display: none;
+		@include breakpoint(small only) {
+				display: table;
+				width: 100%;
+				height: 60px;
+				margin: 0 auto;
+				background-color: #FFF;
+				border-top: 1px solid #EEE;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 9000;
+				text-align: center;
+		}
+		&__item {
+				display: table-cell;
+				width: 33.3333%;
+				height: 60px;
+				&:not(:last-child) {
+						border-right: 1px solid #EEE;
+				}
+		}
+		&__link {
+				display: inline-block;
+				width: 60px;
+				height: 60px;
+				background-color: transparent;
+		}
+		&__icon {
+				width: 60px;
+				height: 60px;
+		}
+}

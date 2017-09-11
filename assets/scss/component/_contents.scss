@@ -1,0 +1,30 @@
+.contents {
+		margin: rem-calc(20px) auto;
+		padding-top: rem-calc(20px);
+		background-color: #FFF;
+		h1 {
+				background-color: map-get($matelial_color, orange);
+				border-radius: $global-radius;
+				padding: 1rem .5rem;
+				margin: 5rem auto 2.625rem;
+		}
+		h2 {
+				padding-left: .85rem;
+				margin: 5rem auto 2.625rem;
+				border-left: 5px solid map-get($ym_color, home);
+		}
+		h3 {
+				border-left: 5px solid map-get($matelial_color, orange);
+				padding-left: .85rem;
+				margin: 3.75rem auto 1.35rem;
+		}
+		h4 {
+				border-left: 5px solid $medium-gray;
+				padding-left: .85rem;
+				margin: 1.25rem auto 1.35rem;
+		}
+		p {
+				line-height: 2.15;
+				margin-bottom: rem-calc(20px);
+		}
+}

@@ -1,0 +1,50 @@
+::selection {
+		color: $white;
+		background-color: rgba(#000, .5);
+		text-shadow: none;
+}
+
+.underline {
+		background: linear-gradient( transparent 40%, #FF0 40%);
+}
+
+[class*="bg-"] {
+		transition: .3s;
+}
+
+@each $name,
+$color in $social_color {
+		@if ($name=='line') {
+				.bg-#{$name} {
+						@extend .underline;
+				}
+		}
+		@else {
+				.bg-#{$name} {
+						background-color: $color;
+						&:hover {
+								background-color: darken($color, 10%);
+						}
+				}
+		}
+}
+
+@each $name,
+$color in $matelial_color {
+		.bg-#{$name} {
+				background-color: $color;
+				&:hover {
+						background-color: darken($color, 10%);
+				}
+		}
+}
+
+@each $name,
+$color in $ym_color {
+		.bg-#{$name} {
+				background-color: $color;
+				&:hover {
+						background-color: darken($color, 10%);
+				}
+		}
+}

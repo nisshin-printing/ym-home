@@ -1,0 +1,31 @@
+#sidebar-carousel,
+#cta-women-carousel {
+	img {
+		width: 210px;
+		height: 210px;
+		border-radius: 210px;
+		transition: transform $slowDuration;
+	}
+	.slide-item {
+		@extend .text-center;
+		@extend .m1-auto;
+	}
+	a {
+		text-decoration: none;
+		transition: $slowDuration;
+		&:hover {
+			img {
+				transform: scale( .9 );
+			}
+		}
+	}
+	.meta-name {
+		color: $black;
+		font-size: 1.6875rem;
+	}
+	.meta-works {
+		display: block;
+		font-size: .875rem;
+		margin: 10px;
+	}
+}

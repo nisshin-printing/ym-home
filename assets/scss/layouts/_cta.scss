@@ -1,0 +1,27 @@
+.l-cta_page {
+	border: 2px solid $light-gray;
+	border-radius: $global-radius;
+	margin-top: 2rem;
+	padding: 2rem;
+	.-title {
+		text-align: center;
+		color: #FFF;
+		background-color: $dark-gray;
+		padding: 1rem;
+		border-radius: $global-radius;
+	}
+	.-cta {
+		@include clearfix;
+		margin: 0 auto;
+		width: 350px;
+		a {
+			text-align: center;
+			text-decoration: none;
+		}
+		span {
+			clear: left;
+			display: block;
+			text-align: center;
+		}
+	}
+}

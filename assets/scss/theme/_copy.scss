@@ -1,0 +1,16 @@
+.copy--top {
+		text-align: center;
+}
+
+.copy--title {
+		color: #FFF;
+		font-size: 2rem;
+}
+
+.copy--desc {
+		margin: 1em 0;
+		color: #FFF;
+		>* {
+				color: currentColor;
+		}
+}

@@ -1,0 +1,459 @@
+//========================  Global ========================================================================//
+[class^="fp-"] {
+	background-color: $white;
+	padding: {
+		top: 1rem;
+		bottom: 1rem;
+	}
+	@include breakpoint( large ) {
+		padding: {
+			top: 2rem;
+			bottom: 2rem;
+		}
+	}
+	&:nth-child( 2n - 1 ) {
+		background-color: $snow;
+	}
+	h2.text-center {
+		margin: 2rem auto;
+		display: block;
+	}
+}
+//========================  Top Header ========================================================================//
+.fp-topheader {
+	@extend .bg-red;
+	padding: {
+		top: 0;
+		bottom: 0;
+	}
+	@include breakpoint( medium ) {
+		padding: {
+			top: 3rem;
+			bottom: 3rem;
+		}
+	}
+	@include breakpoint( large ) {
+		padding: {
+			top: 5rem;
+			bottom: 5rem;
+		}
+	}
+	.row {
+		@include breakpoint( medium ) {
+			display: flex;
+			flex-align: center;
+			align-items: center;
+		}
+	}
+	.slides-wrapper {
+		@include breakpoint( small only ) {
+			padding: 0;
+		}
+	}
+	.card,
+	.card-img,
+	.card-img > img {
+		border-radius: $global-radius;
+		@extend .m0;
+	}
+	.card-title {
+		font-size: 1rem;
+		@include breakpoint( large ) {
+			font-size: 2rem;
+		}
+	}
+	.card-content {
+		height: 15rem;
+		padding: 30px 5% 0;
+		.waves-effect {
+			@extend .button;
+			@extend .expanded;
+			margin: 1rem auto 0;
+		}
+	}
+	#slides-btn {
+		@include breakpoint( medium down ) {
+			display: none;
+		}
+		button {
+			position: absolute;
+			margin-top: -2rem;
+			top: 50%;
+			width: 2rem;
+			height: 4rem;
+			line-height: 4rem;
+			z-index: 1;
+			@extend .m0;
+			@extend .p0;
+			@extend .b0;
+			@extend .b-shadow-0;
+			box-sizing: content-box;
+			background-color: $black;
+			opacity: .5;
+			transition: $mediumDuration;
+			&:hover {
+				opacity: 1;
+				transition: $mediumDuration;
+			}
+			.fa {
+				line-height: 4rem;
+			}
+			&.btn-next {
+				right: 0;
+				border-radius: 8px 0 0 8px
+			}
+			&.btn-prev {
+				left: 0;
+				border-radius: 0 8px 8px 0;
+			}
+		}
+	}
+	.header-topbar {
+		@include breakpoint( small only ) {
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+	}
+	h1,
+	p,
+	small {
+		color: $white;
+		text-align: center;
+	}
+	[href^="tel:"] {
+		border-radius: $global-radius;
+	}
+	h1 {
+		font-size: 200%;
+	}
+	.hollow {
+		@extend .bg-white;
+		@extend .m0-auto;
+		max-width: 376px;
+	}
+}
+//========================  取扱範囲 ========================================================================//
+.fp-scope {
+	h3 {
+		@extend .text-center;
+	}
+	.column {
+		margin-bottom: .9375rem;
+	}
+	.column-inner {
+		background-color: #FFF;
+		border-radius: 2px;
+		text-align: center;
+		@extend .b-shadow-1;
+		ul,
+		li a {
+			text-align: left;
+		}
+	}
+	svg {
+		fill: currentColor;
+	}
+	li a {
+		color: currentColor;
+		transition: color $mediumDuration;
+		&:hover {
+			color: $primary-color !important;
+		}
+	}
+	.button {
+		opacity: .8;
+		color: currentColor;
+		border-color: currentColor;
+		transition: $mediumDuration;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+.column-inner {
+	padding: 1rem;
+}
+//========================  Welcome Message ========================================================================//
+.fp-wel {
+	.header-title {
+		position: relative;
+		margin: 1rem auto 4rem;
+		text-align: center;
+		@include breakpoint( medium ) {
+			text-align: left;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -2rem;
+			width: 30px;
+			height: 3px;
+			background-color: #DDD;
+			left: 0;
+			right: 0;
+			margin: auto;
+			@include breakpoint( medium ) {
+				left: 1rem;
+				margin: 0;
+			}
+		}
+	}
+	img.hide-for-medium {
+		width: 210px;
+		height: 210px;
+		border-radius: 210px;
+	}
+}
+//=========================== CTA ========================================================================//
+// CTA
+.fp-cta {
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	position: relative;
+	.row {
+		vertical-align: middle;
+		@extend .text-center;
+		max-width: none;
+	}
+	.cta-text {
+		padding: 1rem .9375em;
+		width: 100%;
+		display: inline-block;
+		position: relative;
+		background-color: #303030;
+		color: $white;
+	}
+	.link-cta {
+		margin: 1rem 0;
+		@extend .ml3;
+	}
+}
+//=========================== News ========================================================================//
+.fp-news {
+	.title-block {
+		text-align: center;
+		span {
+			display: block;
+			font-size: 50%;
+		}
+		@include breakpoint( medium ) {
+			margin-bottom: 0;
+		}
+	}
+	.fp-link-news {
+		display: block;
+		padding: 0.5em 1em;
+		margin-top: 1em;
+		i {
+			margin-right: 1.1em;
+		}
+	}
+	ul {
+		list-style: none;
+		text-align: center;
+		margin: 0;
+		li {
+			line-height: 2;
+			letter-spacing: 0.1em;
+			text-align: left;
+			margin: 0 auto;
+			width: 100%;
+		}
+	}
+	time {
+		width: 6rem;
+		display: inline-block;
+	}
+	.link-cat {
+		letter-spacing: 0;
+		font-size: 86%;
+		font-weight: bold;
+		margin: 0 10px;
+		line-height: 100%;
+		padding: 5px 0;
+		width: 8em;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		&.my-best-pro {
+			background-color: rgba(#1EB8E5, .3);
+			color: #1eb8e5;
+		}
+		&.kairo-for-business {
+			background-color: rgba(#E71E23, .3);
+			color: #E71E23;
+		}
+		&.news {
+			background-color: rgba(#47885e, .3);
+			color: #47885e;
+		}
+		&.support {
+			background-color: rgba(#e85298, .3);
+			color: #e85298;
+		}
+		&.media {
+			background-color: rgba(#7FBFFF, .3);
+			color: #7FBFFF;
+		}
+		&.recruit {
+			background-color: rgba(#191970, .3);
+			color: #191970;
+		}
+		&.csr {
+			background-color: rgba(#006400, .3);
+			color: #006400;
+		}
+		&.seminer {
+			border: 1px solid $primary-color;
+			color: $primary-color;
+			background-color: transparent;
+			box-sizing: content-box;
+		}
+		&.jiko {
+			@extend .bg-jiko;
+			color: darken($jiko, 30%);
+		}
+		&.rikon {
+			@extend .bg-rikon;
+			color: darken($rikon, 30%);
+		}
+		&.sozoku {
+			@extend .bg-sozoku;
+			color: darken($sozoku, 30%);
+		}
+		&.saimu {
+			@extend .bg-saimu;
+			color: darken($saimu, 30%);
+		}
+		&.kabarai {
+			@extend .bg-kabarai;
+			color: darken($kabarai, 30%);
+		}
+		&.keiji {
+			@extend .bg-keiji;
+			color: darken($keiji, 30%);
+		}
+		&.fudosan {
+			@extend .bg-fudosan;
+			color: darken($fudosan, 30%);
+		}
+		&.hasan {
+			@extend .bg-hasan;
+			color: darken($hasan, 30%);
+		}
+		&.kigyo {
+			@extend .bg-kigyo;
+			color: darken($kigyo, 30%);
+		}
+		&.rosai {
+			@extend .bg-rosai;
+			color: darken($rosai, 30%);
+		}
+	}
+	.post-title {
+		@include breakpoint( small only ) {
+			display: block;
+			margin-left: 2.2em;
+			margin-bottom: .5em;
+		}
+	}
+}
+//=========================== Special Sites ========================================================================//
+.fp-special-sites > .row {
+	@extend .no-bullet;
+	@extend .m0-auto;
+	.column {
+		@extend .text-center;
+	}
+}
+//=========================== Cases ========================================================================//
+.fp-cases {
+	article {
+		position: relative;
+		border: 1px solid #DDD;
+		@extend .p0;
+		z-index: 1;
+		@include breakpoint( medium ) {
+			margin: 1rem auto;
+		}
+		> a {
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			z-index: 10;
+		}
+		&:hover {
+			background: #F9F9F9;
+			p { color: #FF6347 }
+			h4 {
+				background: rgba(#F9F9F9, .5);
+				i { color: #FFF; }
+			}
+			h3 { color: #FF6347 }
+			.body-block { background: #F9F9F9; }
+		}
+	}
+	h4 {
+		font-size: 100%;
+		margin: 0;
+		padding: 1em;
+		position: relative;
+		background: #F9F9F9;
+		i {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50px;
+			height: 100%;
+			padding: 18px 23px;
+			font-weight: bold;
+			background: #FF6347;
+			@include breakpoint( small only ) {
+				width: 45px;
+				height: 100%;
+				padding: 16px 21px;
+			}
+		}
+	}
+	.body-block {
+		background: #FFF;
+		padding-bottom: 2em;
+		position: relative;
+	}
+	h3 {
+		font-size: 100%;
+		padding: 0.5em;
+	}
+	p {
+		font-size: 85%;
+		color: #444;
+		padding: .5em;
+	}
+	.cases-duration {
+		color: #666;
+		background: rgba(#EEE, .8);
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 0.5em 1em;
+		strong {
+			font-size: 120%;
+			margin: 0 5px;
+			color: #FF6347;
+		}
+	}
+}
+//=========================== SNS Box ========================================================================//
+.blog_parts {
+	max-width: none !important;
+}
+//=========================== Google Maps ========================================================================//
+.fp-googlemap {
+	padding: 0;
+}

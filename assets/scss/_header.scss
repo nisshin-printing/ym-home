@@ -1,0 +1,345 @@
+// ============================== Top Bar ============================================================================= //
+.topbar-wrapper {
+	width: 100%;
+	p {
+		@extend .m0;
+		line-height: 50px;
+		font-size: .75rem;
+		span {
+			margin-right: 1.5rem;
+		}
+	}
+	.social-box {
+		@extend .text-right;
+		@extend .mb0;
+		li {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			@extend .text-center;
+			a {
+				text-decoration: none;
+				&:hover i.fa {
+					transform: rotateY( -360deg );
+				}
+				.fa {
+					display: block;
+					transition: $mediumDuration;
+					font-size: 1.3rem;
+					line-height: 50px;
+				}
+			}
+		}
+	}
+}
+// ============================== Top Menu Bar ============================================================================= //
+.sticky-wrapper #sticky-topbar {
+	z-index: 100;
+}
+.top-bar {
+	@extend .b-shadow-1;
+	position: relative;
+	border: {
+		top: 1px solid $primary-color;
+		bottom: 1px solid $primary-color;
+	}
+	padding: 0;
+	@include breakpoint( large ) {
+		@include clearfix;
+	}
+	a {
+		text-decoration: none;
+	}
+	.title {
+		@extend .no-bullet;
+		@extend .m0;
+		@extend .text-right;
+		@extend .medium-text-center;
+		display: table;
+		width: 100%;
+		height: 50px;
+		@include breakpoint( large ) {
+			float: left;
+			width: auto;
+		}
+		li {
+			display: table-cell;
+			vertical-align: middle;
+			.fa {
+				margin-right: .5rem;
+				@media ( max-width: 450px ) {
+					display: none;
+				}
+			}
+		}
+		.title-logo {
+			a {
+				margin-right: 10px;
+			}
+			@include breakpoint( large ) {
+				width: auto;
+				a {
+					margin-left: 1rem;
+				}
+			}
+		}
+		.li-nav {
+			position: absolute;
+			left: 10px;
+			top: 50%;
+			margin-top: -16.5px;
+			a {
+				z-index: 10;
+			}
+			@include breakpoint( medium ) {
+				left: 1rem;
+				a {
+					padding: .5rem 1rem;
+					margin: 0 .5rem !important;
+				}
+			}
+			@include breakpoint( large ) {
+				position: static;
+			}
+		}
+		.button {
+			@extend .m0;
+			display: inline-block;
+			font-size: 1rem;
+			padding: 8px 5px;
+		}
+	}
+	.menu {
+		background-color: lighten( $primary-color, 50% );
+		a {
+			padding: 0 $dropdown-padding;
+			line-height: 50px;
+			font-weight: 500;
+			&:hover {
+				background-color: lighten( $primary-color, 40% );
+			}
+		}
+		li { z-index: 10; }
+		.active>a::after {
+			border-color: $white transparent transparent !important;
+		}
+	}
+}
+/* ================================================================================ //
+ * Side Scope Nav
+ * SP Nav Reveal Modal
+// ================================================================================ */
+.nav-scope {
+	@extend .p1;
+	@extend .pt2;
+	&#spNav {
+		height: 100%;
+		nav {
+			width: 100%;
+		}
+	}
+	&.column {
+		> nav {
+			@extend .p1;
+		}
+	}
+	nav {
+		background-color: $snow;
+		margin-top: 1rem;
+		padding: 1rem;
+		border-radius: $global-radius;
+	}
+	.nav-title {
+		font: {
+			size: 1rem;
+			weight: 500;
+		}
+		padding: {
+			top: 1.5rem;
+			left: .9rem;
+		}
+		margin: {
+			top: 1rem;
+			bottom: .5rem;
+		}
+		border-top: 1px solid $gainsboro;
+	}
+	.nav-cta {
+		padding-top: 1.5rem;
+		margin: {
+			top: 1rem;
+			bottom: .5rem;
+		}
+		border-top: 1px solid $gainsboro;
+		display: block;
+		@extend .text-center;
+		img {
+			margin: 0 auto;
+		}
+	}
+	.menu {
+		margin: 0;
+		@extend .no-bullet;
+		a {
+			font-size: .85rem;
+			padding: .5rem 1rem;
+			&:hover {
+				background-color: rgba( $black, .05 );
+				color: $primary-color;
+			}
+		}
+		.active > a {
+			background-color: rgba( $black, .05 );
+			color: $primary-color;
+		}
+	}
+	.nav-page-scope {
+		.active {
+			background-color: rgba( $black, .05 );
+			color: $primary-color;
+		}
+	}
+	li,
+	a {
+		transition: $mediumDuration;
+		text-decoration: none;
+	}
+	.btn-call {
+		@extend .bg-white;
+		@extend .text-center;
+		display: block;
+		padding: 5px 10px;
+		margin-bottom: .5rem;
+		border: {
+			right: 2px solid $snow;
+			left: 2px solid $snow;
+		}
+		img {
+			margin: 0 auto;
+		}
+	}
+	form {
+		width: 100%;
+		height: 58px;
+		position: relative;
+	}
+	input[type=search] {
+		width: 100%;
+		border: 2px solid #DDD;
+		border-radius: $global-radius;
+		vertical-align: middle;
+		color: #333;
+		font-size: 14px;
+		margin: 0;
+		padding: 6px 30px 6px 6px;
+		box-shadow: none;
+	}
+	[type=submit] {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+		margin: 0;
+		padding: 10px 7px;
+		background: none;
+		color: #555;
+		box-shadow: none;
+	}
+}
+.l-sidenav_ctalink {
+	@extend .secondary;
+	.fa {
+		margin-bottom: .5rem;
+	}
+}
+.off-canvas.is-open {
+	z-index: 2147483647 !important;
+}
+.js-off-canvas-exit.is-visible {
+	z-index: 2147483640 !important;
+	cursor: pointer;
+	height: 100%;
+	overflow: hidden;
+	&::after {
+		content: '\f057';
+		font-family: FontAwesome;
+		display: inline;
+		position: fixed;
+		top: 45vh;
+		font-size: 41px;
+		color: rgba( 238, 238, 238, .65 );
+		z-index: 2147483645 !important;
+		left: 50px;
+	}
+}
+.reveal {
+	z-index: 2147483647 !important;
+	overflow-y: auto;
+}
+.reveal-overlay {
+	z-index: 2147483640 !important;
+	cursor: pointer;
+	&::after {
+		content: '\f057';
+		font-family: FontAwesome;
+		display: inline;
+		position: fixed;
+		top: 45%;
+		font-size: 41px;
+		color: rgba( 238, 238, 238, .65 );
+		z-index: 2147483645 !important;
+		left: 51%;
+		@include breakpoint( large ) {
+			left: 34%;
+		}
+	}
+}
+// メンバー一覧サブメニュー
+.horizon-wrapper {
+	background-color: #F2F2F2;
+	padding: 10px;
+	height: 60px;
+}
+// ============================== Header Title ( ! is_front_page() ) ============================================================================= //
+.header-wrapper {
+	background-color: $red;
+	h1 {
+		color: $white;
+		margin: 0 auto;
+		max-width: $grid-row-width;
+		line-height: 122px;
+		text-align: center;
+		@include breakpoint( large ) {
+			text-align: left;
+		}
+	}
+}
+// ============================== Breadcrumbs ( ! is_front_page() ) ============================================================================= //
+.breadcrumbs {
+	background-color: $snow;
+	padding: rem-calc(9 14);
+}
+// ============================== Members Page Sub Nav ============================================================================= //
+.sub-nav {
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	padding-top: .25rem;
+	@extend .m0;
+	dt, dd {
+		display: inline-block;
+		float: none;
+	}
+	dd {
+		margin-left: 1rem;
+		a {
+			color: $black;
+			font-size: .875rem;
+			padding: .1875rem .5rem;
+			&.active {
+				background-color: $primary-color;
+				color: $white;
+			}
+		}
+	}
+}

@@ -1,0 +1,103 @@
+.postid-#{$E-hiroshima_id} {
+		.header-lp {
+				background-image: url(#{$p_images}lp/e-hiroshima/1.jpg);
+				background-position: center center;
+		}
+}
+
+.postid-#{$kure_id} {
+		.header-lp {
+				background-image: url(#{$p_images}lp/kure/1.jpg);
+				background-position: center center;
+		}
+}
+
+.postid-#{$E-hiroshima_id},
+.postid-#{$kure_id},
+{
+		.header-lp {
+				background: {
+						size: cover;
+						attachment: fixed;
+				}
+				width: 100%;
+				display: table;
+				height: 500px;
+		}
+		#header-title {
+				text-align: center;
+				color: #FFF;
+				font: {
+						weight: 500;
+				}
+				display: table-cell;
+				vertical-align: middle;
+				padding: 1rem 2rem;
+				background-color: rgba( #000, .5);
+		}
+		.head-title-wrapper {
+				padding: {
+						top: 2rem;
+						bottom: 2rem;
+				}
+		}
+		.column-2 {
+				height: 450px;
+				@include breakpoint( medium down) {
+						height: auto;
+				}
+		}
+		.column-image-2,
+		.column-image-left {
+				height: 100%;
+				background: {
+						size: cover;
+						position: center center;
+				}
+		}
+		.column-1-2 {
+				padding: 2rem;
+				h3 {
+						margin: rem-calc(0 0 22);
+				}
+		}
+		.members-header {
+				h3 {
+						@extend h1;
+				}
+		}
+		.c-table {
+				display: block !important;
+				@include breakpoint( medium) {
+						display: table !important;
+						text-align: right !important;
+				}
+		}
+		.c-table-cell {
+				display: block !important;
+				@include breakpoint( medium) {
+						float: none !important;
+						display: table-cell !important;
+				}
+		}
+		.video-thumbnail-wrapper {
+				text-align: center;
+				@include breakpoint( medium) {
+						text-align: right;
+				}
+		}
+		.title-block {
+				border: none !important;
+				text-align: left !important;
+				padding: 0 80px !important;
+				margin: 0 auto !important;
+		}
+		.layout-lp h4 {
+				background-color: transparent;
+		}
+		#chart-bar {
+				min-width: 310px;
+				height: 450px;
+				margin: 0 auto;
+		}
+}

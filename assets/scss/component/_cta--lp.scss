@@ -1,0 +1,32 @@
+.cta--lp_wrap {
+    color: $white;
+    background-color: $black;
+    padding: 60px 0;
+}
+
+.cta--lp_title {
+    svg,
+    img {
+        width: 2em;
+        height: 2em;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    text-align: center;
+    padding-bottom: 1.5em;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: .75em;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2em;
+        height: 3px;
+        background-color: $white;
+    }
+    @include breakpoint(large) {
+        text-align: left;
+        font-size: 2rem;
+    }
+}

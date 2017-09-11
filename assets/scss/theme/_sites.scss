@@ -1,0 +1,30 @@
+.sites--wrapper {
+		margin: 2rem auto;
+		text-align: center;
+		h2 {
+				font-size: 1.2rem;
+				text-align: left;
+		}
+		.sites--link {
+				padding: 10px;
+				display: block;
+		}
+		&.small-up-2 {
+				background-color: #FFF;
+				padding: 1rem;
+				@extend .collapse;
+		}
+}
+
+.fp--sites {
+		padding: {
+				top: 2rem;
+				bottom: 2rem;
+		}
+		>.small-up-1 {
+				@extend .collapse;
+				text-align: center;
+				background-color: #FFF;
+				padding: 1rem;
+		}
+}

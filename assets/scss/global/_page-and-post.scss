@@ -1,0 +1,192 @@
+// ============================== All Styles ============================================================================= //
+[class^="layout-"] {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	h2:first-child,
+	.section:first-child {
+		@extend .mt0;
+	}
+}
+// ============================== Archive Header ============================================================================= //
+.l-archive_header {
+	position: relative;
+	padding: .5em .75em;
+	background-color: #F0F0F0 !important;
+	border-radius: 6px;
+	&::after {
+		position: absolute;
+		top: 100%;
+		left: 30px;
+		content: '';
+		width: 0;
+		height: 0;
+		border: 10px solid transparent;
+		border-top: 15px solid #F0F0F0;
+	}
+}
+// ============================== .l-archive_showpost ============================================================================= //
+.l-archive_showpost:not(:last-child) {
+	position: relative;
+	padding-bottom: 6rem;
+	@include breakpoint(large) {
+		padding-bottom: 10rem;
+	}
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 3rem;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 10%;
+		height: 5px;
+		background-color: #EEE;
+		@include breakpoint(large) {
+			bottom: 5rem;
+		}
+	}
+}
+// ============================== .post-meta ============================================================================= //
+.post-meta {
+	padding: 1rem;
+	border: 1px solid #DDD;
+	border-radius: $global-radius;
+	margin: 1rem auto !important;
+	@extend .no-bullet;
+	li {
+		position: static !important;
+		@extend .m0;
+		@extend .p0;
+		&::before {
+			background: transparent !important;
+			position: static !important;
+		}
+	}
+	.fa {
+		@extend .mr1;
+	}
+	.relate-members {
+		margin: 5px 10px;
+		display: inline-block;
+		&:first-child {
+			margin-left: 0;
+		}
+		img {
+			border-radius: 50%;
+		}
+		> a {
+			display: block;
+			margin: 5px auto;
+			@extend .text-center;
+		}
+	}
+}
+// ============================== .article-body ============================================================================= //
+.article-body {
+	p {
+		line-height: 2.15;
+		margin-bottom: 30px;
+	}
+	h2 {
+		background-color: #FFCE9E;
+		border-radius: $global-radius;
+		padding: rem-calc(21 18 20);
+		margin: rem-calc(80 0 42);
+		i {
+			margin-right: 1rem;
+		}
+	}
+	h3 {
+		border-left: 5px solid #FFCE9E;
+		padding-left: rem-calc(18);
+		margin: rem-calc(60 0 22);
+	}
+	h4 {
+		border-left: 5px solid $gainsboro;
+		padding-left: rem-calc(18);
+		margin: rem-calc(20 0 22);
+	}
+	.title-block {
+		background-color: #FFCE9E;
+		border-radius: $global-radius;
+		padding: rem-calc(21 18 20);
+		margin: rem-calc(80 0 42);
+		h2 {
+			background-color: none;
+			border-radius: 0;
+			padding: 0;
+			margin: 0 auto;
+		}
+	}
+	.card.bg-mask-wrapper {
+		padding: 0;
+	}
+}
+// ============================== Pagination for Next / Prev POST ============================================================================= //
+// ============================== Social Buttons ============================================================================= //
+#social-buttons {
+	width: 100%;
+	padding: 1rem 0;
+	margin: 2.5rem auto;
+	@extend .bg-snow;
+	@extend .text-center;
+	[class^="waves-effect"] {
+		@extend .button;
+		margin: .5rem;
+		text-decoration: none !important;
+	}
+	$button-name:
+		'twitter',
+		'facebook',
+		'hatena',
+		'googleplus',
+		'pocket'
+	;
+	$button-color:
+		$twitter,
+		$facebook,
+		$hatena,
+		$googleplus,
+		$pocket
+	;
+	@each $button in $button-name {
+		$index_key: index( $button-name, $button );
+		.btn-#{$button} {
+			color: nth($button-color, $index_key) !important;
+			background-color: lighten( nth($button-color, $index_key), 30%);
+			&:hover,
+			&:focus {
+				color: $white !important;
+				background-color: nth($button-color, $index_key);
+			}
+		}
+	}
+}
+// ============================== Link Women Lawyer & Adviser ============================================================================= //
+#cta-member-carousel {
+	text-align: center;
+	img {
+		width: 210px;
+		height: 210px;
+		border-radius: 210px;
+		transition: transform $slowDuration;
+	}
+	.meta-name {
+		color: $black;
+		font-size: 1.6875rem;
+		font-family: $main-font;
+	}
+	.meta-works {
+		display: block;
+		font-size: .875rem;
+		margin: 10px;
+		font-family: $main-font;
+	}
+	.slide-item:hover {
+		img {
+			transform: scale( .9 );
+		}
+		.meta-name {
+			color: $primary-color;
+		}
+	}
+}

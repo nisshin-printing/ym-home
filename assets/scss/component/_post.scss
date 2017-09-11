@@ -1,0 +1,54 @@
+.post--show {
+		position: relative;
+		margin-bottom: 10rem;
+		&::after {
+				content: '';
+				position: absolute;
+				bottom: -3rem;
+				width: 2rem;
+				height: 2px;
+				background-color: $dark-gray;
+		}
+}
+
+.post--label {
+		margin: 1rem 0;
+		>.label {
+				cursor: pointer;
+				opacity: .7;
+		}
+}
+
+.post--members {
+		.post--title {
+				margin-top: 0;
+				margin-bottom: 0;
+				a {
+						color: $black;
+				}
+		}
+}
+
+.post--border {
+		margin-bottom: 5rem;
+		position: relative;
+		&::after {
+				content: '';
+				position: absolute;
+				bottom: -2rem;
+				left: 1rem;
+				width: 2rem;
+				height: 2px;
+				background-color: $dark-gray;
+		}
+}
+
+.post--topic {
+		.post--title {
+				font-size: 1.5rem;
+				margin: 2rem auto 0;
+		}
+		&:nth-of-type(2n) {
+				background-color: #FAFAFA;
+		}
+}

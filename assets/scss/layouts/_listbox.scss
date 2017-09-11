@@ -1,0 +1,30 @@
+.l-listbox {
+		background: {
+				position: left center;
+				size: auto 100%;
+				repeat: no-repeat;
+				color: $light-gray;
+		}
+		margin: 1rem auto;
+		padding: 1rem;
+		@for $i from 1 through 3 {
+				&:nth-of-type(#{$i}) {
+						background-image: url(#{$p_images}succession/number-0#{$i}.png);
+				}
+		}
+		.l-listbox_title {
+				border-left: none;
+				padding-left: 0;
+				position: relative;
+				margin-bottom: 1.375rem * 2;
+				&::after {
+						content: '';
+						position: absolute;
+						width: 2rem;
+						height: 3px;
+						background-color: $dark-gray;
+						bottom: -1.375rem;
+						left: 1rem;
+				}
+		}
+}

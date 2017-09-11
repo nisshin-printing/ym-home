@@ -1,0 +1,92 @@
+.post-members {
+	.img-wrapper img {
+		width: 210px;
+		height: 210px;
+		border-radius: 210px;
+	}
+}
+.btn-next-page {
+	@extend .p0;
+	a {
+		width: 100%;
+		padding: 1rem 2rem;
+		display: block;
+		@extend .color-white;
+		text-decoration: none;
+	}
+}
+.members-header {
+$button-name:
+	"facebook",
+	"twitter",
+	"googleplus",
+	"insatagram",
+	"linkedin",
+	"youtube",
+	"pinterest",
+	"flickr",
+	"foursquare"
+;
+$button-color:
+	$facebook,
+	$twitter,
+	$googleplus,
+	$insatagram,
+	$linkedin,
+	$youtube,
+	$pinterest,
+	$flickr,
+	$foursquare
+;
+	@each $button in $button-name {
+		$index_key: index( $button-name, $button );
+		.btn-#{$button} {
+			color: nth($button-color, $index_key);
+			background-color: lighten( nth($button-color, $index_key), 30%);
+			transition: $mediumDuration;
+			&:hover {
+				color: $white;
+				background-color: nth($button-color, $index_key);
+			}
+		}
+	}
+	.fa { font-size: 1.6rem }
+	.meta-links a {
+		margin: .5rem;
+	}
+}
+.pagination-members {
+	@extend .bg-white;
+	margin: 2rem auto;
+	padding: 3rem 0;
+	ul {
+		@extend .p0;
+		@include center();
+		margin: 0 auto;
+		position: relative;
+		width: 100%;
+		.text-left {
+			position: absolute;
+			left: 1rem;
+		}
+		.text-center {
+		}
+		.text-right {
+			position: absolute;
+			right: 1rem;
+		}
+		[class^="text-"] {
+			span,
+			.fa {
+				vertical-align: middle;
+			}
+		}
+	}
+}
+.members-cta {
+	margin: 2rem auto;
+	@extend .no-bullet;
+	a {
+		@extend .mb0;
+	}
+}

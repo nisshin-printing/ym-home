@@ -1,0 +1,21 @@
+/* =========================================
+		Paths
+   ========================================= */
+
+
+/**
+ * Prefix paths with $p_ to make
+ * them easier to find with
+ * autocomplete
+ *
+ */
+
+$p_assets: '../';
+$p_images: $p_assets+'img/';
+$p_fonts: $p_assets+'fonts/';
+$p_svg: $p_assets+'svg/';
+$p_sprite: $p_assets+'svg/sprite-icon.svg#';
+$p_jiko: $p_images+'jiko/';
+$p_rikon: $p_images+'rikon/';
+$p_sozoku: $p_images+'sozoku/';
+$p_kigyo: $p_images+'kigyo/';

@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+		box-sizing: border-box;
+}
+
+// Font
+.font-noto {
+		font-family: $main-font !important;
+}
+
+.font-bold {
+		font-weight: 500 !important;
+}
+
+img,
+svg {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+}
+
+svg:not(:root) {
+		overflow: hidden;
+}
+
+.button {
+		font-family: $main-font;
+		font-weight: normal;
+}
+
+.column>.link-external.img {
+		width: 100%;
+}
+
+address {
+		font-style: normal
+}
+
+// メンバーがしゃべっている風
+.c-table {
+		display: table;
+}
+
+.c-table-cell {
+		display: table-cell;
+}
+
+.ver-middle {
+		vertical-align: middle;
+}
+
+// CSS Mask
+.bg-mask-wrapper {
+		position: relative;
+}
+
+.bg-mask {
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+}
+
+// Buttonをボタン以外で使いたい...
+.button.no-btn {
+		cursor: auto;
+		@extend .b-shadow-0;
+		&:hover {
+				@extend .b-shadow-0;
+		}
+}
+
+.button {
+		text-decoration: none;
+}
+
+h3.no-btn {
+		font-size: rem-calc(27);
+}
+
+// Page Top Button
+#btn-fixed-actions {
+		display: none;
+}
+
+// 外部リンク （ External Link )
+.link-external-block {
+		padding: .5rem;
+		@extend .no-bullet;
+		@extend .m0-auto;
+}
+
+.link-external {
+		display: inline-block;
+		position: relative;
+		padding-right: 2.2em;
+		transition: $mediumDuration;
+		font-family: $main-font;
+		&::after {
+				position: absolute;
+				right: 0.5em;
+				padding: 0 1px;
+				font-family: FontAwesome;
+				transform: translateZ(0);
+				content: '\f08e';
+		}
+		&:hover {
+				text-decoration: none;
+		}
+		&.img {
+				padding: 0;
+		}
+}
+
+.special-site-contents {
+		@extend .no-bullet;
+		li {
+				margin-bottom: .5rem;
+				padding-bottom: .5rem;
+				border-bottom: 1px dashed $gainsboro;
+				&::before {
+						display: inline-block;
+						content: '\f105';
+						font: {
+								family: FontAwesome;
+						}
+						background-color: $gainsboro;
+						color: $blue-gray;
+						padding: 0 5px 0 10px;
+						margin-right: .8rem;
+				}
+		}
+}
+
+.link-page-up {
+		display: inline-block;
+		position: relative;
+		padding-left: 2.2em;
+		transition: all .3s;
+		font-family: $main-font;
+		&::before {
+				position: absolute;
+				left: 0.5em;
+				padding: 0 1px;
+				font-family: FontAwesome;
+				transform: translateZ(0);
+				content: '\f106';
+		}
+		&:hover {
+				color: $primary-color;
+				text-decoration: none;
+		}
+}
+
+.back-special-site {
+		@extend .mb0;
+}

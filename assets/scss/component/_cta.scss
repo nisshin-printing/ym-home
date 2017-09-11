@@ -1,0 +1,60 @@
+.fp--cta {
+		color: #FFF;
+		background-color: #303030;
+		padding: 2rem 0;
+}
+
+.cta--line {
+		text-align: center;
+		>* {
+				display: inline-block;
+				vertical-align: middle;
+		}
+		p {
+				margin-bottom: 0;
+		}
+}
+
+.cta--line-link {
+		margin-bottom: 0;
+		margin-left: 2rem;
+}
+
+.cta--footer {
+		background: linear-gradient( to left, #DDD6F3, #FAACA8);
+}
+
+.cta--footer-column {
+		margin: {
+				top: 1rem;
+				bottom: 1rem;
+		}
+}
+
+.cta--footer-container {
+		border-radius: $global-radius;
+		padding: 1rem;
+		background-color: #FFF;
+		text-align: center;
+}
+
+.cta--footer-title {
+		&.-half {
+				display: block;
+				font-size: .5em;
+				color: $dark-gray;
+		}
+}
+
+.cta--select-members {
+		@extend .button;
+		@extend .expanded;
+		background-color: #FAFAFA;
+}
+
+.cta--link__text {
+		font-size: 1.5rem;
+		@include breakpoint(medium) {
+				font-size: 2rem;
+		}
+}

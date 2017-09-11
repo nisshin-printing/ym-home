@@ -1,0 +1,50 @@
+// 事務所案内のDL
+.dt-info {
+		dt {
+				padding: 1em 0;
+				margin-bottom: .3rem;
+				font-weight: bold;
+				@include breakpoint(large) {
+						clear: left;
+						float: left;
+						padding-top: 2rem;
+						&.inner-float {
+								padding: 0;
+								margin: 0;
+						}
+				}
+		}
+		dd {
+				padding-bottom: 1rem;
+				border-bottom: 1px solid $medium-gray;
+				margin-bottom: 0.75rem;
+				@include breakpoint(large) {
+						padding: 2rem 0 2rem 8rem;
+				}
+				&:last-child {
+						border-bottom: none;
+				}
+		}
+		.inner {
+				border-bottom: 1px solid $medium-gray;
+				padding-left: 1rem;
+				@include breakpoint(large) {
+						padding-left: 8rem;
+						margin-bottom: 0;
+				}
+				dt {
+						@include breakpoint(large) {
+								padding: 0;
+								float: none;
+								clear: none;
+						}
+				}
+				dd {
+						border-bottom: none;
+						@include breakpoint(large) {
+								padding-top: 0;
+								padding-left: 1rem;
+						}
+				}
+		}
+}

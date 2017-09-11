@@ -1,0 +1,165 @@
+$img-url: "inc/megamenu/assets/img/";
+
+.ringosh_megamenu_creator{
+	text-align: center;
+	position: relative;
+	background: #FDFDFE;
+	border: 1px solid #dfe2e9;
+	margin: 20px;
+	padding: 20px;
+	display: none;
+}
+
+.ringosh_mm_left{
+	display: inline-block;
+	width: 45%;
+	width: 220px;
+	margin: 0 2%;
+	border: 2px dashed #4A556E;
+	min-height: 130px;
+	vertical-align: top;
+}
+
+.ringosh_mm_left ul{
+	width: 220px;
+	min-height: 130px;
+	margin: 0;
+}
+
+.ringosh_mm_right{
+	display: inline-block;
+	width: 220px;
+	margin: 0 2%;
+	border: 2px dashed #4A556E;
+	min-height: 130px;
+	vertical-align: top;
+}
+
+.ringosh_mm_right ul{
+	width: 220px;
+	min-height: 130px;
+	margin: 0;
+}
+
+
+.create_mm_text{
+	width: 50%;
+	padding: 10px;
+	height: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+ul.rin_megamenu{
+	text-align: center;
+	margin: 30px 0 0 0;
+	padding: 0;
+	position: relative;
+}
+
+ul.rin_megamenu li{
+	display: inline-block;
+	width: 200px;
+	margin-right: 10px;
+	vertical-align: top;
+	cursor: pointer;
+	margin: 0 0 10px 0;
+}
+
+li.ui-draggable{
+	display: inline-block;
+	width: 200px;
+	margin-right: 10px;
+	vertical-align: top;
+	cursor: pointer;
+	list-style-type: none;
+	margin: 0 0 10px 0;
+}
+
+
+ul.rin_megamenu li .rin_ban, li.ui-draggable .rin_ban{
+	width: 200px;
+	height: 100px;
+}
+
+ul.rin_megamenu li .rin_ban1, li.ui-draggable .rin_ban1{
+	background: url(#{$img-url}ban1.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban2,  li.ui-draggable .rin_ban2{
+	background: url(#{$img-url}ban2.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban3, li.ui-draggable .rin_ban3{
+	background: url(#{$img-url}ban3.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban4, li.ui-draggable .rin_ban4{
+	background: url(#{$img-url}ban4.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban5, li.ui-draggable .rin_ban5{
+	background: url(#{$img-url}ban5.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban6, li.ui-draggable .rin_ban6{
+	background: url(#{$img-url}ban6.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban7, li.ui-draggable .rin_ban7{
+	background: url(#{$img-url}ban7.png) no-repeat center;
+}
+
+ul.rin_megamenu li .rin_ban8, li.ui-draggable .rin_ban8{
+	background: url(#{$img-url}ban8.png) no-repeat center;
+}
+
+.bandesc{
+	background: #DFE2E9;
+	padding: 5px 0;
+	text-align: center;
+	color: #4a556e;
+}
+
+.rin_mm_linkp{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.rin_mm_linkp a{
+	color: #fff;
+	background: #2C404A;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	display: none;
+}
+
+
+.rin_sideannounce{
+
+	background: #5e6a8d;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	padding: 10px 0;
+}
+
+// Custom CSS
+.rin_adder_closer {
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	width: 25px;
+	@include fontsize(16);
+	font-weight: normal;
+	padding: 3px 0 7px;
+	cursor: pointer;
+	color: #FFF;
+	text-align: center;
+	background: $shinbashiiro;
+	@include border-radius(3px);
+	z-index: 10;
+}

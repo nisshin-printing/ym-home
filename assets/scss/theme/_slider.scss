@@ -1,0 +1,39 @@
+.fp--topheader {
+		.card--title {
+				@extend h4;
+				text-align: center;
+		}
+		.card--content {
+				height: 15rem;
+				padding: 30px 5% 0;
+				text-align: center;
+				.button,
+				.card--content .waves-effect {
+						margin: 1rem auto 0;
+				}
+		}
+}
+
+.slide--button-button {
+		position: absolute;
+		top: 50%;
+		width: 2rem;
+		height: 4rem;
+		line-height: 4rem;
+		z-index: 1;
+		background-color: #000;
+		opacity: .5;
+		transition: .3s;
+		color: #FFF;
+		&.-prev {
+				left: 0;
+				border-radius: 0 8px 8px 0;
+		}
+		&.-next {
+				right: 0;
+				border-radius: 8px 0 0 8px;
+		}
+		&:hover {
+				opacity: 1;
+		}
+}

@@ -1,0 +1,29 @@
+.message {
+		>.row {
+				@extend .align-middle;
+		}
+		padding: {
+				top: 3rem;
+				bottom: 3rem;
+		}
+		&--primary {
+				background-color: #FFF;
+		}
+		&--secondary {
+				background-color: #F9F9F9;
+		}
+}
+
+.message--image {
+		padding-right: 1rem;
+		text-align: center;
+		img {
+				@include thumbnail;
+		}
+}
+
+.message--paragraph {
+		a:not(:hover, .button) {
+				text-decoration: underline;
+		}
+}

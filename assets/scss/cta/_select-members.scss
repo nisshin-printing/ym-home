@@ -1,0 +1,36 @@
+.cta-select-members {
+		width: 100%;
+		display: table;
+		@include breakpoint(medium) {
+				height: 300px;
+		}
+		a {
+				@extend .b-shadow-1;
+				@extend .button;
+				margin: 0 auto;
+				padding: 1rem;
+				display: table-cell;
+				vertical-align: middle;
+				font-size: 1.5rem;
+				@include breakpoint(medium) {
+						background: {
+								position: bottom left;
+								repeat: no-repeat;
+								size: contain;
+								attachment: scroll;
+								image: url(#{$p_images}cta/select-members.jpg );
+								color: $white;
+						}
+						color: #000;
+						text-align: right;
+						height: 300px;
+						&:hover {
+								color: #000;
+								background-color: $white;
+						}
+				}
+				@include breakpoint(large) {
+						text-align: center;
+				}
+		}
+}

@@ -1,0 +1,53 @@
+.layout-archive {
+	.link-category {
+		@extend .m0;
+		a {
+			padding: rem-calc(5 10);
+			@extend .b-shadow-1;
+			@extend .bg-primary;
+			@extend .color-white;
+			text-decoration: none;
+			&:hover {
+				@extend .b-shadow-1-half;
+				text-decoration: none;
+			}
+		}
+		.float-right {
+			@extend .m0;
+			padding: rem-calc(5 10);
+			@extend .b-shadow-1;
+			@extend .bg-black;
+			@extend .color-white;
+			text-decoration: none;
+			&:hover {
+				@extend .b-shadow-1-half;
+				text-decoration: none;
+			}
+		}
+	}
+	.card-time {
+		margin-bottom: 0.2rem;
+	}
+	time {
+		@extend .color-gainsboro;
+		font-size: 1rem;
+	}
+}
+// ============================== Pagination ============================================================================= //
+.pagination {
+	@extend .row;
+	@extend .expanded;
+	margin: 1rem auto;
+	> p {
+		@extend .column;
+		a {
+			@extend .button;
+			@extend .expanded;
+		}
+	}
+	ul {
+		@extend .column;
+		@extend .text-center;
+		@extend .m0-auto;
+	}
+}

@@ -1,0 +1,128 @@
+.ringotheme-format-post {
+	margin-bottom: 60px;
+	padding: 2em;
+	border-radius: $global-radius;
+	background: #FFF;
+	div.cat_post_wrapper {
+		margin-left: 90px;
+		border-left: 1px solid #DDD;
+		padding-left: 20px;
+		position: relative;
+		min-height: 150px;
+		@include breakpoint( 910px ) {
+			margin: auto;
+			border: none;
+			padding-left: 0;
+		}
+	}
+	div.rin_time {
+		height: 45px;
+		left: -90px;
+		padding: 3px 0 0;
+		position: absolute;
+		text-align: center;
+		text-transform: uppercase;
+		top: 0;
+		width: 70px;
+		letter-spacing: 0.2177735em;
+		span {
+			letter-spacing: 0em;
+			display: block;
+			@include breakpoint( 910px ) {
+				letter-spacing: 0.1em;
+				display: inline;
+			}
+		}
+		@include breakpoint( 910px ) {
+			position: static;
+			letter-spacing: 0.1em;
+			margin-bottom: 1em;
+			width: auto;
+			height: auto;
+			text-align: right;
+		}
+	}
+	div.rin_cat {
+		position: absolute;
+		top: 80px;
+		left: -124px;
+		padding: 3px 0 0;
+		text-align: center;
+		width: 124px;
+		@include breakpoint( 910px ) {
+			top: -10px;
+			left: -20px;
+		}
+		a {
+			display: block;
+			font-size: 86%;
+			font-weight: bold;
+			line-height: 1;
+			padding: 5px 0;
+			text-decoration: none;
+			@include transition(all $mediumDuration ease-out);
+			&.my-best-pro {
+				background: rgba(#1EB8E5, .3);
+				color: #1eb8e5;
+			}
+			&.kairo-for-business {
+				background: rgba(#E71E23, .3);
+				color: #E71E23;
+			}
+			&.news {
+				background: rgba(#47885e, .3);
+				color: #47885e;
+			}
+			&.support {
+				background: rgba(#e85298, .3);
+				color: #e85298;
+			}
+			&.media {
+				background: rgba(#7FBFFF, .3);
+				color: #7FBFFF;
+			}
+			&.recruit {
+				background: rgba(#191970, .3);
+				color: #191970;
+			}
+			&.csr {
+				background: rgba(#006400, .3);
+				color: #006400;
+			}
+			&.seminer {
+				border: 1px solid $primary-color;
+				color: $primary-color;
+			}
+			&:hover { opacity: .6 }
+		}
+	}
+	header {
+		h2 {
+			@include fontsize(21);
+			font-weight: normal;
+			margin: 0 0 25px;
+			padding: 0;
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+		}
+	}
+	div.rin_postimageholder {
+		width: 100%;
+		max-height: 300px;
+		overflow: hidden;
+		margin: 2em auto;
+	}
+	.entry-summary {
+		text-align: right;
+		p { text-align: left; }
+		a.rin_readmorea {
+			display: inline-block;
+			padding: 0.5em 1em;
+			border: 1px solid;
+			text-decoration: none;
+			@include transition(all $mediumDuration ease-out);
+			@include flash-hover(#FFF, #E8392B, #FFF);
+			margin: 1em auto;
+		}
+	}
+}

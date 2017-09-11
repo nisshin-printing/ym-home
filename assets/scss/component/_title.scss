@@ -1,0 +1,29 @@
+.title--border-bottom {
+		position: relative;
+		margin: 1rem auto 4rem;
+		&::after {
+				content: '';
+				position: absolute;
+				bottom: -1rem;
+				width: 30px;
+				height: 3px;
+				background-color: #DDD;
+				left: 1rem;
+		}
+		&.-center {
+				&::after {
+						left: 0;
+						right: 0;
+						margin: auto;
+				}
+		}
+}
+
+.title--small {
+		font-size: .5em;
+}
+
+.title--block {
+		display: block;
+		margin-left: .5em;
+}

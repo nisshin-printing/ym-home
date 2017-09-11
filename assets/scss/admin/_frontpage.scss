@@ -1,0 +1,352 @@
+.rin_gradientsys{
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ececec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ececec 100%); /* W3C */
+	filter: progid:DXImageTransform.Mirinsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+	border-radius: $global-radius; 
+	border: 1px solid #ddd;
+	letter-spacing: normal;
+	text-shadow: 0 1px 0 #FFFFFF;
+	text-align: center;
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,1);
+}
+
+
+.ringosh_add_a_piece{
+	width: 40px;
+	height: 40px;
+	color: #222; 	
+	line-height: 34px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	float: left;
+}
+.ringosh_adder h2{
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	text-align: center;
+	height: 40px;
+	color: #444;
+	line-height: 42px;
+	font-size: 13px;
+	font-weight: normal;
+	background: #FEFEFE;
+	border: 1px solid rgba(0,0,0,0.05);
+	text-transform: uppercase;
+}
+ul.rin_ul_adder li.rin_divider_maker{
+	width: 98%;
+	margin: 0 1%;
+	padding: 0px 0;
+	font-size: 14px;
+	color: #777;
+	cursor: pointer;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.rin_page_deleter:hover, .rin_page_editer:hover{
+	color: #8D99B3;
+}
+
+
+.ringoshholder{
+	display: none;
+}
+
+
+.ringosh_pageformouter h1{
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	text-align: center;
+	height: 40px;
+	color: #444;
+	line-height: 42px;
+	font-size: 13px;
+	font-weight: normal;
+	background: #fff;
+	border: 1px dashed #D8D8D8;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+.rin_mn_title{
+	float: left;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	text-align: left;
+	height: 40px;
+	color: #4a556e;
+	line-height: 42px;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 0;
+	width: 200px;
+	display: block;
+}
+
+.rin_mn_contentadd{
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	height: 40px;
+	color: #444;
+	line-height: 42px;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 0;
+	margin-left: 203px;
+	margin-right: 43px;
+	display: block;
+}
+
+
+.rin_mn_font_part .rin_mn_contentadd{
+	height: auto;
+}
+
+
+
+.ringosh_pagemakerlist .wp-picker-container, .ringosh_pagemakerlist .wp-picker-container:active {
+	margin-left: 30px;
+}
+
+.rin_optionspagelist .wp-picker-container, .rin_optionspagelist .wp-picker-container:active {
+	margin-left: 30px;
+}
+
+
+
+
+.rin_mn_contentadd select{
+	padding: 10px;
+	-webkit-border-radius:3px;
+	border-radius: $global-radius; 
+	width: 90%;
+	color: #4a556e;
+	height: 40px;
+	border: 1px solid #c0c6d5;
+}
+
+
+.rin_fontshowcase{
+	border: 1px solid #dfe2e9;
+	margin-top: 10px;
+	background: #F3F4F7;
+	padding: 10px;
+	text-align: center;
+	display: block; 
+	text-transform: none;
+	font-size: 21px;
+	color: #4a556e;
+}
+
+
+
+.rin_mn_textarea{
+	height: 100px;
+}
+
+
+
+.rin_mn_textarea textarea{
+	padding: 10px 5px;
+	margin-top: 8px;
+	-webkit-border-radius:0px;
+	border-radius: 0px; 
+	width: 90%;
+	color: #888;
+	line-height: 1.5em;
+	height: 80px;
+	border: 1px solid #D8D8D8;
+
+}
+
+.rin_mn_contentadd input[type=text]{
+	padding: 10px;
+	-webkit-border-radius: $global-radius;
+	border-radius: $global-radius; 
+	width: 90%;
+	border: 1px solid #c0c6d5;
+	color: #4a556e;
+}
+
+
+.rin_pagemanager_wrap .rin_mn_contentadd input.rin_imgmng{
+	width: 77%;
+	float: left;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	border-radius: 3px 0px 0px 3px; 
+	border: 1px solid #c0c6d5;
+	color: #4a556e;
+}
+
+
+.rin_mn_seperator{
+	margin: 0 0 40px 0;
+	padding: 0 0 10px 0;
+}
+
+.rin_mn_contentadd input.rin_layimage{
+	width: 80%;
+}
+
+.rin_mn_contentadd input.rin_pickme{
+	width: 40%;
+}
+
+.rin_mn_contentadd .wp-picker-container a{
+	top: -3px;
+	left: -30px;
+}
+
+.rin_mn_helper{
+	float: right;
+	margin: 0 0 10px 0;
+	text-align: center;
+	height: 40px;
+	line-height: 42px;
+	font-size: 13px;
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #dfe2e9;
+	background: #F3F4F7;
+	text-transform: uppercase;
+	padding: 0;
+	width: 40px;
+	display: block;
+	color: #4a556e;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+}
+
+.rin_mn_helper em{
+	position: absolute;
+	background: #2B313F;
+	font-family: $main-font;
+	top: -1px;
+	right: 40px;
+	color: #fff;
+	font-size: 12px;
+	width: 250px;
+	text-align: center;
+	font-style: normal;
+	padding: 10px;
+	line-height: 17px;
+	display: none;
+	z-index: 15;
+	text-transform: none;
+	font-weight: normal;
+	padding: 20px;
+
+}
+
+.rin_mn_helper:hover em{
+	display: block;
+}
+
+p.rin_mn_part{
+	margin: 0;
+	padding: 15px;
+	margin-bottom: 5px;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	border-image: none;
+	border-radius: $global-radius;
+	border-style: solid;
+	border-width: 1px;
+	background: #fff;
+}
+
+
+
+
+p.rin_mn_part .wp-picker-open + .wp-picker-input-wrap {
+	max-width: 200px;
+}
+
+p.rin_mn_part .wp-picker-open + .wp-picker-input-wrap input.button{
+	margin-top: 10px;
+}
+
+
+
+p.rin_mn_part .wp-picker-clear,
+div.wp-picker-holder {
+z-index: 999 !important;
+position: absolute !important;
+}
+
+.rin_mn_formsave{
+	background: $shinbashiiro;
+	font-family: $main-font;
+	border: none;
+	-webkit-border-radius: $global-radius;
+	border-radius: $global-radius;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 13px;
+	padding: 10px 20px;
+	text-shadow: 0 0px 0 rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+	margin-top: 30px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.rin_mn_formsaver{
+	float: right;
+}
+
+
+
+span.rin_clearimginput{
+	background: #dfe2e9;
+	border: 1px solid #c0c6d5;
+	padding: 8px 15px 7px 15px;
+	line-height: 24px;
+	color: #4a556e;
+	font-size: 11px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+	border-radius: 0px 3px 3px 0px;  
+	cursor: pointer;
+	margin-left: -2px;
+	margin-top: 1px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	text-shadow: 1px 1px 1px #fff;
+
+}
+
+
+
+.ringosh_mainpagelist{
+	padding :10px;
+}
+
+p.rin_mn_updatemessage{
+	background: #4FC178;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	margin: 0 0 0px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+p.rin_mn_nopostmess{
+	color: #222;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+}

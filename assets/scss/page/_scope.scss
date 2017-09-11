@@ -1,0 +1,100 @@
+.article-header {
+		background-size: contain;
+		height: 300px;
+		border-radius: $global-radius;
+		@extend .valign-wrapper;
+		@include breakpoint( small only) {
+				height: 150px;
+		}
+		h2 {
+				background: none;
+				border: none;
+				margin-right: 1rem;
+				margin-bottom: 0;
+				color: $white;
+				width: 100%;
+				@extend .valign;
+				@extend .t-shadow-1;
+				text-align: right !important;
+				font-family: $main-font;
+				font-size: 2rem;
+				@include breakpoint( small only) {
+						font-size: 1rem;
+				}
+				strong {
+						display: block;
+				}
+		}
+		&.gradient-jiko {
+				background: $jiko;
+				background: linear-gradient( to right, transparent 20%, rgba($jiko, .8)),
+				url(#{$p_images}jiko.png) left center no-repeat;
+				@extend .mb1;
+				h2 {
+						@extend .mr2;
+				}
+				strong {
+						font-size: 1.444em;
+				}
+		}
+		&.gradient-rikon {
+				background: $rikon;
+				background: linear-gradient( to right, transparent 20%, rgba($rikon, .8)),
+				url(#{$p_images}rikon-trouble.jpg) left center no-repeat;
+				strong {
+						font-size: 1.4545em;
+				}
+		}
+		&.gradient-isyaryo {
+				background: #9941D8;
+				background: linear-gradient( -135deg, rgba(#E1A972, .8), rgba(#9941D8, .8)),
+				url(#{$p_images}119344.jpg) left center no-repeat;
+				background-size: contain;
+				@extend .mb1;
+		}
+		&.gradient-sozoku {
+				background: #D1913C;
+				background: linear-gradient( to right, transparent 40%, rgba($sozoku, .8)),
+				url(#{$p_images}sozoku-sodan.jpg) left center no-repeat;
+				h2 {
+						@extend .mr2;
+				}
+				strong {
+						font-size: 1.8em;
+				}
+		}
+		&.gradient-saimu {
+				background: #D1913C;
+				background: linear-gradient( to right, transparent 10%, $saimu),
+				url(#{$p_images}rate-saimu.jpg) left center no-repeat;
+				strong {
+						font-size: 1.7em;
+				}
+		}
+}
+
+.l-contents {
+		background-color: $ghost;
+		padding: 2rem 1rem;
+}
+
+.l-contents_header {
+		position: relative;
+		span {
+				background-color: $jiko;
+				color: #FFF;
+				padding: 1rem 2rem;
+				left: -1rem;
+				position: relative;
+				@include breakpoint(medium) {
+						position: absolute;
+				}
+		}
+		h3 {
+				border-left: none;
+				padding-left: 0;
+				@include breakpoint(medium) {
+						padding-left: 140px;
+				}
+		}
+}

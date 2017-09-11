@@ -1,0 +1,37 @@
+.postid-#{$rikon_id} {
+		.header-lp {
+				background-image: linear-gradient( -45deg, #FFEFEF 62%, #FFE5E4 50%, #FFE5E4);
+				>.row {
+						position: relative;
+				}
+		}
+		#section-1,
+		#section-2 {
+				.grit-item {
+						@include clearfix();
+						margin: 0 auto 2rem;
+				}
+				.fa-stack {
+						float: left;
+						clear: left;
+						top: -0.5rem;
+						margin-right: 0.5rem;
+				}
+		}
+		.lp-header-nav {
+				@include breakpoint( large) {
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						margin: 5px 1rem;
+				}
+		}
+}
+
+.btn-men {
+		background-color: blue;
+}
+
+.btn-women {
+		background-color: pink;
+}
