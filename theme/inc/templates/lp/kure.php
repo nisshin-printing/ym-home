@@ -1,48 +1,42 @@
 <header class="header-lp">
-	<h1 id="header-title">呉に山下江法律事務所の<br>支部がオープンしました！</h1>
+	<h1 id="header-title">山下江法律事務所<br>呉支部</h1>
 </header>
-<div class="head-title-wrapper">
-	<p class="text-center color-red">NEW OPEN</p>
-	<h2 class="text-center">呉支部</h2>
-</div>
-<div class="row expanded bg-clouds">
-	<div class="column-2">
-		<div class="column-image-2" style="background-image: url(<?php echo TIMG, 'lp/kure/2.jpg'; ?>);"></div>
-		<div class="column-1-2">
-			<div class="c-table-cell">
-				<h3>プライバシー保護環境</h3>
-				<p>新しくオープンした呉支部でも、山下江法律事務所の<a href="<?php echo get_the_permalink('360'); ?>" class="link-external" title="<?php echo get_the_title('360'); ?>">行動指針</a>や<a href="<?php echo get_the_permalink('493'); ?>" class="link-external" title="<?php echo get_the_title('493'); ?>">プライバシーポリシー</a>に基づいた「気軽に相談できる場」を創造しました。</p>
-			</div>
-		</div>
+<div class="row">
+	<div class="column small-12 medium-6">
+		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/6.jpg'; ?>" alt="">
 	</div>
-	<div class="column-2 left">
-		<div class="column-image-2" style="background-image: url(<?php echo TIMG, 'lp/kure/3.jpg'; ?>);"></div>
-		<div class="column-1-2">
-			<div class="c-table-cell">
-				<h3>安心して相談できる空間</h3>
-				<p>一時間程度の法律相談でも、知らないことや難しい用語がたくさん出てきて疲れてしまいます。気軽に、安心できる法律相談のために、安心感を与える照明やインテリア家具により、居心地の良い空間を演出しております。</p>
-			</div>
-		</div>
-	</div>
-	<div class="column-2">
-		<div class="column-image-2" style="background-image: url(<?php echo TIMG, 'lp/kure/6.jpg'; ?>);"></div>
-		<div class="column-1-2">
-			<div class="c-table-cell">
-				<h3>信頼できるクラウドの活用</h3>
-				<p>広島最大級の弁護士事務所である山下江法律事務所では、その叡智・豊富な経験・多数の解決事例を共有し、常に適切な解決を迅速に行うことが可能です。</p>
-				<p>さらに、世界でも最高レベルのセキュリティで、プライバシー保護が徹底されています。</p>
-			</div>
-		</div>
+	<div class="column small-12 medium-6">
+		<h3>信頼できるクラウドの活用</h3>
+		<p>広島最大級の弁護士事務所である山下江法律事務所では、その叡智・豊富な経験・多数の解決事例を共有し、常に適切な解決を迅速に行うことが可能です。</p>
+		<p>さらに、世界でも最高レベルのセキュリティで、プライバシー保護が徹底されています。</p>
 	</div>
 </div>
-<div id="access" class="head-title-wrapper bg-midnight-city">
+<div class="row">
+	<div class="column small-12 medium-6">
+		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/2.jpg'; ?>" alt="">
+	</div>
+	<div class="column small-12 medium-6">
+		<h3>プライバシー保護環境</h3>
+		<p>新しくオープンした呉支部でも、山下江法律事務所の<a href="<?php echo get_the_permalink('360'); ?>" class="link-external" title="<?php echo get_the_title('360'); ?>">行動指針</a>や<a href="<?php echo get_the_permalink('493'); ?>" class="link-external" title="<?php echo get_the_title('493'); ?>">プライバシーポリシー</a>に基づいた「気軽に相談できる場」を創造しました。</p>
+	</div>
+</div>
+<div class="row">
+	<div class="column small-12 medium-6">
+		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/3.jpg'; ?>" alt="">
+	</div>
+	<div class="column small-12 medium-6">
+		<h3>安心して相談できる空間</h3>
+		<p>一時間程度の法律相談でも、知らないことや難しい用語がたくさん出てきて疲れてしまいます。気軽に、安心できる法律相談のために、安心感を与える照明やインテリア家具により、居心地の良い空間を演出しております。</p>
+	</div>
+</div>
+<div id="access" class="head-title-wrapper">
 	<p class="text-center color-gainsboro">ACCESS</p>
 	<h2 class="text-center color-white">呉支部へのアクセス</h2>
 </div>
 <div class="row">
-	<div class="article-body column">
+	<div class="column">
 		<p class="text-center"><img src="https://www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/access/map-kure.png" alt="山下江法律事務所呉支部までのアクセス方法"></p>
-		<p class="button-group"><a class="button link-external" href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92737-0051+%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%91%89%E5%B8%82%E4%B8%AD%E5%A4%AE%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%92+%EF%BC%AE%EF%BC%B3%E3%83%93%E3%83%AB/@34.2463783,132.5591166,17z/data=!3m1!4b1!4m5!3m4!1s0x35500832ad4060cf:0x5d28b206f989983c!8m2!3d34.2463627!4d132.5612817?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a></p>
+		<p class="text-center"><a class="button link-external" href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92737-0051+%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%91%89%E5%B8%82%E4%B8%AD%E5%A4%AE%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%92+%EF%BC%AE%EF%BC%B3%E3%83%93%E3%83%AB/@34.2463783,132.5591166,17z/data=!3m1!4b1!4m5!3m4!1s0x35500832ad4060cf:0x5d28b206f989983c!8m2!3d34.2463627!4d132.5612817?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a></p>
 		<p>〒737-0051　広島県呉市中央２丁目５－２ NSビル７０３<br>TEL： 0823-25-0077　FAX： 0823-25-0081<br>営業時間：　9：00～18：00</p>
 	</div>
 </div>
@@ -59,7 +53,7 @@
 </div>
 <div class="fp-wel">
 	<div class="row pt3 pb3">
-		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php dtdsh_photon_img( '2907', 'src' ); ?>" width="<?php dtdsh_photon_img( '2907', 'width' ); ?>" height="<?php dtdsh_photon_img( '2907', 'height' ); ?>" alt="呉支部長の写真" ></div>
+		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php wp_get_attachment_image( '2907', 'src' ); ?>" width="<?php wp_get_attachment_image( '2907', 'width' ); ?>" height="<?php wp_get_attachment_image( '2907', 'height' ); ?>" alt="呉支部長の写真" ></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
 			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
