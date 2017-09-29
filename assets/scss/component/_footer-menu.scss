@@ -1,0 +1,42 @@
+.footer--menu {
+		display: none;
+		visibility: hidden;
+		box-sizing: border-box;
+		@media (max-width: 920px) {
+				visibility: visible;
+				display: table;
+				width: 100%;
+				height: 60px;
+				margin: 0 auto;
+				background-color: #FFF;
+				border-top: 1px solid #EEE;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				z-index: 9999;
+		}
+}
+
+.footer--menu-item {
+		display: table-cell;
+		width: 33.3333%;
+		height: 60px;
+		text-align: center;
+		border-right: 1px solid #EEE;
+		&:last-of-type {
+				border-right: none;
+		}
+}
+
+.footer--menu-link {
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		vertical-align: middle;
+}
+
+.footer--menu-icon {
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+}

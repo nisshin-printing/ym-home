@@ -1,5 +1,5 @@
 <?php 
-	echo '<link rel="stylesheet" href="//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/css/lp-jiko.css">';
+	echo '<link rel="stylesheet" href="', get_template_directory_uri(), '/assets/css/lp-jiko.css">';
 ?>
 <header class="jiko-header">
 	<div class="row">
@@ -23,18 +23,18 @@
 </div>
 
 <nav id="sticky-topbar" class="jiko-nav" data-magellan>
-	<ul class="menu">
+	<ul class="menu align-center">
 		<li><a href="#section-1" title="慰謝料などの増額">慰謝料などの増額</a></li>
 		<li><a href="#section-2" title="解決事例">解決事例</a></li>
 		<li><a href="#section-3" title="解決事例までの流れ">解決事例までの流れ</a></li>
-		<li><a href="#section-4" title="事務所紹介">事務所紹介</a></li>
+		<li><a href="#section-4" title="事務所の特長">事務所の特長</a></li>
 		<li><a href="#section-5" title="お客様の声">お客様の声</a></li>
 		<li><a href="#contact" title="無料相談予約">無料相談予約</a></li>
 	</ul>
 </nav>
 
 <section id="section-1" class="jiko-section" data-magellan-target="section-1">
-	<div class="row align-middle">
+	<div class="row align-middle contents">
 		<h2 class="jiko-section_title column small-12">慰謝料などの増額</h2>
 		<div class="column small-12 large-6">
 			<div class="jiko-up_wrap">
@@ -107,7 +107,7 @@
 </section>
 
 <section id="section-3" class="jiko-section" data-magellan-target="section-3">
-	<div class="row">
+	<div class="row contents">
 		<div class="column small-12">
 			<h2 class="jiko-section_title">解決までの流れ</h2>
 			<p class="text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/timing-flow.png'; ?>"
@@ -153,7 +153,7 @@
 <section id="section-4" class="jiko-section" data-magellan-target="section-4">
 	<div class="row">
 		<h2 class="jiko-section_title column small-12">山下江法律事務所の特長</h2>
-		<div class="column small-12 article-body">
+		<div class="column small-12 contents">
 			<h3>1. 広島で多数の解決実績があります</h3>
 			<p>平成23年以降の交通事故案件での実績は、<strong class="bg-line">相談数1,948件、受任件数817件</strong>（平成28年度末現在）です。広島における法律事務所で、これだけ多数の相談件数、受任件数の実績があります。</p>
 			<h3>2. 後遺障害などに関する医学的知識があります</h3>
@@ -173,7 +173,7 @@
 </section>
 
 <section id="section-5" class="jiko-section" data-magellan-target="section-5">
-	<div class="row">
+	<div class="row contents">
 		<h2 class="jiko-section_title column small-12">お客様の声</h2>
 		<p class="column small-12 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートで満足度94.6%"></p>
 		<div class="voices accordion column small-12" data-accordion>
@@ -234,7 +234,7 @@
 </div>
 
 <section id="contact" class="jiko-section" data-magellan-target="contact">
-	<div class="row">
+	<div class="row contents">
 		<div class="column small-12">
 			<h2 class="jiko-section_title">交通事故の無料相談</h2>
 			<div class="article-body">

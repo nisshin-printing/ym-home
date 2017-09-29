@@ -56,3 +56,4 @@
 			) );
 		?>
 	</header>
+	<div class="sidenav--overlay js--sidenav--button"></div>

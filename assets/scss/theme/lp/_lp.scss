@@ -14,21 +14,8 @@ $kure_id: '4137';
 				}
 				@extend .text-center;
 		}
-		h2 {
-				margin: 1rem auto;
-		}
-		h4 {
-				background-color: #FFCE9E;
-				border-radius: $global-radius;
-		}
 		section {
 				padding: rem-calc(80 0);
-		}
-		.voices {
-				.accordion-title {
-						@extend h4;
-						text-decoration: none;
-				}
 		}
 		.cta-lp {
 				.button {

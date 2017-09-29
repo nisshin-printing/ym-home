@@ -5,6 +5,9 @@
 }
 
 .sidebar--wrap {
+		&.--front {
+				display: none;
+		}
 		@include breakpoint(medium down) {
 				width: 50%;
 				max-width: none;
