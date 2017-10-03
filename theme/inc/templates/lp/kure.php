@@ -1,9 +1,9 @@
 <header class="header-lp">
 	<h1 id="header-title">山下江法律事務所<br>呉支部</h1>
 </header>
-<div class="row">
+<div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/6.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/6.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>信頼できるクラウドの活用</h3>
@@ -11,18 +11,18 @@
 		<p>さらに、世界でも最高レベルのセキュリティで、プライバシー保護が徹底されています。</p>
 	</div>
 </div>
-<div class="row">
+<div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/2.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/2.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>プライバシー保護環境</h3>
 		<p>新しくオープンした呉支部でも、山下江法律事務所の<a href="<?php echo get_the_permalink('360'); ?>" class="link-external" title="<?php echo get_the_title('360'); ?>">行動指針</a>や<a href="<?php echo get_the_permalink('493'); ?>" class="link-external" title="<?php echo get_the_title('493'); ?>">プライバシーポリシー</a>に基づいた「気軽に相談できる場」を創造しました。</p>
 	</div>
 </div>
-<div class="row">
+<div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/3.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/3.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>安心して相談できる空間</h3>
@@ -44,17 +44,16 @@
 	<p class="text-center color-gainsboro">MESSAGE</p>
 	<h2 class="text-center color-white">呉支部長のご挨拶</h2>
 </div>
-<div class="row c-table pt2 pb2">
-	<div class="column  members-header text-center">
-		<p class="meta-job">呉支部長　/　弁護士</p>
-		<h3>宮部　明典</h3>
-		<p class="meta-name">みやべ　あきのり</p>
-	</div>
-</div>
-<div class="fp-wel">
-	<div class="row pt3 pb3">
+<div class="fp-wel contents">
+	<div class="row align-middle
+	">
 		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php wp_get_attachment_image( '2907', 'src' ); ?>" width="<?php wp_get_attachment_image( '2907', 'width' ); ?>" height="<?php wp_get_attachment_image( '2907', 'height' ); ?>" alt="呉支部長の写真" ></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
+			<div class="members-header text-center">
+				<p class="meta-job">呉支部長　/　弁護士</p>
+				<h3>宮部　明典</h3>
+				<p class="meta-name">みやべ　あきのり</p>
+			</div>
 			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
 				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人呉事務所開設に伴い、呉支部長に就任することになりました。</p>
@@ -69,9 +68,9 @@
 	<h2 class="text-center color-white">山下江法律事務所が選ばれ続ける理由</h2>
 </div>
 <div class="row">
-	<div class="column article-body">
+	<div class="column contents">
 		<h3>ポイント1　-　分かりにくい弁護士費用を少しでも分かりやすく。<br>個人のお客様は、弁護士との法律相談が無料</h3>
-		<p class="text-center"><img src="<?php echo TIMG, 'feature-01.jpg'; ?>" alt="無料の法律相談のイメージ画像"></p>
+		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/feature-01.jpg'; ?>" alt="無料の法律相談のイメージ画像"></p>
 		<p>通常、弁護士費用は状況・依頼内容により、オーダーメイドのように変動してしまいます。<br>当弁護士事務所では、この「弁護士費用が分かりにくい」を<span class="bg-line">少しでも分かりやすく</span>し、<span class="bg-line">費用面での不安を感じないよう</span>に、依頼内容に応じてプランを作成しております。</p>
 		<p>さらに、法律問題では<span class="bg-line">「もっと早く相談していればよかった...。」</span>と、後悔してしまうことも多いです。少しでも<span class="bg-line">「気軽に相談」</span>いただけるよう、個人のお客様には、<span class="bg-line">弁護士 ・相続アドバイザー・メンタルケア心理士&reg;など専門家との法律相談を無料</span>で受け付けており、たった一時間程度で、「適切な解決」までの流れと方法を、迅速で分かりやすく「親切な相談」でご説明します。<br>この<span class="bg-line">専門家との無料法律相談</span>で、依頼された場合にかかる費用など「納得」いくまでじっくりとご質問ください。</p>
 		<p>また、料金のお支払いには、<span class="bg-line">「相手から支払われた金銭で精算する方法」</span>や<span class="bg-line">「分割払いにする方法」</span>など少しでも「一番身近な弁護士事務所」となれるよう努めています。</p>
@@ -120,7 +119,6 @@
 			</tr>
 		</table>
 		<p>地元広島における弁護士事務所で、これだけ多数の相談件数・受任件数を有しているのは当事務所のみと思われます。</p>
-		<p><a href="<?php echo get_permalink( get_page_by_path( 'scope/traffic-accident#column-jiko' ) ); ?>" class="button waves-effect" title="「交通事故に強い弁護士」とは？">「交通事故に強い弁護士」とは？</a></p>
 		<h3>ポイント3　-　広島最大級の弁護士事務所だからご要望に柔軟な対応が可能です。</h3>
 		<h4>気軽にご相談いただくために、柔軟な相談時間でお待ちしております。</h4>
 		<p>お勤めの方、お忙しい方でも、<span class="bg-line">お気軽に、無理なく</span>ご相談いただくために、<span class="bg-line">毎週月曜日は夜９時まで、土曜日は１０時から１７時まで</span>法律相談を実施しております。さらに、営業時間外でも対応可能な弁護士や相続アドバイザー・メンタルケア心理士&reg;がいれば、相談時間を設けることも可能です。</p>

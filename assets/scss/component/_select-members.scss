@@ -5,7 +5,7 @@
 				height: 300px;
 		}
 		a {
-				@extend .b-shadow-1;
+				@include b-shadow(1);
 				@extend .button;
 				margin: 0 auto;
 				padding: 1rem;
