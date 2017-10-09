@@ -1,20 +1,22 @@
 .top-bar {
-    p {
-        margin-bottom: 0;
-    }
+		p {
+				margin-bottom: 0;
+				display: inline-block;
+				vertical-align: middle;
+		}
 }
 
 .top-bar--title,
 .top-bar--desc {
-    display: inline-block;
-    text-align: left;
+		display: inline-block;
+		text-align: left;
 }
 
 .top-bar--desc {
-    margin-left: 1rem;
-    font-size: .8rem;
+		margin-left: 1rem;
+		font-size: .8rem;
 }
 
 .top-bar--button {
-    text-align: right;
+		text-align: right;
 }

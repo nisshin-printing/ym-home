@@ -8,6 +8,7 @@ get_header();
 	echo '</div>';
 	get_template_part( './elements/top--special-sites' );
 	get_template_part( './elements/fp-topheader' );
+	get_template_part( './elements/cta--recruit' );
 	get_template_part( './elements/fp-welcome-mess' );
 	get_template_part( './elements/fp-cta' );
 	get_template_part( './elements/fp-news' );

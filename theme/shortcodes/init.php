@@ -154,8 +154,8 @@ function memberSelect() {
 	$result = '<p class="mb0"><a class="button expanded waves-effect js-select-modal" data-open="select-member" title="弁護士やアドバイザーを指名する">弁護士やアドバイザーを指名する</a></p>';
 	$result .= '<div id="select-member" class="reveal full" data-reveal><button type="button" class="close-button" aria-label="Close" data-close>&times;</button>';
 	$result .= '<h2 class="text-center">弁護士やアドバイザーを選択</h2>';
-	$result .= '<div class="row small-up-1 medium-up-2 large-up-4 text-center m1-auto">';
 	$result .= '<p><a class="close-select-members button expanded waves-effect" title="指名しない" data-close>指名をやめる</a></p>';
+	$result .= '<div class="row small-up-1 medium-up-2 large-up-4 text-center m1-auto">';
 	if ( $lawyers->have_posts() ) : while ( $lawyers->have_posts() ) : $lawyers->the_post();
 	$img_id = get_post_thumbnail_id( get_the_ID() );
 	$img_url = wp_get_attachment_image_src( $img_id, 'full', true );
@@ -182,8 +182,8 @@ function memberSelect() {
 	$result .= '</article>';
 	endwhile; endif;
 	wp_reset_postdata();
-	$result .= '<p><a class="close-select-members button expanded waves-effect" title="指名しない">指名をやめる</a></p>';
-	$result .= '</div></div>';
+	$result .= '</div><p><a class="close-select-members button expanded waves-effect" title="指名しない">指名をやめる</a></p>';
+	$result .= '</div>';
 	return $result;
 }
 

@@ -78,6 +78,7 @@ if ($('.wpcf7-form')) {
             name = '指名しない';
         }
         area.val(name);
-        el.parents('#select-member').delay(300).foundation('close');
+				el.parents('#select-member').delay(300).foundation('close');
+				$('body').removeClass('is-reveal-open');
     });
 }

@@ -1,0 +1,26 @@
+#select-member {
+		top: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+		bottom: 0 !important;
+		.img-wrapper {
+				width: 210px;
+				height: 210px;
+				margin: 0 auto;
+				cursor: pointer;
+				img {
+						width: 210px;
+						height: 210px;
+						border-radius: 210px;
+				}
+		}
+		.name {
+				font-size: 1.5rem;
+				cursor: pointer;
+		}
+		.subtitle {
+				cursor: pointer;
+				display: block;
+				font-size: 1rem;
+		}
+}

@@ -44,6 +44,7 @@
 		<p class="free-call--hours">平日9時～18時<br>土曜10時～17時</p>
 		<p class="free-call--button"><a href="" class="button large">お問い合わせ</a></p>
 	</div>
+<?php /*
 	<div class="sidebar--item sidebar--banner">
 		<nav>
 			<ul class="menu vertical">
@@ -54,6 +55,7 @@
 			</ul>
 		</nav>
 	</div>
+*/ ?>
 	<div class="sidebar--item">
 	<h5 class="sidebar--title">メインメニュー</h5>
 		<?php

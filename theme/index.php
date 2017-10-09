@@ -12,7 +12,7 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 	$title = '弁護士等紹介';
 } else if ( is_tax( 'members-cat' ) ) {
 	$title = single_cat_title( 'メンバーカテゴリ：', false );
-} else if ( is_archive() || is_singular() || is_home() ) {
+} else if ( is_archive() || is_single() || is_home() ) {
 	$title = 'トピックス';
 } else {
 	$title = get_the_title();
@@ -72,11 +72,11 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/custom-post-type' );
 					endwhile;endif;
-				} else if ( is_archive() || is_singular( 'post' ) || is_home() ) {
+				} else if ( is_archive() || is_home() ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/content' );
 					endwhile;endif;
-				} else if ( is_page() ) {
+				} else if ( is_page() || is_single() ) {
 					the_content();
 				}
 			?>
