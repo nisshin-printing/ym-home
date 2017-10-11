@@ -1,9 +1,6 @@
 .fp--topheader {
 		padding: 2rem 0;
 		background-color: map-get($matelial_color, red);
-		>.row {
-				@extend .align-middle;
-		}
 }
 
 .topheader--button {
@@ -12,7 +9,6 @@
 		border-radius: $button-radius;
 		>.button {
 				@extend .topheader--button;
-				@extend .expanded;
 				margin: 0;
 		}
 		&.button-group {

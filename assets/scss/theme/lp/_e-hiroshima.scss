@@ -1,3 +1,5 @@
+$E-hiroshima_id: '4136';
+$kure_id: '4137';
 .postid-#{$E-hiroshima_id} {
 		.header-lp {
 				background-image: url(#{$p_images}lp/e-hiroshima/1.jpg);
@@ -63,7 +65,10 @@
 		}
 		.members-header {
 				h3 {
-						@extend h1;
+						font-size: 24px;
+						@include breakpoint(medium) {
+								font-size: 48px;
+						}
 				}
 		}
 		.c-table {

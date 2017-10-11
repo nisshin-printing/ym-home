@@ -8,7 +8,7 @@
 	$slider = new WP_Query( $slides_args );
 ?>
 <section class="fp--topheader">
-	<div class="row">
+	<div class="row align-middle">
 		<div class="column small-12 medium-6 slider--wrapper">
 			<div id="js--top-slider" class="slick-slider">
 			<?php
@@ -49,10 +49,10 @@
 				<p>相談件数12,000件以上。<small>※</small><br>選ぶなら広島最大級。<br>個人のお客様なら<strong style="background:yellow;color:red">相談無料</strong></p>
 			<small>※　平成27年12月時点</small>
 			</div>
-			<p class="topheader--button"><a href="tel:0120783409" title="電話する" class="button hollow"><img src="<?php echo get_template_directory_uri(), '/assets/img/header-tel.jpg'; ?>" alt=""></a></p>
-			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow" title="メールで相談予約"><?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a></p>
-			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/3674'; ?>" class="button hollow" title="東広島支部について">東広島支部について</a><a href="<?php echo home_url( '/' ), 'lp/4137'; ?>" class="button hollow" title="呉支部について">呉支部について</a></p>
-			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'seminar'; ?>" class="button hollow" title="セミナーのご案内"><?php NID_SVG::icon( 'megaphone', array( 'class' => 'button--icon' ), 'セミナー案内' ); ?>セミナーのご案内</a></p>
+			<p class="topheader--button"><a href="tel:0120783409" title="電話する" class="button hollow expanded"><img src="<?php echo get_template_directory_uri(), '/assets/img/header-tel.jpg'; ?>" alt=""></a></p>
+			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow expanded" title="メールで相談予約"><?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a></p>
+			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/3674'; ?>" class="button hollow expanded" title="東広島支部について">東広島支部について</a><a href="<?php echo home_url( '/' ), 'lp/4137'; ?>" class="button hollow expanded" title="呉支部について">呉支部について</a></p>
+			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'seminar'; ?>" class="button hollow expanded" title="セミナーのご案内"><?php NID_SVG::icon( 'megaphone', array( 'class' => 'button--icon' ), 'セミナー案内' ); ?>セミナーのご案内</a></p>
 		</div>
 	</div>
 </section>

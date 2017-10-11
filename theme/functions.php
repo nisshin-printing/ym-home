@@ -1,6 +1,6 @@
 <?php
 //========================  Define ========================================================================//
-define( 'DTDSH_THEME_VERSION', '1.0' );
+define( 'DTDSH_THEME_VERSION', '1.1' );
 
 /* =========================================
 		ACTION HOOKS & FILTERS
@@ -119,6 +119,7 @@ if ( ! function_exists( 'theme_styles' ) ) {
 	function theme_styles() {
 		$theme_dir = get_stylesheet_directory_uri();
 		wp_enqueue_style( 'main', "$theme_dir/assets/css/main.css", array(), DTDSH_THEME_VERSION, 'all' );
+		wp_enqueue_style( 'theme', "$theme_dir/assets/css/theme.css", array( 'main' ), DTDSH_THEME_VERSION, 'all' );
 	}
 }
 /**

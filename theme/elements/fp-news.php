@@ -8,12 +8,12 @@ $news = new WP_Query( $args );
 if ( $news->have_posts() ) :
 ?>
 <section class="fp--news">
-	<div class="row">
+	<div class="row align-middle">
 		<div class="column small-12 large-4">
 			<h2 class="news--block-title">最新情報<span>NEWS</span></h2>
 			<a href="<?php echo home_url( '/' ),'topics' ?>" class="button expanded hollow news--link" title="一覧を見る">一覧を見る</a>
 		</div>
-		<ul class="column small-12 large-8 news--list">
+		<ul class="column small-12 large-8 news--list no-bullet">
 			<?php
 				while ( $news->have_posts() ) : $news->the_post();
 			?>

@@ -1,12 +1,6 @@
 .menu--primary__wrap {
-		width: 100%;
-		margin: 0 auto;
-		padding-top: 1rem;
 		background-color: #FFF;
 		border-bottom: 1px solid map-get($ym_color, home);
-		.menu {
-				@extend .align-center;
-		}
 		.is-submenu-item {
 				border-top: 1px dashed rgba($primary-color, .2);
 		}
@@ -18,47 +12,11 @@
 .sidebar {
 		.menu--item {
 				color: $anchor-color;
-				&:hover>.menu--link {
-						border-left: 1px solid currentColor;
-				}
-		}
-		.menu--item__current>.menu--link {
-				border-left: 2px solid currentColor;
-		}
-		.menu--item {
-				width: 100%;
-		}
-		.menu--link {
-				white-space: inherit;
 		}
 }
 
 .footer {
 		.menu--item {
 				color: #FFF;
-				&:hover>.menu--link {
-						border-left: 1px solid currentColor;
-				}
-		}
-		.menu--item__current>.menu--link {
-				border-left: 2px solid currentColor;
-		}
-}
-
-.menu--members {
-		width: 100%;
-		overflow-y: hidden;
-		overflow-x: auto !important;
-		white-space: nowrap;
-		.menu--item {
-				display: inline-block;
-				float: none;
-				margin-left: 1rem;
-				&:first-child {
-						font-weight: bold;
-				}
-		}
-		.menu--link {
-				color: $black;
 		}
 }

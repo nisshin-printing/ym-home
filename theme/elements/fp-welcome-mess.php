@@ -4,11 +4,11 @@
 ?>
 <section class="fp--message">
 	<div class="message message--primary">
-		<div class="row">
+		<div class="row align-middle">
 			<div class="column small-12 medium-6 large-4 message--image">
 				<picture>
 					<source media="(max-width: 639px)" srcset="<?php echo wp_get_attachment_image_src( $yamashita, 'full' )[0]; ?>" sizes="210px">
-					<img src="<?php echo wp_get_attachment_image_src( '4041', 'full' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '4041', 'full' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '4041', 'full' )[2]; ?>" alt="代表・弁護士の山下江の写真">
+					<img class="thumbnail" src="<?php echo wp_get_attachment_image_src( '4041', 'full' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '4041', 'full' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '4041', 'full' )[2]; ?>" alt="代表・弁護士の山下江の写真">
 				</picture>
 			</div>
 			<div class="column small-12 medium-6 large-8">
@@ -24,11 +24,11 @@
 		</div>
 	</div>
 	<div class="message message--secondary">
-		<div class="row">
+		<div class="row align-middle">
 			<div class="column small-12 medium-6 large-4 message--image">
 				<picture>
 					<source media="(max-width: 639px)" srcset="<?php echo wp_get_attachment_image_src( $tanaka, 'full' )[0]; ?>" sizes="210px">
-					<img src="<?php echo wp_get_attachment_image_src( '4040', 'full' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '4040', 'full' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '4040', 'full' )[2]; ?>" alt="副代表・広島本部長・弁護士の田中伸">
+					<img class="thumbnail" src="<?php echo wp_get_attachment_image_src( '4040', 'full' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '4040', 'full' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '4040', 'full' )[2]; ?>" alt="副代表・広島本部長・弁護士の田中伸">
 				</picture>
 			</div>
 			<div class="column small-12 medium-6 large-8">

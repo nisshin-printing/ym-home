@@ -90,45 +90,27 @@
  */
 
 @import './component/article';
+@import './component/button';
 @import './component/cards';
 @import './component/contents';
 @import './component/cta';
 @import './component/dt-info';
+@import './component/footer-menu';
 @import './component/footer';
 @import './component/free-call';
+@import './component/lp';
+@import './component/news';
+@import './component/menu';
 @import './component/pageheader';
 @import './component/pagination';
 @import './component/post';
-@import './component/service--item';
+@import './component/reveal-members';
 @import './component/select-members';
+@import './component/service--item';
 @import './component/sidebar';
 @import './component/sidenav';
+@import './component/sites';
 @import './component/slick-slider';
 @import './component/title';
 @import './component/topbar';
 @import './component/wordpress';
-@import './component/footer-menu';
-@import './component/reveal-members';
-
-/**
- * Your Custom Styles.
- * - theme
- */
-
-@import './theme/button';
-@import './theme/cases';
-@import './theme/copy';
-@import './theme/footer-nav';
-@import './theme/menu';
-@import './theme/message';
-@import './theme/news';
-@import './theme/sites';
-@import './theme/slider';
-@import './theme/toc';
-@import './theme/topheader';
-@import './theme/lp/lp';
-@import './theme/lp/e-hiroshima';
-@import './theme/lp/jiko';
-// @import './theme/lp/kabarai';
-// @import './theme/lp/rikon';
-// @import './theme/lp/sozoku';

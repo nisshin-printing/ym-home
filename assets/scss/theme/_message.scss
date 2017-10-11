@@ -1,7 +1,4 @@
 .message {
-		>.row {
-				@extend .align-middle;
-		}
 		padding: {
 				top: 3rem;
 				bottom: 3rem;
@@ -17,9 +14,6 @@
 .message--image {
 		padding-right: 1rem;
 		text-align: center;
-		img {
-				@include thumbnail;
-		}
 }
 
 .message--paragraph {
