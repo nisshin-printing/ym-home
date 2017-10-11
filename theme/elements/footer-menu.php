@@ -8,7 +8,7 @@
 		</a>
 	</div>
 	<div class="footer--menu-item">
-		<a href="#PageTop" class="footer--menu-link"><img src="<?php echo get_template_directory_uri(), '/assets/img/footer/menu-icon--03.png' ?>" class="footer--menu-icon" alt="ページ上部まで行く">
+		<a href="#top" class="footer--menu-link"><img src="<?php echo get_template_directory_uri(), '/assets/img/footer/menu-icon--03.png' ?>" class="footer--menu-icon" alt="ページ上部まで行く">
 		</a>
 	</div>
 </div>

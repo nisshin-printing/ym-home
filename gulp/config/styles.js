@@ -18,7 +18,7 @@ module.exports = {
         },
         autoprefixer: {
             browsers: [
-                'last 2 version',
+                'last 3 version',
                 'ie 10',
                 'IOS >= 9',
                 'Android 4.2'

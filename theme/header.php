@@ -58,7 +58,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class="top-bar--button column large-6 show-for-large">
 				<p class="free-call"><a href="tel:0120783409"><?php NID_SVG::icon( 'phone', array( 'class' => 'free-call--icon', '電話する' ) ); ?>0120-7834-09</a></p>
-				<p class="free-call--button__button button hollow">お問い合わせ</p>
+				<a href="<?php echo home_url(), '/contact'; ?>" class="free-call_button button hollow secondary">相談予約</a>
 			</div>
 		</div>
 		<?php

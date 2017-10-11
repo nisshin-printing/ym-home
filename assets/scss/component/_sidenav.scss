@@ -5,9 +5,10 @@
 }
 
 .sidebar--wrap {
-		&.--front {
+		&.front #js--sidebar {
 				@include breakpoint(large) {
 						display: none;
+						visibility: hidden;
 				}
 		}
 		@include breakpoint(medium down) {

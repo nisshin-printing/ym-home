@@ -3,7 +3,7 @@ get_header();
 	echo '<main>';
 
 	// Side Menu
-	echo '<div class="sidebar--wrap --front">';
+	echo '<div class="sidebar--wrap front">';
 	get_sidebar();
 	echo '</div>';
 	get_template_part( './elements/top--special-sites' );
