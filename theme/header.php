@@ -16,7 +16,6 @@
 	})(window,document,'script','dataLayer','GTM-MM3VKH');</script>
 	<?php // End Google Tag Manager ?>
 	<meta charset="UFT-8">
-	<script src="<?php echo get_template_directory_uri(), '/assets/js/svg4everybody.js'; ?>"></script>
 	<script src="<?php echo get_template_directory_uri(), '/assets/js/svgxuse.js'; ?> ?>" defer></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
