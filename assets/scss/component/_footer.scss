@@ -1,17 +1,18 @@
 .footer {
-		background-color: map-get($matelial_color, red);
+		background-color: $light-gray;
 		padding-bottom: 2rem;
-		p:not(.footer--title),
-		a {
-				color: #FFF;
+		border-top: 3px solid $primary-color;
+		a,
+		p:not(.footer--copy) {
+				color: $dark-gray;
 		}
 }
 
 .footer--title {
-		color: #DDD;
+		color: $dark-gray;
 		font-weight: bold;
 		padding-bottom: .5em;
-		border-bottom: 1px solid #DDD;
+		border-bottom: 1px solid $dark-gray;
 		margin: 1rem auto;
 		&.-no-border {
 				border-bottom: 0;
@@ -30,15 +31,21 @@
 		text-align: center;
 		.button--circle {
 				margin: 1rem;
-				border: 1px solid rgba(#000, .2);
+				border: 1px solid rgba(#FFF, .2);
 				@include b-shadow('1');
+		}
+		a {
+				color: #FFF;
 		}
 }
 
 .footer--copy {
-		color: #DDD;
-		margin: 1rem auto;
 		text-align: center;
+		color: #FFF;
+		font-weight: bold;
+		margin-top: 2rem;
+		padding: 3rem;
+		background-color: $primary-color;
 }
 
 .footer--menu {
