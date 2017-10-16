@@ -47,7 +47,7 @@
 <div class="fp-wel contents">
 	<div class="row align-middle
 	">
-		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php wp_get_attachment_image( '2907', 'src' ); ?>" width="<?php wp_get_attachment_image( '2907', 'width' ); ?>" height="<?php wp_get_attachment_image( '2907', 'height' ); ?>" alt="呉支部長の写真" ></div>
+		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '2907' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '2907' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '2907' )[2]; ?>" alt="呉支部長の写真" class="thumbnail"></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
 			<div class="members-header text-center">
 				<p class="meta-job">呉支部長　/　弁護士</p>

@@ -5,7 +5,13 @@
 		<li class="updated" itemprop="dateModified" datetime="<?php echo get_the_modified_time( 'Y-m-d' ); ?>"></li>
 		<li class="author hide" itemprop="author copyrightHolder editor" itemscope itemtype="http://schema.org/Person"><span class="author" itemprop="name"><?php the_author(); ?></span></li>
 	</ul>
-	<h2 itemprop="about headline" class="entry-title post--title"><?php the_title(); ?></h2>
+	<h2 itemprop="about headline" class="entry-title post--title"><?php
+		the_title();
+		$boxNum = get_post_meta( $post->ID, 'box_numbers', true );
+		if ( is_user_logged_in() && isset( $boxNum ) ) {
+			echo '<span class="label">', $boxNum, '</span>';
+		}
+	?></h2>
 	<?php
 	$post_type = $post->post_type;
 	$taxonomies = get_object_taxonomies( $post_type, 'objects' );

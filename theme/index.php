@@ -62,8 +62,6 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 		<div class="sidenav--overlay js--sidenav--button"></div>
 		<div class="column contents">
 			<?php
-				$post_types = array( 'cases', 'voice', 'advice' );
-
 				if ( is_post_type_archive( 'members' ) || is_tax( 'members-cat' ) || is_singular( 'members' ) ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/page--members' );

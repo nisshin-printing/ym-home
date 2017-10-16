@@ -45,7 +45,7 @@
 </div>
 <div class="fp-wel">
 	<div class="row align-middle contents">
-		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php wp_get_attachment_image( '2905', 'src' ); ?>" width="<?php wp_get_attachment_image( '2905', 'width' ); ?>" height="<?php wp_get_attachment_image( '2905', 'height' ); ?>" alt="東広島支部長の写真" ></div>
+		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '2905' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '2905')[1]; ?>" height="<?php echo wp_get_attachment_image_src( '2905' )[2]; ?>" alt="東広島支部長の写真" class="thumbnail"></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
 			<div class="members-header text-center">
 				<p class="meta-job">東広島支部長　/　弁護士</p>

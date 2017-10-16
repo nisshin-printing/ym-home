@@ -38,6 +38,22 @@
 		</ul>
 	</div>
 <?php endif; ?>
+<?php if ( is_archive() || is_home() ) : ?>
+	<div class="sidebar--item">
+		<h5 class="sidebar--title">カテゴリー</h5>
+		<ul class="menu vertical" role="menu">
+		<?php
+			$categoryies = get_categories( array(
+				'order' => 'DESC',
+				'orderby' => 'count'
+			) );
+			foreach ( $categoryies as $category ) {
+				echo '<li class="menu--item"><a href="' . get_category_link( $category->term_id ) . '" class="menu--link">' . $category->name . '　（' . $category->count . '）</a></li>';
+			}
+		?>
+		</ul>
+	</div>
+<?php endif; ?>
 	<div class="sidebar--item">
 		<h5 class="sidebar--title">相談予約</h5>
 		<p class="free-call"><a href="tel:0120783409"><?php NID_SVG::icon( 'phone', array( 'class' => 'free-call--icon' ), '電話する' ); ?>0120-7834-09</a></p>
