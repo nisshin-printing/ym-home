@@ -91,24 +91,6 @@
 			</h2>
 		</div>
 	</div>
-	<?php
-		$post_type = $post->post_type;
-		$taxonomies = get_object_taxonomies( $post_type, 'objects' );
-	?>
-	<div class="post--label">
-	<?php
-		foreach ( $taxonomies as $taxonomy_slug => $taxonomy ) :
-			$terms = get_the_terms( $post->ID, $taxonomy_slug );
-			if ( ! empty( $terms ) ) :
-				foreach ( $terms as $term ) :
-	?>
-		<a href="<?php echo get_term_link( $term->slug, $taxonomy_slug ); ?>" class="label secondary"><?php echo $term->name; ?></a>
-	<?php
-					endforeach;
-				endif;
-			endforeach;
-	?>
-	</div>
 </article>
 <?php
 	}

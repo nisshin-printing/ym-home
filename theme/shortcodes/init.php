@@ -190,69 +190,40 @@ function memberSelect() {
 /*
  * 離婚ページに女性弁護士リンクを挿入するためだけのショートコード
  */
-add_shortcode( 'link-women', 'cta_women_post_link' );
-function cta_women_post_link() {
-	$posts = array( '560', '562', '4092', '4087' );
-	$result = '<h2>女性のための女性弁護士はこんな人です</h2>';
-	$result .= '<div id="cta-member-carousel">';
-	foreach ( $posts as $post ) {
-		$result .= '<div class="slide-item bg-mask-wrapper">';
-		$result .= '<a href="' . get_permalink( $post ) . '" title="' . get_the_title( $post ) . '" class="waves-effect bg-mask"></a>';
-		$img_id = get_post_thumbnail_id( $post );
-		$img_url = wp_get_attachment_image_src( $img_id, 'full', true );
-		$result .= '<div class="img-wrapper"><img data-lazy="' . $img_url[0] . '" alt="' . get_the_title() . '" width="' . $img_url[1] . '" height="' . $img_url[2] . '"></div>';
-		$result .= '<div class="meta-name"><span class="meta-works">' .get_post_meta( $post, 'subtitle', true ) . '</span>' . get_the_title( $post ) . '</div>';
-		$result .= '</div>';
+add_shortcode( 'members-link', 'cta_members_link' );
+function cta_members_link( $atts ) {
+	extract(
+		shortcode_atts(
+			array(
+				'title' => '女性のための女性弁護士はこんな人です',
+				'members' => array( '562', '4087', '4092' )
+			), $atts
+		)
+	);
+	$result = "<h2>$title</h2>";
+	foreach ( $members as $member ) {
+		$job = ( get_post_meta ( $member, 'subtitle', true ) ) ? get_post_meta ( $member, 'subtitle', true )  : '';
+		$result .= '<article class="post post--members" itemscope itemtype="http://schema.org/Article" itemref="author-prof">
+	<meta itemprop="description" content="' . get_the_excerpt( $member ) . '">
+	<ul class="post--meta menu">
+		<li class="published" itemprop="datePublished dateCreated" datetime="' . get_the_date( 'Y-m-d', $member ) . '"></li>
+		<li class="updated" itemprop="dateModified" datetime="' . get_the_modified_time( 'Y-m-d', $member ) . '"></li>
+		<li class="author hide" itemprop="author copyrightHolder editor" itemscope itemtype="http://schema.org/Person"><span class="author" itemprop="name">' . get_the_title( $member ) . '</span></li>
+	</ul>
+	<div class="row align-middle">
+		<div class="column small-3"><a href="' . get_the_permalink( $member ) . '">' . get_the_post_thumbnail( $member ) . '</a></div>
+		<div class="column small-9">
+			<h3 itemprop="about headline" class="entry-title post--title">
+				<a href="' . get_the_permalink( $member ) . '">' . get_the_title( $member ) . '<span class="title--small title--block">' . $job . '</span>
+				</a>
+			</h3>
+		</div>
+	</div>
+</article>';
 	}
-	$result .= '</div>';
-	$result .= '<p><a href="' . get_page_link( '125' ) . '" class="button expanded waves-effect" title="' . get_the_title( '125' ) . '">' . get_the_title( '125' ) . 'の一覧</a></p>';
+	$result .= '<p><a href="' . get_page_link( '125' ) . '" class="button expanded" title="' . get_the_title( '125' ) . '">' . get_the_title( '125' ) . 'の一覧</a></p>';
 	return $result;
 }
-/*
- * 相続関連ページにアドバイザーリンクを挿入するためだけのショートコード
- */
-if ( ! function_exists( 'cta_adviser_post_link' ) ) :
-function cta_adviser_post_link() {
-	$posts = array( '2370', '2378' );
-	$result = '<h2>認定を受けた相続アドバイザー・上級アドバイザーが<br>相続手続全般のご相談・サポートを行っております。</h2>';
-	$result .= '<div id="cta-member-carousel">';
-	foreach ( $posts as $post ) {
-		$result .= '<div class="slide-item bg-mask-wrapper">';
-		$result .= '<a href="' . get_permalink( $post ) . '" title="' . get_the_title( $post ) . '" class="waves-effect bg-mask"></a>';
-		$img_id = get_post_thumbnail_id( $post );
-		$img_url = wp_get_attachment_image_src( $img_id, 'full', true );
-		$result .= '<div class="img-wrapper"><img data-lazy="' . $img_url[0] . '" alt="' . get_the_title() . '" width="' . $img_url[1] . '" height="' . $img_url[2] . '"></div>';
-		$result .= '<div class="meta-name"><span class="meta-works">' .get_post_meta( $post, 'subtitle', true ) . '</span>' . get_the_title( $post ) . '</div>';
-		$result .= '</div>';
-	}
-	$result .= '</div>';
-	$result .= '<p><a href="' . get_page_link( '125' ) . '" class="button expanded waves-effect" title="' . get_the_title( '125' ) . '">' . get_the_title( '125' ) . 'の一覧</a></p>';
-	return $result;
-}
-add_shortcode( 'link-adviser', 'cta_adviser_post_link' );
-endif;
-/*
- * 離婚後の生活設計ページ
- */
-if ( ! function_exists( 'cta_aftersupport_link' ) ) :
-function cta_aftersupport_link() {
-	$posts = array( '2370', '3810', '4105' );
-	$result = '<h2>私たちが離婚後の生活設計をサポートします</h2>';
-	$result .= '<div id="cta-member-carousel">';
-	foreach ( $posts as $post ) {
-		$result .= '<div class="slide-item bg-mask-wrapper">';
-		$result .= '<a href="' . get_permalink( $post ) . '" title="' . get_the_title( $post ) . '" class="waves-effect bg-mask"></a>';
-		$img_id = get_post_thumbnail_id( $post );
-		$img_url = wp_get_attachment_image_src( $img_id, 'full', true );
-		$result .= '<div class="img-wrapper"><img data-lazy="' . $img_url[0] . '" alt="' . get_the_title() . '" width="' . $img_url[1] . '" height="' . $img_url[2] . '"></div>';
-		$result .= '<div class="meta-name"><span class="meta-works">' .get_post_meta( $post, 'subtitle', true ) . '</span>' . get_the_title( $post ) . '</div>';
-		$result .= '</div>';
-	}
-	$result .= '</div>';
-	$result .= '<p><a href="' . get_page_link( '125' ) . '" class="button expanded secondary waves-effect" title="' . get_the_title( '125' ) . '">メンバーの一覧</a></p>';
-	return $result;
-}
-add_shortcode( 'link-supporter', 'cta_aftersupport_link' );
-endif;
+
 include( 'seminar.php' );
 include( 'sozoku-form.php' );

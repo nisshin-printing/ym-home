@@ -1,5 +1,21 @@
+// 遺産分割協議書作成手数料
+$('#tesuryo').find('.num').on('change', function() {
+	const inputNum = $(this).val();
+	let resultNum;
+	if ( inputNum < 300 ) {
+		resultNum = 10;
+	} else if ( 300 <= inputNum ) {
+		resultNum = inputNum * 0.01 + 7;
+	} else {
+		resultNum = '';
+	}
+	if ( resultNum ) {
+		resultNum = parseInt( resultNum );
+	}
+	$(this).parents('#tesuryo').find('.result').val(resultNum);
+});
 // 交渉・調停・裁判の着手金と報酬金
-$('.chakusyu').find('.num').on('change', function() {
+$('#chakusyu').find('.num').on('change', function() {
 	const inputNum = $(this).val();
 	let resultNum01;
 	let resultNum02;
@@ -17,30 +33,14 @@ $('.chakusyu').find('.num').on('change', function() {
 		resultNum01 = parseInt( resultNum01 );
 		resultNum02 = parseInt( resultNum02 );
 	}
-	$(this).parents('.chakusyu').find('.result01').val( resultNum01 );
-	$(this).parents('.chakusyu').find('.result02').val( resultNum02 );
-});
-// 遺産分割協議書作成手数料
-$('.tesuryo').find('.num').on('change', function() {
-	const inputNum = $(this).val();
-	let resultNum;
-	if ( inputNum < 300 ) {
-		resultNum = 10;
-	} else if ( 300 <= inputNum ) {
-		resultNum = inputNum * 0.01 + 7;
-	} else {
-		resultNum = '';
-	}
-	if ( resultNum ) {
-		resultNum = parseInt( resultNum );
-	}
-	$(this).parents('.tesuryo').find('.result').val( resultNum );
+	$(this).parents('#chakusyu').find('.result01').val(resultNum01);
+	$(this).parents('#chakusyu').find('.result02').val(resultNum02);
 });
 // 遺言書作成手数料
-$('.igon').find('.type').on('change', function() {
+$('#igon').find('.type').on('change', function() {
 	let inputType = $(this).val();
 	let resultNum;
-	const inputNum = $(this).parents('.igon').find('.num').val();
+	const inputNum = $(this).parents('#igon').find('.num').val();
 	if ( inputNum < 300 ) {
 		resultNum = 20;
 	} else if ( 300 <= inputNum ) {
@@ -51,10 +51,10 @@ $('.igon').find('.type').on('change', function() {
 	if ( resultNum ) {
 		resultNum = parseInt( resultNum );
 	}
-	$(this).parents('.igon').find('.result').val( resultNum );
+	$(this).parents('#igon').find('.result').val(resultNum);
 });
-$('.igon').find('.num').on('change', function() {
-	let inputType = $(this).parents('.igon').find('.type').val();
+$('#igon').find('.num').on('change', function() {
+	let inputType = $(this).parents('#igon').find('.type').val();
 	let resultNum;
 	const inputNum = $(this).val();
 	if ( 0 == inputType ) {
@@ -71,10 +71,10 @@ $('.igon').find('.num').on('change', function() {
 			resultNum = parseInt( resultNum );
 		}
 	};
-	$(this).parents('.igon').find('.result').val( resultNum );
+	$(this).parents('#igon').find('.result').val(resultNum);
 });
 // 遺言執行手数料
-$('.executor').find('.num').on('change', function() {
+$('#executor').find('.num').on('change', function() {
 	const inputNum = $(this).val();
 	let resultNum;
 	if ( inputNum < 300 ) {
@@ -87,5 +87,5 @@ $('.executor').find('.num').on('change', function() {
 	if ( resultNum ) {
 		resultNum = parseInt( resultNum );
 	}
-	$(this).parents('.executor').find('.result').val( resultNum );
+	$(this).parents('#executor').find('.result').val(resultNum);
 });
