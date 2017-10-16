@@ -41,3 +41,9 @@
 				border-bottom: 1px solid $light-gray;
 		}
 }
+
+.sidebar--item .menu.nested {
+		@include breakpoint(medium down) {
+				display: none;
+		}
+}
