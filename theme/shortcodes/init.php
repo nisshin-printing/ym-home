@@ -196,10 +196,11 @@ function cta_members_link( $atts ) {
 		shortcode_atts(
 			array(
 				'title' => '女性のための女性弁護士はこんな人です',
-				'members' => array( '562', '4087', '4092' )
+				'members' => '562,4087,4092'
 			), $atts
 		)
 	);
+	$members = explode( ',', $members );
 	$result = "<h2>$title</h2>";
 	foreach ( $members as $member ) {
 		$job = ( get_post_meta ( $member, 'subtitle', true ) ) ? get_post_meta ( $member, 'subtitle', true )  : '';
