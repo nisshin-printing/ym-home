@@ -1,3 +1,16 @@
+.contents--section {
+		padding-bottom: 3rem;
+		&_button {
+				svg {
+						width: 1.5rem;
+						height: 1.5rem;
+						vertical-align: middle;
+						margin-top: -6px;
+						margin-right: .5em;
+				}
+		}
+}
+
 .contents {
 		margin: rem-calc(20px) auto;
 		padding-top: rem-calc(20px);
@@ -26,5 +39,50 @@
 		p {
 				line-height: 2.15;
 				margin-bottom: rem-calc(20px);
+		}
+		.contents--title {
+				padding: 10px;
+				margin: 40px 0 20px;
+				border-bottom: 1px solid $light-gray;
+				background-color: #f2f2f2;
+				font-size: 1.5rem;
+				span {
+						margin-left: 1em;
+						font-size: .5em;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -4px;
+				}
+		}
+		.content--box {
+				position: relative;
+				margin: 5px auto;
+				padding: 1.5rem;
+				background-color: #FFF;
+				border: 1px solid $light-gray;
+				box-shadow: 1px 1px 1px 0 $light-gray;
+				&_alert {
+						position: absolute;
+						top: 0;
+						right: 0;
+						font-size: 1rem;
+				}
+				&_desc {
+						dl {
+								@include clearfix();
+						}
+						dt {
+								float: left;
+								margin-right: 1rem;
+						}
+				}
+				&_button {
+						text-align: right;
+						margin-top: 2rem;
+						margin-bottom: 0;
+						.button {
+								margin-bottom: 0;
+						}
+				}
 		}
 }

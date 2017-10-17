@@ -15,6 +15,7 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-MM3VKH');</script>
 	<?php // End Google Tag Manager ?>
+	
 	<meta charset="UFT-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
