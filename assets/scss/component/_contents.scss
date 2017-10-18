@@ -2,6 +2,12 @@
 		margin: rem-calc(20px) auto;
 		padding-top: rem-calc(20px);
 		background-color: #FFF;
+		&.--mt0 {
+				margin-top: 0;
+		}
+		&.--pt0 {
+				padding-top: 0;
+		}
 		h1:not(.contents--title) {
 				background-color: map-get($matelial_color, orange);
 				border-radius: $global-radius;
