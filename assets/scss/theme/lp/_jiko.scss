@@ -34,7 +34,7 @@ $jiko_id: '2915';
 
 .jiko-header {
 		background: {
-				image: url('//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/bg-header.jpg');
+				image: url('#{$p_images}/lp/jiko/bg-header.jpg');
 				position: center center;
 				size: cover;
 				repeat: no-repeat;

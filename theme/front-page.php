@@ -10,7 +10,7 @@ get_header();
 	get_template_part( './elements/fp-topheader' );
 	get_template_part( './elements/cta--recruit' );
 	get_template_part( './elements/fp-welcome-mess' );
-	get_template_part( './elements/fp-cta' );
+	get_template_part( './elements/cta--jiko-lp' );
 	get_template_part( './elements/fp-news' );
 	get_template_part( './elements/fp-cases' );
 	get_template_part( './elements/fp-special-sites' );
