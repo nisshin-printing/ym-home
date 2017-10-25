@@ -35,6 +35,27 @@ $kabarai_id: '2918';
 		}
 }
 
+.header--lp {
+		background: {
+				image: url('#{$p_images}/lp/bg-header--komon.jpg');
+				position: center center;
+				size: cover;
+				repeat: no-repeat;
+		}
+		.column {
+				padding: {
+						top: 1rem;
+						bottom: 1rem;
+				}
+				@media (min-width: 640px) {
+						padding: {
+								top: 2rem;
+								bottom: 2rem;
+						}
+				}
+		}
+}
+
 .js-countup {
 		font-size: 3rem;
 		vertical-align: bottom;

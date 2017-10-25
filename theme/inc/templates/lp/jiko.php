@@ -1,7 +1,4 @@
-<?php 
-	echo '<link rel="stylesheet" href="', get_template_directory_uri(), '/assets/css/lp-jiko.css">';
-?>
-<header class="jiko-header">
+<header class="header--lp header--lp__jiko">
 	<div class="row">
 		<div class="column">
 			<h1 class="jiko-header_title"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/header-title.png'; ?>" alt="交通事故に遭ったら広島最大級の山下江法律事務所で無料の相談をしよう。"></h1>
@@ -158,7 +155,7 @@
 			<p>平成23年以降の交通事故案件での実績は、<strong class="bg-line">相談数1,948件、受任件数817件</strong>（平成28年度末現在）です。広島における法律事務所で、これだけ多数の相談件数、受任件数の実績があります。</p>
 			<h3>2. 後遺障害などに関する医学的知識があります</h3>
 			<p class="jiko-images"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/jiko-learning.jpg'; ?>" alt="被害者に最も有利な解決を実現するため、医師による医学的知識の習得・研修をおこなっております。"></p>
-			<p>交通事故は多くの場合、身体的傷害を伴うものです。その傷害の回復（治療）をどのようにするのか、その傷害がもたらす後遺障害はどうなるのかは、被害者にとって一番の問題です。被害者のそうした<span class="bg-line">悩みに答え、最高の解決を得られる</span>ようにするため、私たちは医師による医学的知識の習得・研修も行っております。</p>
+			<p>交通事故は多くの場合、身体的傷害を伴うものです。その傷害の回復（治療）をどのようにするのか、その傷害がもたらす後遺障害はどうなるのかは、被害者にとって一番の問題です。<u>被害者のそうした悩みに答え、最高の解決を得られる</u>ようにするため、私たちは<strong class="bg-line">脳神経外科医・形成外科医による医学的知識の習得・研修</strong>も行っております。</p>
 			<h3>3. 交通事故チームという専門チームがあります</h3>
 			<p class="jiko-images"><img src="//hiroshima-jiko.com/img/JTkaigi.jpg" alt="交通事故チームによって集積・分析された多数の解決データを共有化し、高い専門性を事務所全体で活用しています。"></p>
 			<p>後遺障害等級の認定や事故の相手方保険会社との交渉には、高い専門性と経験が求められます。被害者に最も有利な解決を実現するため、交通事故チームを結成し、当事務所における多数の解決事例のデータを集積・分析し、事務所全体で共有しています。</p>
