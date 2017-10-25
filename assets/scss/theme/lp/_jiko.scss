@@ -33,20 +33,7 @@ $jiko_id: '2915';
 }
 
 .header--lp__jiko {
-		background: {
-				image: url('#{$p_images}/lp/jiko/bg-header.jpg');
-				position: center center;
-				size: cover;
-				repeat: no-repeat;
-		}
-		.column {
-				padding-top: 1rem;
-				padding-bottom: 1rem;
-				@media (min-width: 640px) {
-						padding-top: 2rem;
-						padding-bottom: 2rem;
-				}
-		}
+		background-image: url('#{$p_images}/lp/jiko/bg-header.jpg');
 }
 
 .jiko-cta_wrap {

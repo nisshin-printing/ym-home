@@ -29,7 +29,7 @@ $kabarai_id: '2918';
 						color: #FFF;
 				}
 				.active {
-						backgorund-color: #FFF;
+						background-color: #FFF;
 						border-radius: $global-radius;
 				}
 		}
@@ -37,7 +37,6 @@ $kabarai_id: '2918';
 
 .header--lp {
 		background: {
-				image: url('#{$p_images}/lp/bg-header--komon.jpg');
 				position: center center;
 				size: cover;
 				repeat: no-repeat;
@@ -47,7 +46,7 @@ $kabarai_id: '2918';
 						top: 1rem;
 						bottom: 1rem;
 				}
-				@media (min-width: 640px) {
+				@include breakpoint(medium) {
 						padding: {
 								top: 2rem;
 								bottom: 2rem;
