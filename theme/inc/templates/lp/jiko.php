@@ -7,7 +7,7 @@
 	</div>
 </header>
 
-<div class="cta--lp__jiko">
+<div class="cta--lp --jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-3 large-2 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/soudan-free.png'; ?>"
 			    alt="広島最大級の山下江法律事務所なら交通事故の相談が無料！"></div>
@@ -91,7 +91,7 @@
 	</div>
 </section>
 
-<section class="cta--lp__jiko">
+<section class="cta--lp --jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-9 large-10">
 			<h2 class="cta--lp__title">交通事故に遭われたら<br><strong class="color-red font-2x">お早め</strong>に弁護士へご相談ください。</h2>
@@ -218,7 +218,7 @@
 	</div>
 </section>
 
-<div class="cta--lp__jiko">
+<div class="cta--lp --jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-9 large-10">
 			<h2 class="cta--lp__title">交通事故に遭ったら、<strong class="color-red font-2x">早い段階</strong>で弁護士に相談しましょう。</h2>
