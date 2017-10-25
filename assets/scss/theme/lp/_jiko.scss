@@ -47,8 +47,6 @@ $jiko_id: '2915';
 		}
 }
 
-
-}
 .jiko-section {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -57,19 +55,23 @@ $jiko_id: '2915';
 				padding-bottom: 3rem;
 		}
 }
+
 .jiko-up_wrap {
 		background-color: #F9F9F9;
 		padding: 2rem;
 		margin: 1rem auto;
 }
+
 .jiko-up_title {
 		@media (min-width: 640px) {
 				font-size: 1.5rem;
 		}
 }
+
 .bg-grafpaper {
 		padding: 1rem !important;
 }
+
 .jiko-support {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -78,10 +80,12 @@ $jiko_id: '2915';
 				padding-bottom: 2rem;
 		}
 }
+
 .jiko-support_title {
 		background-color: transparent !important;
 		border-left: 3px solid #FFCE9E;
 }
+
 .jiko-images {
 		display: block;
 		text-align: center;
