@@ -1,40 +1,3 @@
-$rikon_id: '2916';
-$sozoku_id: '2917';
-$kabarai_id: '2918';
-.layout-lp {
-		margin: 0 auto;
-		.title-block {
-				padding: 3rem 0;
-				border: {
-						top: 1px solid $black;
-						bottom: 1px solid $black;
-				}
-				@extend .text-center;
-		}
-		section {
-				padding: rem-calc(80 0);
-		}
-		.cta-lp {
-				.button {
-						font-size: 120%;
-				}
-		}
-}
-
-.header-lp {
-		.sub-nav {
-				@include clearfix();
-				dt,
-				a {
-						color: #FFF;
-				}
-				.active {
-						background-color: #FFF;
-						border-radius: $global-radius;
-				}
-		}
-}
-
 .header--lp {
 		background: {
 				position: center center;
@@ -55,29 +18,82 @@ $kabarai_id: '2918';
 		}
 }
 
-.js-countup {
-		font-size: 3rem;
-		vertical-align: bottom;
-		margin: 1rem 1rem -1rem;
-		display: inline-block;
+.cta--lp {
+		padding: {
+				top: 1rem;
+				bottom: 1rem;
+		}
+		@include breakpoint(medium) {
+				padding: {
+						top: 2rem;
+						bottom: 2rem;
+				}
+		}
 }
 
-.content-header {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
-		.caution {
-				position: relative;
+.cta--lp__title {
+		@include breakpoint(small only) {
+				padding-top: 1rem;
+		}
+		@include breakpoint(medium) {
+				font-size: 1.5rem;
+		}
+		>.font-2x {
+				font-size: 2em;
+		}
+}
+
+.cta--lp__wrap .button {
+		margin-top: 1rem;
+		@include breakpoint(medium) {
 				margin-top: 2rem;
-				h3 {
-						position: absolute;
-						display: inline-block;
-						top: -20px;
-						left: 20%;
-						padding: 0.5rem 1rem;
+		}
+		@include breakpoint(large) {
+				margin-top: 0;
+		}
+}
+
+.nav--lp {
+		@include breakpoint(small only) {
+				display: none !important;
+				visibility: hidden !important;
+				opacity: 0 !important;
+		}
+		background-color: #FFF;
+		margin: 0 auto;
+		padding: .5rem 1rem;
+		text-align: center;
+		.menu,
+		li,
+		a {
+				color: currentColor;
+		}
+		.menu>li {
+				display: inline-block;
+				&>a.active {
+						color: #FFF;
 				}
-				p {
-						padding: 5rem;
-						display: inline-block;
-				}
+		}
+}
+
+.title--lp {
+		text-align: center;
+		padding-bottom: 1rem;
+		border-left: none !important;
+		@include breakpoint(medium) {
+				padding-top: 0;
+				padding-bottom: 3rem;
+		}
+		@include breakpoint(large) {
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+		}
+		>.font-2x {
+				font-size: 2em;
+		}
+		&.-sub {
+				padding-top: 2rem;
+				padding-bottom: 1rem;
+				font-size: 1.25rem;
 		}
 }

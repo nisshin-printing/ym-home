@@ -7,19 +7,19 @@
 	</div>
 </header>
 
-<div class="jiko-cta_wrap">
+<div class="cta--lp__wrap --jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-3 large-2 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/soudan-free.png'; ?>"
 			    alt="広島最大級の山下江法律事務所なら交通事故の相談が無料！"></div>
 		<div class="column small-12 medium-9 large-8">
-			<h2 class="jiko-cta_title">交通事故に遭ったら、いち早く弁護士に相談しましょう。</h2>
-			<p class="jiko-cta_desc">交通事故の発生後、早い段階でご相談・ご依頼いただければ、交渉などをすべて弁護士が代理するので治療に専念できます。<br>また、適切な後遺障害を認定してもらえるよう通院についてのアドバイスもいたします。</p>
+			<h2 class="cta--lp__title">交通事故に遭ったら、いち早く弁護士に相談しましょう。</h2>
+			<p class="cta--lp__desc">交通事故の発生後、早い段階でご相談・ご依頼いただければ、交渉などをすべて弁護士が代理するので治療に専念できます。<br>また、適切な後遺障害を認定してもらえるよう通院についてのアドバイスもいたします。</p>
 		</div>
 		<div class="column small-12 large-2 text-center"><a href="#contact" class="button large waves-effect">相談してみる</a></div>
 	</div>
 </div>
 
-<nav id="sticky-topbar" class="jiko-nav" data-magellan>
+<nav id="sticky-topbar" class="nav--lp nav--lp__jiko" data-magellan>
 	<ul class="menu align-center">
 		<li><a href="#section-1" title="慰謝料などの増額">慰謝料などの増額</a></li>
 		<li><a href="#section-2" title="解決事例">解決事例</a></li>

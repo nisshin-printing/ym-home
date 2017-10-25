@@ -36,64 +36,20 @@ $jiko_id: '2915';
 		background-image: url('#{$p_images}/lp/jiko/bg-header.jpg');
 }
 
-.jiko-cta_wrap {
+.cta--lp__wrap.--jiko {
 		background-color: #faaf3b;
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		@media (min-width: 640px) {
-				padding-top: 2rem;
-				padding-bottom: 2rem;
-		}
 }
 
-.jiko-cta_title {
-		@media (max-width: 639px) {
-				padding-top: 1rem;
-		}
-		@media (min-width: 640px) {
-				font-size: 1.5rem;
-		}
-		>.font-2x {
-				font-size: 2em;
-		}
-}
-
-.jiko-cta_wrap .button {
-		margin-top: 1rem;
-		@media (min-width: 640px) {
-				margin-top: 2rem;
-		}
-		@media (min-width: 1024px) {
-				margin-top: 0;
-		}
-}
-
-.jiko-nav {
-		@media (max-width: 639px) {
-				display: none !important;
-				visibility: hidden !important;
-				opacity: 0 !important;
-		}
+.nav--lp__jiko {
 		color: green;
-		background-color: #FFF;
-		margin: 0 auto;
-		padding: .5rem 1rem;
-		text-align: center;
-		.menu,
-		li,
-		a {
-				color: currentColor;
-		}
-		.menu>li {
-				display: inline-block;
-				&>a.active {
-						background-color: green;
-						color: #FFF;
-				}
+		.menu>li>a.active {
+				background-color: green;
 		}
 }
 
-section.jiko-section {
+
+}
+.jiko-section {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		@media (min-width: 640px) {
@@ -101,45 +57,19 @@ section.jiko-section {
 				padding-bottom: 3rem;
 		}
 }
-
-.jiko-section_title {
-		text-align: center;
-		padding-bottom: 1rem;
-		border-left: none !important;
-		@media (min-width: 640px) {
-				padding-top: 0;
-				padding-bottom: 3rem;
-		}
-		@media (min-width: 1024px) {
-				padding-top: 2rem;
-				padding-bottom: 2rem;
-		}
-		>.font-2x {
-				font-size: 2em;
-		}
-		&.-sub {
-				padding-top: 2rem;
-				padding-bottom: 1rem;
-				font-size: 1.25rem;
-		}
-}
-
 .jiko-up_wrap {
 		background-color: #F9F9F9;
 		padding: 2rem;
 		margin: 1rem auto;
 }
-
 .jiko-up_title {
 		@media (min-width: 640px) {
 				font-size: 1.5rem;
 		}
 }
-
 .bg-grafpaper {
 		padding: 1rem !important;
 }
-
 .jiko-support {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -148,12 +78,10 @@ section.jiko-section {
 				padding-bottom: 2rem;
 		}
 }
-
 .jiko-support_title {
 		background-color: transparent !important;
 		border-left: 3px solid #FFCE9E;
 }
-
 .jiko-images {
 		display: block;
 		text-align: center;
