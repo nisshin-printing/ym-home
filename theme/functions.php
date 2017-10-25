@@ -1,9 +1,9 @@
 <?php
 //========================  Define ========================================================================//
-define( 'DTDSH_THEME_VERSION', '2.3' );
+define( 'DTDSH_THEME_VERSION', '2.4' );
 
 /* =========================================
-		ACTION HOOKS & FILTERS
+		ACTION HOOKS & FILTER4
    ========================================= */
 /**--- Actions ---**/
 add_action( 'after_setup_theme',  'theme_setup' );

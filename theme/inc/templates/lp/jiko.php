@@ -7,7 +7,7 @@
 	</div>
 </header>
 
-<div class="cta--lp__wrap --jiko">
+<div class="cta--lp__jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-3 large-2 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/soudan-free.png'; ?>"
 			    alt="広島最大級の山下江法律事務所なら交通事故の相談が無料！"></div>
@@ -91,11 +91,11 @@
 	</div>
 </section>
 
-<section class="jiko-cta_wrap">
+<section class="cta--lp__jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-9 large-10">
-			<h2 class="jiko-cta_title">交通事故に遭われたら<br><strong class="color-red font-2x">お早め</strong>に弁護士へご相談ください。</h2>
-			<p class="jiko-cta_desc">事故後早期の段階からご相談・ご依頼いただくと、弁護士が代わりに交渉などを行うことで治療に専念できるメリットがあります。<br>さらに、適切な後遺障害等級を認定してもらえるよう通院についてのアドバイスをしたり、必要な場合は医師宛の書面を作成したり、直接医師と面談し、後遺障害診断書の内容についての理解を求めたりすることができます。</p>
+			<h2 class="cta--lp__title">交通事故に遭われたら<br><strong class="color-red font-2x">お早め</strong>に弁護士へご相談ください。</h2>
+			<p class="cta--lp__desc">事故後早期の段階からご相談・ご依頼いただくと、弁護士が代わりに交渉などを行うことで治療に専念できるメリットがあります。<br>さらに、適切な後遺障害等級を認定してもらえるよう通院についてのアドバイスをしたり、必要な場合は医師宛の書面を作成したり、直接医師と面談し、後遺障害診断書の内容についての理解を求めたりすることができます。</p>
 		</div>
 		<div class="column small-12 medium-3 large-2 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/soudan-free.png'; ?>"
 			    alt="交通事故に遭われたらお早めに弁護士へ無料の相談しましょう。"></div>
@@ -210,19 +210,19 @@
 <section id="section-6" class="jiko-section" data-magellan-target="section-6">
 	<div class="row">
 		<div class="column small-12">
-			<h2 class="jiko-cta_title text-center">「弁護士費用特約」が付いていれば<br><span class="font-2x color-red">弁護士費用</span>が基本的に<span class="font-2x color-red">無料</span>!</h2>
-			<p class="jiko_cta_desc p2">弁護士に依頼すると、費用が高いイメージから相談しづらいという被害者の方もいらっしゃると思います。しかし、保険の特約に「弁護士費用特約」が付いていれば、その中でまかなわれる場合が多いです。</p>
+			<h2 class="cta--lp__title text-center">「弁護士費用特約」が付いていれば<br><span class="font-2x color-red">弁護士費用</span>が基本的に<span class="font-2x color-red">無料</span>!</h2>
+			<p class="cta--lp__desc p2">弁護士に依頼すると、費用が高いイメージから相談しづらいという被害者の方もいらっしゃると思います。しかし、保険の特約に「弁護士費用特約」が付いていれば、その中でまかなわれる場合が多いです。</p>
 			<p class="p1 bg-gainsboro">特殊なケースを除けば保険会社が支払うので、基本的に<span class="bg-line">お客様自身のご負担はありません。</span>実費や出張日当などの費用についても弁護士費用特約から支出されます。<br>多くの保険会社では、弁護士費用の総額が300万円までと上限が定めてありますが、弁護士費用が300万円以上になるようなケースはまれですので、
 				<span class="bg-line">多くの場合は弁護士費用特約でカバーできます。</span><br>※弁護士費用特約は保険会社の約款により細かい条件などがあるケースがございます。まずは無料でご相談ください。</p>
 		</div>
 	</div>
 </section>
 
-<div class="jiko-cta_wrap">
+<div class="cta--lp__jiko">
 	<div class="row align-middle">
 		<div class="column small-12 medium-9 large-10">
-			<h2 class="jiko-cta_title">交通事故に遭ったら、<strong class="color-red font-2x">早い段階</strong>で弁護士に相談しましょう。</h2>
-			<p class="jiko-cta_desc">交通事故の発生後、早い段階でご相談・ご依頼いただければ、交渉などをすべて弁護士が代理するので治療に専念できます。<br>また、適切な後遺障害を認定してもらえるよう通院についてのアドバイスもいたします。</p>
+			<h2 class="cta--lp__title">交通事故に遭ったら、<strong class="color-red font-2x">早い段階</strong>で弁護士に相談しましょう。</h2>
+			<p class="cta--lp__desc">交通事故の発生後、早い段階でご相談・ご依頼いただければ、交渉などをすべて弁護士が代理するので治療に専念できます。<br>また、適切な後遺障害を認定してもらえるよう通院についてのアドバイスもいたします。</p>
 		</div>
 		<div class="column small-12 small-3 large-2 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/soudan-free.png'; ?>"
 			    alt="広島最大級の山下江法律事務所なら交通事故の相談が無料！"></div>
