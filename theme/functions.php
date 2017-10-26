@@ -1,6 +1,6 @@
 <?php
 //========================  Define ========================================================================//
-define( 'DTDSH_THEME_VERSION', '2.5' );
+define( 'DTDSH_THEME_VERSION', '2.6' );
 
 /* =========================================
 		ACTION HOOKS & FILTER5
@@ -167,4 +167,19 @@ function theme_favicon() {
 	$theme_dir = get_stylesheet_directory_uri();
 	echo "<link rel=\"SHORTCUT ICON\" href=\"$theme_dir/assets/img/favicon.ico\">",
 		"<link rel=\"apple-touch-icon\" href=\"$theme_dir/assets/img/favicon-144.png\">";
+}
+/**
+ * カスタム投稿のRSS配信
+ */
+add_filter( 'request', 'add_feed_request' );
+function add_feed_request( $vars ) {
+	if ( isset( $vars['feed'] ) && ! isset( $vars['post_type'] ) ) {
+		$vars['post_type'] = array(
+			'post',
+			'cases',
+			'members',
+			'voice'
+		);
+	}
+	return $vars;
 }

@@ -30,7 +30,7 @@
 	</ul>
 </nav>
 
-<section id="section-1" class="jiko-section" data-magellan-target="section-1">
+<section id="section-1" class="section--lp" data-magellan-target="section-1">
 	<div class="row align-middle contents">
 		<h2 class="jiko-section_title column small-12">慰謝料などの増額</h2>
 		<div class="column small-12 large-6">
@@ -103,7 +103,7 @@
 	</div>
 </section>
 
-<section id="section-3" class="jiko-section" data-magellan-target="section-3">
+<section id="section-3" class="section--lp" data-magellan-target="section-3">
 	<div class="row contents">
 		<div class="column small-12">
 			<h2 class="jiko-section_title">解決までの流れ</h2>
@@ -147,7 +147,7 @@
 		</div>
 </section>
 
-<section id="section-4" class="jiko-section" data-magellan-target="section-4">
+<section id="section-4" class="section--lp" data-magellan-target="section-4">
 	<div class="row">
 		<h2 class="jiko-section_title column small-12">山下江法律事務所の特長</h2>
 		<div class="column small-12 contents">
@@ -169,7 +169,7 @@
 	</div>
 </section>
 
-<section id="section-5" class="jiko-section" data-magellan-target="section-5">
+<section id="section-5" class="section--lp" data-magellan-target="section-5">
 	<div class="row contents">
 		<h2 class="jiko-section_title column small-12">お客様の声</h2>
 		<p class="column small-12 text-center"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートで満足度94.6%"></p>
@@ -207,7 +207,7 @@
 	</div>
 </section>
 
-<section id="section-6" class="jiko-section" data-magellan-target="section-6">
+<section id="section-6" class="section--lp" data-magellan-target="section-6">
 	<div class="row">
 		<div class="column small-12">
 			<h2 class="cta--lp__title text-center">「弁護士費用特約」が付いていれば<br><span class="font-2x color-red">弁護士費用</span>が基本的に<span class="font-2x color-red">無料</span>!</h2>
@@ -230,7 +230,7 @@
 	</div>
 </div>
 
-<section id="contact" class="jiko-section" data-magellan-target="contact">
+<section id="contact" class="section--lp" data-magellan-target="contact">
 	<div class="row contents">
 		<div class="column small-12">
 			<h2 class="jiko-section_title">交通事故の無料相談</h2>
