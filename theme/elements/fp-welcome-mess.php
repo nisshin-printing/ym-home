@@ -35,7 +35,7 @@
 				<h2 class="title--border-bottom">副代表あいさつ</h2>
 				<div class="message--paragraph">
 					<p>山下江法律事務所の副代表を務めております，弁護士の田中伸です。</p>
-					<p>当事務所では，さまざまな分野の法律問題を取り扱っていますが，その中でも，<a href="<?php echo get_page_link( '1256' ); ?>">「交通事故」</a>，<a href="<?php echo get_page_link( '1269' ); ?>">「相続」</a>，<a href="<?php echo get_page_link( '1265' ); ?>">「離婚」</a>及び<a href="<?php echo get_page_link( '1435' ); ?>">「企業法務」</a>の各分野については，専門チームを設けて，日々研鑽に努めています。</p>
+					<p>当事務所では，さまざまな分野の法律問題を取り扱っていますが，その中でも，<a href="<?php echo get_page_link( '1256' ); ?>">「交通事故」</a>，<a href="<?php echo get_page_link( '1269' ); ?>">「相続」</a>及び<a href="<?php echo get_page_link( '1435' ); ?>">「企業法務」</a>の各分野については，専門チームを設けて，日々研鑽に努めています。</p>
 					<p>「親切な相談」と「適切な解決」をモットーに，皆さまのお役に立てるよう業務に取り組んでまいりますので，法的なことで何かお困りごとがございましたら，当事務所にご相談ください。</p>
 					<p class="text-right"><a href="<?php echo get_permalink( '549' ); ?>" class="button" title="副代表の田中伸について">田中伸について　></a></p>
 				</div>
