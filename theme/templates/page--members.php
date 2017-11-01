@@ -9,7 +9,7 @@
 		<li class="author hide" itemprop="author copyrightHolder editor" itemscope itemtype="http://schema.org/Person"><span class="author" itemprop="name"><?php the_title(); ?></span></li>
 	</ul>
 	<div class="row align-middle">
-		<div class="column small-4"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+		<div class="column small-4 thumb--members"><?php the_post_thumbnail(); ?></div>
 		<div class="column small-8">
 			<h2 itemprop="about headline" class="entry-title post--title">
 				<span class="title--small title--block"><?php echo $job = ( get_post_meta ( $post->ID, 'subtitle', true ) ) ? get_post_meta ( $post->ID, 'subtitle', true )  : '' ?></span>
@@ -81,7 +81,7 @@
 		<li class="author hide" itemprop="author copyrightHolder editor" itemscope itemtype="http://schema.org/Person"><span class="author" itemprop="name"><?php the_title(); ?></span></li>
 	</ul>
 	<div class="row align-middle">
-		<div class="column small-2"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+		<div class="column small-2 thumb--members"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
 		<div class="column small-10">
 			<h2 itemprop="about headline" class="entry-title post--title">
 				<a href="<?php the_permalink(); ?>">
