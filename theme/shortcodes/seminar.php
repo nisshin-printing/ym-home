@@ -173,7 +173,7 @@ function show_seminar_lists() {
 		$html .= '<article class="seminar-list card">';
 		$html .= '<h3>第' . $seminar["num"] . '回 - ' . $seminar["title"] . '</h3>';
 		if ( ! empty( $member_img ) ) {
-			$html .= '<div class="card-img">' . $member_img . '</div>';
+			$html .= '<div class="card-img thumb--members">' . $member_img . '</div>';
 		}
 		$html .= '<div class="seminar-content"><p class="time">開催日：　' . $seminar["time"] . '</p>';
 		if ( ! empty( $seminar["lawyer_id"] ) ) {
