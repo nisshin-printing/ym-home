@@ -161,6 +161,17 @@ function show_seminar_lists() {
 			'resume'    => '19-resume.pdf',
 			'audio'     => '19-audio.mp3',
 		),
+		array(
+			'num'       => '20',
+			'time'      => '2017年7月27日',
+			'title'     => '「弁護士が解説 下請法のポイント」
+			～「下請いじめ」をしない、させないために～',
+			'lawyer'    => '稲垣洋之',
+			'lawyer_id' => '551',
+			'resume'    => '20-resume.pdf',
+			'document'  => '20-document.pdf',
+			'audio'     => '20-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';
@@ -191,7 +202,7 @@ function show_seminar_lists() {
 		}
 		$html .= '</div>';
 		if ( ! empty( $seminar["audio"] ) ) {
-			$html .= '<audio src="' . TAUDIO . $seminar["audio"] . '" controls><p>音声を再生するには、サポートするブラウザが必要です。</p></audio>';
+			$html .= '<audio src="https://www.law-yamashita.com/downloads/audio/' . $seminar["audio"] . '" controls><p>音声を再生するには、サポートするブラウザが必要です。</p></audio>';
 		}
 		$html .= '</div></article>';
 	}
