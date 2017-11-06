@@ -1,75 +1,72 @@
 .article--loop {
-    padding: 2rem;
+		padding: 2rem;
 }
 
 .article--loop_header {
-    position: relative;
+		position: relative;
 }
 
 .article--loop_time {
-    position: absolute;
-    left: 0;
-    top: -3em;
-    padding: .25em .5em;
-    color: $white;
-    background-color: $dark-gray;
+		position: absolute;
+		left: 0;
+		top: -3em;
+		padding: .25em .5em;
+		color: $white;
+		background-color: $dark-gray;
 }
 
 .article--loop_title {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 1rem;
+		font-size: 1rem;
+		font-weight: bold;
+		margin-top: 1rem;
 }
 
 .article--category {
-    background-color: $light-gray;
-    padding-bottom: 1rem;
+		background-color: $light-gray;
+		padding-bottom: 1rem;
 }
 
 .article--category_header {
-    @extend .article--loop_header;
-    padding-top: 2rem;
+		@extend .article--loop_header;
+		padding-top: 2rem;
 }
 
 .article--category_title {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-bottom: 1rem;
 }
 
 .article--category_desc {
-    font-size: .8rem;
-    padding: 1rem;
+		font-size: .8rem;
+		padding: 1rem;
 }
 
 .article--category_icon {
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: -2rem;
-    margin: auto;
-    width: 4rem;
-    height: 4rem;
-    display: block;
-    border-radius: 50%;
-    color: $white;
-    background-color: $black;
-    text-align: center;
-    svg {
-        vertical-align: middle;
-        width: 2rem;
-        height: 2rem;
-        display: inline-block;
-        margin-top: 15px;
-    }
+		margin-right: 1rem;
+		width: 4rem;
+		height: 4rem;
+		display: inline-block;
+		border-radius: 50%;
+		color: $white;
+		background-color: $black;
+		text-align: center;
+		vertical-align: middle;
+		svg {
+				vertical-align: middle;
+				width: 3.5rem;
+				height: 3.5rem;
+				display: inline-block;
+				margin-top: 15px;
+		}
 }
 
 .article--category_content {
-    padding: 1rem 1rem 0 1rem;
-    .contents--section_button {
-        margin-top: 2rem;
-        svg {
-            margin-top: -2px;
-        }
-    }
+		padding: 1rem 1rem 0 1rem;
+		.contents--section_button {
+				margin-top: 2rem;
+				svg {
+						margin-top: -2px;
+				}
+		}
 }
