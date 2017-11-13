@@ -166,8 +166,8 @@ function show_seminar_lists() {
 			'time'      => '2017年7月27日',
 			'title'     => '「弁護士が解説 下請法のポイント」
 			～「下請いじめ」をしない、させないために～',
-			'lawyer'    => '稲垣洋之',
-			'lawyer_id' => '551',
+			'lawyer'    => '田中伸',
+			'lawyer_id' => '549',
 			'resume'    => '20-resume.pdf',
 			'document'  => '20-document.pdf',
 			'audio'     => '20-audio.mp3',

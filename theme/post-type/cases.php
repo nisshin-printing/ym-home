@@ -14,6 +14,7 @@ $labels = array(
 	'not_found_in_trash' => _x( 'ゴミ箱に解決事例はありません', 'ringo' ),
 	'parent_item_colon'  => _x( '親アイテム', 'ringo' ),
 	'menu_name'          => _x( '解決事例', 'ringo' ),
+	'show_in_rest'       => true
 );
 register_post_type( 'cases', array(
 	'labels'             => $labels,
@@ -29,7 +30,8 @@ register_post_type( 'cases', array(
 	'has_archive'        => true,
 	'hierarchical'       => true,
 	'menu_position'      => 6,
-	'supports'           => array( 'title', 'editor', 'thumbnail' )
+	'supports'           => array( 'title', 'editor', 'thumbnail' ),
+	'show_in_rest'       => true
 ) );
 register_taxonomy(
 	"cases-cat",
@@ -39,6 +41,8 @@ register_taxonomy(
 		"hierarchical" => true,
 		"show_admin_column" => true,
 		'rewrite' => array( 'slug' => 'cases-category' ),
+		'show_in_rest' => true,
+		'rest_base' => 'cases-category'
 	)
 );
 register_taxonomy(
@@ -48,6 +52,7 @@ register_taxonomy(
 		"label" => '解決事例タグ',
 		"hierarchical" => false,
 		"show_admin_column" => true,
+		'show_in_rest' => true
 	)
 );
 // Custom field inputbox

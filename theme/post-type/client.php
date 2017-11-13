@@ -2,19 +2,20 @@
 
 if ( ! defined( 'ABSPATH' ) )exit;
 $labels = array(
-	'name' 					=> _x( 'お客様の声','ringo' ),
-	'singular_name' 		=> _x( 'お客様の声','ringo' ),
-	'add_new' 				=> _x( '新規追加','ringo' ),
-	'add_new_item' 			=> _x( '新しいお客様の声を追加','ringo' ),
-	'edit_item' 			=> _x( 'お客様の声を編集','ringo' ),
-	'new_item' 				=> _x( '新しいお客様の声','ringo' ),
-	'all_items' 			=> _x( 'お客様の声','ringo' ),
-	'view_item' 			=> _x( 'お客様の声を見る','ringo' ),
-	'search_items' 			=> _x( 'お客様の声を検索','ringo' ),
-	'not_found' 			=> _x( 'お客様の声が見つかりません','ringo' ),
-	'not_found_in_trash' 	=> _x( 'ゴミ箱にお客様の声はありません','ringo' ),
-	'parent_item_colon' 	=> _x( '親アイテム','ringo' ),
-	'menu_name' 			=> _x( 'お客様の声','ringo' ),
+	'name'                => _x( 'お客様の声','ringo' ),
+	'singular_name'       => _x( 'お客様の声','ringo' ),
+	'add_new'             => _x( '新規追加','ringo' ),
+	'add_new_item'        => _x( '新しいお客様の声を追加','ringo' ),
+	'edit_item'           => _x( 'お客様の声を編集','ringo' ),
+	'new_item'            => _x( '新しいお客様の声','ringo' ),
+	'all_items'           => _x( 'お客様の声','ringo' ),
+	'view_item'           => _x( 'お客様の声を見る','ringo' ),
+	'search_items'        => _x( 'お客様の声を検索','ringo' ),
+	'not_found'           => _x( 'お客様の声が見つかりません','ringo' ),
+	'not_found_in_trash'  => _x( 'ゴミ箱にお客様の声はありません','ringo' ),
+	'parent_item_colon'   => _x( '親アイテム','ringo' ),
+	'menu_name'           => _x( 'お客様の声','ringo' ),
+	'show_in_rest'        => true
 );
 register_post_type( 'voice', array(
 	'labels' 				=> $labels,
@@ -30,7 +31,8 @@ register_post_type( 'voice', array(
 	'has_archive' 			=> true,
 	'hierarchical' 			=> true,
 	'menu_position' 		=> 6,
-	'supports' 				=> array( 'title', 'editor', 'thumbnail' )
+	'supports' 				=> array( 'title', 'editor', 'thumbnail' ),
+	'show_in_rest'       => true
 ) );
 register_taxonomy(
 	"voice-cat",
@@ -39,7 +41,9 @@ register_taxonomy(
 		"label" => __( 'お客様の声カテゴリー', 'dtdsh' ),
 		"hierarchical" => true,
 		"show_admin_column" => true,
-		'rewrite' => array( 'slug' => 'voice-category' )
+		'rewrite' => array( 'slug' => 'voice-category' ),
+		'show_in_rest' => true,
+		'rest_base' => 'voice-category'
 	)
 );
 register_taxonomy(
@@ -49,7 +53,9 @@ register_taxonomy(
 		"label" => __( 'お客様の声タグ', 'dtdsh' ),
 		"hierarchical" => false,
 		"show_admin_column" => true,
-		'rewrite' => array( 'slug' => 'voice-tag' )
+		'rewrite' => array( 'slug' => 'voice-tag' ),
+		'show_in_rest' => true,
+		'rest_base' => 'voice-tag'
 	)
 );
 

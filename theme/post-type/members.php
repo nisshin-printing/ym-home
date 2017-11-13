@@ -15,6 +15,7 @@ $labels = array(
 	'not_found_in_trash' 	=> _x('ゴミ箱にメンバーポストはありません','ringo'),
 	'parent_item_colon' 	=> _x('親アイテム','ringo'),
 	'menu_name' 			=> _x('メンバー','ringo'),
+	'show_in_rest'       => true
 );
 register_post_type('members', array(
 	'labels' 				=> $labels,
@@ -30,7 +31,8 @@ register_post_type('members', array(
 	'has_archive' 			=> true,
 	'hierarchical' 			=> true,
 	'menu_position' 		=> 10,
-	'supports' 				=> array('title','editor','thumbnail')
+	'supports' 				=> array('title','editor','thumbnail'),
+	'show_in_rest'       => true
 ));
 register_taxonomy(
 	"members-cat",
@@ -39,7 +41,9 @@ register_taxonomy(
 		"label" => __('メンバーカテゴリー'),
 		"hierarchical" => true,
 		"show_admin_column" => true,
-		'rewrite' => array('slug' => 'members-category')
+		'rewrite' => array('slug' => 'members-category'),
+		'show_in_rest' => true,
+		'rest_base' => 'members-category'
 	)
 );
 register_taxonomy(
@@ -49,6 +53,7 @@ register_taxonomy(
 		"label" => __('趣味'),
 		"hierarchical" => false,
 		"show_admin_column" => true,
+		'show_in_rest' => true
 	)
 );
 register_taxonomy(
@@ -58,6 +63,7 @@ register_taxonomy(
 		"label" => __('主な取扱分野'),
 		"hierarchical" => false,
 		"show_admin_column" => true,
+		'show_in_rest' => true
 	)
 );
 register_taxonomy(
@@ -67,6 +73,7 @@ register_taxonomy(
 		"label" => __('所属団体'),
 		"hierarchical" => false,
 		"show_admin_column" => true,
+		'show_in_rest' => true
 	)
 );
 // Actions
