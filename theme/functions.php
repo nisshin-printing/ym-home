@@ -1,6 +1,6 @@
 <?php
 //========================  Define ========================================================================//
-define( 'DTDSH_THEME_VERSION', '2.9.5' );
+define( 'DTDSH_THEME_VERSION', '2.9.6' );
 
 /* =========================================
 		ACTION HOOKS & FILTER5
@@ -168,18 +168,21 @@ function theme_favicon() {
 	echo "<link rel=\"SHORTCUT ICON\" href=\"$theme_dir/assets/img/favicon.ico\">",
 		"<link rel=\"apple-touch-icon\" href=\"$theme_dir/assets/img/favicon-144.png\">";
 }
+
 /**
- * カスタム投稿のRSS配信
+ * カスタムフィールドを追加
  */
-add_filter( 'request', 'add_feed_request' );
-function add_feed_request( $vars ) {
-	if ( isset( $vars['feed'] ) && ! isset( $vars['post_type'] ) ) {
-		$vars['post_type'] = array(
-			'post',
-			'cases',
-			'members',
-			'voice'
-		);
-	}
-	return $vars;
-}
+add_action( 'rest_api_init', function() {
+	register_rest_field(
+		'members',
+		'subtitle',
+		array(
+			'get_callback' => function( $object, $field_name, $request ) {
+				$meta_field = get_post_meta( $object['id'], 'subtitle', true );
+				return $meta_field;
+			},
+			'update_callback' => null,
+			'schema' => null,
+		)
+	);
+} );
