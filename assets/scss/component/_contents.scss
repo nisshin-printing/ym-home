@@ -1,7 +1,3 @@
-.single-dtdsh-lp .contents--wrap {
-		@extend .expanded;
-}
-
 .contents {
 		margin: rem-calc(20px) auto;
 		padding-top: rem-calc(20px);
@@ -101,5 +97,19 @@
 				.button {
 						margin-bottom: 0;
 				}
+		}
+}
+
+.single-dtdsh-lp {
+		.header--title__lp {
+				background-color: transparent !important;
+		}
+		.contents--wrap {
+				@extend .expanded;
+		}
+		.cta--lp__title {
+				padding-left: 0 !important;
+				border-left: none !important;
+				margin: auto !important;
 		}
 }

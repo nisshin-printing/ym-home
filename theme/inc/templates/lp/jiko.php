@@ -1,7 +1,7 @@
 <header class="header--lp header--lp__jiko">
 	<div class="row">
 		<div class="column">
-			<h1 class="jiko-header_title"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/header-title.png'; ?>" alt="交通事故に遭ったら広島最大級の山下江法律事務所で無料の相談をしよう。"></h1>
+			<h1 class="header--title__lp"><img src="<?php echo '//www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/lp/jiko/header-title.png'; ?>" alt="交通事故に遭ったら広島最大級の山下江法律事務所で無料の相談をしよう。"></h1>
 			<p class="text-right">※当事務所が解決した事件の一例です。</p>
 		</div>
 	</div>
