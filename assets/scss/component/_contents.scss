@@ -6,6 +6,10 @@
 		margin: rem-calc(20px) auto;
 		padding-top: rem-calc(20px);
 		background-color: #FFF;
+		.single-dtdsh-lp & {
+				margin-top: 0;
+				padding-top: 0;
+		}
 		&.--mt0 {
 				margin-top: 0;
 		}
