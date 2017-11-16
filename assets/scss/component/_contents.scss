@@ -1,3 +1,7 @@
+.single-dtdsh-lp .contents--wrap {
+		@extend .expanded;
+}
+
 .contents {
 		margin: rem-calc(20px) auto;
 		padding-top: rem-calc(20px);

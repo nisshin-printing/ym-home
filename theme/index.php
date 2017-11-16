@@ -57,7 +57,7 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 	<?php
 		}
 	?>
-	<div class="row">
+	<div class="row contents--wrap">
 		<div class="column large-3 sidebar--wrap"><?php get_sidebar(); ?></div>
 		<div class="sidenav--overlay js--sidenav--button"></div>
 		<div class="column contents">
@@ -74,6 +74,20 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/content' );
 					endwhile;endif;
+				} else if ( is_singular( 'dtdsh-lp' ) ) {
+					if ( is_single( '2915' ) ) {
+						get_template_part( 'inc/templates/lp/jiko' );
+					} elseif( is_single( '2916' ) ) {
+						get_template_part( 'inc/templates/lp/rikon' );
+					} elseif( is_single( '2917' ) ) {
+						get_template_part( 'inc/templates/lp/sozoku' );
+					} elseif( is_single( '2918' ) ) {
+						get_template_part( 'inc/templates/lp/kabarai' );
+					} elseif ( is_single( '4136' ) ) {
+						get_template_part( 'inc/templates/lp/e-hiroshima' );
+					} elseif ( is_single( '4137' ) ) {
+						get_template_part( 'inc/templates/lp/kure' );
+					}
 				} else if ( is_page() || is_single() ) {
 					the_content();
 				}

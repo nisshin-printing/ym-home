@@ -5,6 +5,23 @@
 }
 
 .sidebar--wrap {
+		.single-dtdsh-lp & {
+				width: 50%;
+				max-width: none;
+				left: -50%;
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				height: 100%;
+				padding: 0;
+				background-color: #FFF;
+				overflow-y: auto;
+				transition: transform .4s cubic-bezier(.4, 0, .2, 1);
+				z-index: 1000;
+				.has-nav-open & {
+						transform: translateX(100%);
+				}
+		}
 		&.front #js--sidebar {
 				@include breakpoint(large) {
 						display: none;
