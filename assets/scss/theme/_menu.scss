@@ -20,3 +20,9 @@
 				color: #FFF;
 		}
 }
+
+.sidebar--item .menu.nested.menu__wrap--level-1 {
+		@include breakpoint(medium down) {
+				display: none;
+		}
+}

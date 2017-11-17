@@ -50,7 +50,7 @@ class NID_Menu {
 		$show_level_class = isset( $extras['show_level_class'] ) ? (bool) $extras['show_level_class'] : false;
 
 		if ( $show_level_class ) {
-			$wrap_class .= " {$container_class}--wrap__level-0";
+			$wrap_class = " {$container_class}--wrap__level-0";
 		}
 
 		$menu_direction = isset( $extras['menu_direction'] ) ? ' ' . $extras['menu_direction'] : '';
