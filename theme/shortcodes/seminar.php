@@ -172,6 +172,16 @@ function show_seminar_lists() {
 			'document'  => '20-document.pdf',
 			'audio'     => '20-audio.mp3',
 		),
+		array(
+			'num'       => '21',
+			'time'      => '2017年11月16日',
+			'title'     => '「未払残業代請求に対する事前予防と事後対応」',
+			'lawyer'    => '稲垣洋之',
+			'lawyer_id' => '551',
+			'resume'    => '21-resume.pdf',
+			'document'  => '21-document.pdf',
+			'audio'     => '21-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';

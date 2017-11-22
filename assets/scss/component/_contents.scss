@@ -54,18 +54,8 @@
 }
 
 .contents--title {
-		padding: 10px;
-		margin: 40px 0 20px;
-		border-bottom: 1px solid $light-gray;
-		background-color: #f2f2f2;
-		font-size: 1.5rem;
-		span {
-				margin-left: 1em;
-				font-size: .5em;
-				display: inline-block;
-				vertical-align: middle;
-				margin-top: -4px;
-		}
+		border-left: none;
+		padding-left: 0;
 }
 
 .content--box {
