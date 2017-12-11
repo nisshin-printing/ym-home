@@ -80,5 +80,27 @@ if ($('.wpcf7-form')) {
         area.val(name);
 				el.parents('#select-member').delay(300).foundation('close');
 				$('body').removeClass('is-reveal-open');
-    });
+		});
 }
+/**
+ * RevealのAjax
+ */
+$('.js--modal-button').on('click', () => {
+	const $modal = $('#modal');
+	const $url = encodeURIComponent($modal.data('ajax'));
+	$.ajax({
+		type: 'POST',
+		url: ajaxurl,
+		dataType: 'json',
+		data: {
+			action: 'modal_ajax',
+			url: $url
+		},
+		success: res => {
+			$modal.html(res);
+		},
+		error: () => {
+			$modal.html('エラー for JS');
+		}
+	});
+});
