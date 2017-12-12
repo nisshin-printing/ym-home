@@ -1,6 +1,6 @@
 <?php
 //========================  Define ========================================================================//
-define( 'DTDSH_THEME_VERSION', '3.0.6' );
+define( 'DTDSH_THEME_VERSION', '3.0.7' );
 
 /* =========================================
 		ACTION HOOKS & FILTER5
@@ -186,29 +186,3 @@ add_action( 'rest_api_init', function() {
 		)
 	);
 } );
-
-/**
- * リクエスト送信先パス
- */
-function add_ajaxurl() {
-	echo '<script>var ajaxurl = "', admin_url( 'admin-ajax.php' ), '";</script>';
-}
-add_action( 'wp_footer', 'add_ajaxurl', 1 );
-
-/**
- * 呼び出すPHP関数の作成
- */
-function modal_ajax() {
-	if( isset( $_POST['url'] ) && preg_match( "/^https?/", $_POST['url'] ) ) {
-		$json = file_get_contents( $_POST['url'] );
-		$arr_json = json_decode( $json, true );
-
-		echo $arr_json['content']['rendered'];
-		die();
-	} else {
-		echo 'エラー';
-		die();
-	}
-}
-add_action( 'wp_ajax_modal_ajax', 'modal_ajax' );
-add_action( 'wp_ajax_nopriv_modal_ajax', 'modal_ajax' );

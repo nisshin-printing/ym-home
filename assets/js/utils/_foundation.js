@@ -85,22 +85,21 @@ if ($('.wpcf7-form')) {
 /**
  * RevealのAjax
  */
-$('.js--modal-button').on('click', () => {
-	const $modal = $('#modal');
-	const $url = encodeURIComponent($modal.data('ajax'));
+$('.js--modal-button').on('click', event => {
+	const $modal = $('#js--ajax-modal').find('.js--modal-content');
+	const $url = decodeURIComponent($(event.currentTarget).data('ajax-modal'));
 	$.ajax({
 		type: 'POST',
-		url: ajaxurl,
-		dataType: 'json',
+		url: ajaxurl, // eslint-disable-line no-undef
+		dataType: 'html',
 		data: {
 			action: 'modal_ajax',
 			url: $url
 		},
-		success: res => {
-			$modal.html(res);
-		},
 		error: () => {
-			$modal.html('エラー for JS');
+			$modal.html(`読み込み時にエラーが発生しました。<br>直接該当ページをご覧ください。<br/><br/><p className="text-center"><a href="${$url}" className="button" target="_blank" rel="noopener">該当ページを見に行く</a></p>`);
 		}
+	}).done(resp => {
+		$modal.html(resp).foundation('open');
 	});
 });
