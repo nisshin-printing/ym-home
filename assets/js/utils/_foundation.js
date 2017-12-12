@@ -85,8 +85,8 @@ if ($('.wpcf7-form')) {
 /**
  * RevealのAjax
  */
+const $modal = $('#js--modal-content');
 $('.js--modal-button').on('click', event => {
-	const $modal = $('#js--ajax-modal').find('.js--modal-content');
 	const $url = decodeURIComponent($(event.currentTarget).data('ajax-modal'));
 	$.ajax({
 		type: 'POST',
@@ -100,6 +100,12 @@ $('.js--modal-button').on('click', event => {
 			$modal.html(`読み込み時にエラーが発生しました。<br>直接該当ページをご覧ください。<br/><br/><p className="text-center"><a href="${$url}" className="button" target="_blank" rel="noopener">該当ページを見に行く</a></p>`);
 		}
 	}).done(resp => {
-		$modal.html(resp).foundation('open');
+		$modal.html(resp);
 	});
+});
+/**
+ * Revealが閉じられたとき空にする。
+ */
+$('#js--ajax-modal').on('closed.zf.reveal', event => {
+	$modal.html('<p class="modal--loading">読み込み中...</p>');
 });
