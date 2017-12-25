@@ -36,8 +36,8 @@
 <div class="row">
 	<div class="column">
 		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/access/map--fukuyama.png'; ?>" alt="山下江法律事務所福山支部までのアクセス方法"></p>
-		<p class="text-center"><a class="button link-external" href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92737-0051+%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%91%89%E5%B8%82%E4%B8%AD%E5%A4%AE%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%92+%EF%BC%AE%EF%BC%B3%E3%83%93%E3%83%AB/@34.2463783,132.5591166,17z/data=!3m1!4b1!4m5!3m4!1s0x35500832ad4060cf:0x5d28b206f989983c!8m2!3d34.2463627!4d132.5612817?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--kure.pdf" class="button">印刷用PDF</a></p>
-		<p>〒737-0051　広島県福山市中央２丁目５－２ NSビル７０３<br>TEL： 0823-25-0077　FAX： 0823-25-0081<br>営業時間：　9：00～18：00</p>
+		<p class="text-center"><a class="button link-external" href="https://www.google.com/maps/place/%E3%80%92720-0067+%E5%BA%83%E5%B3%B6%E7%9C%8C%E7%A6%8F%E5%B1%B1%E5%B8%82%E8%A5%BF%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%90%E2%88%92%EF%BC%91+%E7%A6%8F%E5%B1%B1%E5%95%86%E5%B7%A5%E4%BC%9A%E8%AD%B0%E6%89%80%E3%83%93%E3%83%AB/@34.489223,133.3542401,17z/data=!3m1!4b1!4m5!3m4!1s0x355110f04e3a0f3f:0x77015907f395c12c!8m2!3d34.4892591!4d133.3563925?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--fukuyama.pdf" class="button">印刷用PDF</a></p>
+		<p>〒720-0067　広島県福山市西町10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　9：00～18：00</p>
 	</div>
 </div>
 <div class="head-title-wrapper bg-mystic">
@@ -47,19 +47,20 @@
 <div class="fp-wel contents">
 	<div class="row align-middle
 	">
-		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '2907' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '2907' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '2907' )[2]; ?>" alt="福山支部長の写真" class="thumbnail"></div>
+		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '4089' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '4089' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '4089' )[2]; ?>" alt="福山支部長の写真" class="thumbnail"></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
 			<div class="members-header text-center">
 				<p class="meta-job">福山支部長　/　弁護士</p>
-				<h3>宮部　明典</h3>
-				<p class="meta-name">みやべ　あきのり</p>
+				<h3>渡辺　晃子</h3>
+				<p class="meta-name">わたなべ　あきこ</p>
 			</div>
 			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
-				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人福山事務所開設に伴い、福山支部長に就任することになりました。</p>
-				<p>今まで、当事務所に相談したかったけれども広島まで出かけられないという福山地域居住の方にとっては利便性が高まるものと思います。福山地域居住の方が抱える悩みに寄り添い、適切な解決を導いていきたいと思います。</p>
-				<p>若輩者ではございますが、みなさまのご期待に応えられるよう日々努力していきますので、今後ともご指導ご鞭撻のほどよろしくお願いします。</p>
-				<p class="text-right"><a href="<?php echo get_the_permalink( '2906' ); ?>" class="button" title="宮部明典について">宮部明典について<i class="fa fa-angle-right ml1"></i></a></p>
+				<p>この度，弁護士法人山下江法律事務所岩国支部開設に伴い，岩国支部長に就任することとなりました。</p>
+				<p>生まれ育った故郷で，弁護士としての活動をさせていただけることを大変嬉しく思っております。</p>
+				<p>これまで，相談に行きたいけれども広島市まで行くことができないといった思いをお持ちの方もいらっしゃったことと思います。今後は，岩国にお住まいの方々にとってより利便性の高い岩国支部において，岩国の皆様のお悩みに寄り添い，適切な解決をご提案いたします。</p>
+				<p>若輩者ではございますが，今後ともご指導ご鞭撻のほどよろしくお願い申し上げます。</p>
+				<p class="text-right"><a href="<?php echo get_the_permalink( '4087' ); ?>" class="button" title="渡辺晃子について">渡辺晃子について<i class="fa fa-angle-right ml1"></i></a></p>
 			</div>
 		</div>
 	</div>
