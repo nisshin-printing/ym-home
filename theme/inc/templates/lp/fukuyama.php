@@ -1,5 +1,5 @@
 <header class="header-lp">
-	<h1 id="header-title">山下江法律事務所<br>呉支部</h1>
+	<h1 id="header-title">山下江法律事務所<br>福山支部</h1>
 </header>
 <div class="row align-middle">
 	<div class="column small-12 medium-6">
@@ -17,7 +17,7 @@
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>プライバシー保護環境</h3>
-		<p>新しくオープンした呉支部でも、山下江法律事務所の<a href="<?php echo get_the_permalink('360'); ?>" class="link-external" title="<?php echo get_the_title('360'); ?>">行動指針</a>や<a href="<?php echo get_the_permalink('493'); ?>" class="link-external" title="<?php echo get_the_title('493'); ?>">プライバシーポリシー</a>に基づいた「気軽に相談できる場」を創造しました。</p>
+		<p>新しくオープンした福山支部でも、山下江法律事務所の<a href="<?php echo get_the_permalink('360'); ?>" class="link-external" title="<?php echo get_the_title('360'); ?>">行動指針</a>や<a href="<?php echo get_the_permalink('493'); ?>" class="link-external" title="<?php echo get_the_title('493'); ?>">プライバシーポリシー</a>に基づいた「気軽に相談できる場」を創造しました。</p>
 	</div>
 </div>
 <div class="row align-middle">
@@ -31,33 +31,33 @@
 </div>
 <div id="access" class="head-title-wrapper">
 	<p class="text-center color-gainsboro">ACCESS</p>
-	<h2 class="text-center color-white">呉支部へのアクセス</h2>
+	<h2 class="text-center color-white">福山支部へのアクセス</h2>
 </div>
 <div class="row">
 	<div class="column">
-		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/access/map-kure.png'; ?>" alt="山下江法律事務所呉支部までのアクセス方法"></p>
+		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/access/map--fukuyama.png'; ?>" alt="山下江法律事務所福山支部までのアクセス方法"></p>
 		<p class="text-center"><a class="button link-external" href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92737-0051+%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%91%89%E5%B8%82%E4%B8%AD%E5%A4%AE%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%92+%EF%BC%AE%EF%BC%B3%E3%83%93%E3%83%AB/@34.2463783,132.5591166,17z/data=!3m1!4b1!4m5!3m4!1s0x35500832ad4060cf:0x5d28b206f989983c!8m2!3d34.2463627!4d132.5612817?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--kure.pdf" class="button">印刷用PDF</a></p>
-		<p>〒737-0051　広島県呉市中央２丁目５－２ NSビル７０３<br>TEL： 0823-25-0077　FAX： 0823-25-0081<br>営業時間：　9：00～18：00</p>
+		<p>〒737-0051　広島県福山市中央２丁目５－２ NSビル７０３<br>TEL： 0823-25-0077　FAX： 0823-25-0081<br>営業時間：　9：00～18：00</p>
 	</div>
 </div>
 <div class="head-title-wrapper bg-mystic">
 	<p class="text-center color-gainsboro">MESSAGE</p>
-	<h2 class="text-center color-white">呉支部長のご挨拶</h2>
+	<h2 class="text-center color-white">福山支部長のご挨拶</h2>
 </div>
 <div class="fp-wel contents">
 	<div class="row align-middle
 	">
-		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '2907' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '2907' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '2907' )[2]; ?>" alt="呉支部長の写真" class="thumbnail"></div>
+		<div class="column medium-6 large-4 medium-push-6 large-push-8 text-center"><img src="<?php echo wp_get_attachment_image_src( '2907' )[0]; ?>" width="<?php echo wp_get_attachment_image_src( '2907' )[1]; ?>" height="<?php echo wp_get_attachment_image_src( '2907' )[2]; ?>" alt="福山支部長の写真" class="thumbnail"></div>
 		<div class="column medium-6 large-8 medium-pull-6 large-pull-4">
 			<div class="members-header text-center">
-				<p class="meta-job">呉支部長　/　弁護士</p>
+				<p class="meta-job">福山支部長　/　弁護士</p>
 				<h3>宮部　明典</h3>
 				<p class="meta-name">みやべ　あきのり</p>
 			</div>
 			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
-				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人呉事務所開設に伴い、呉支部長に就任することになりました。</p>
-				<p>今まで、当事務所に相談したかったけれども広島まで出かけられないという呉地域居住の方にとっては利便性が高まるものと思います。呉地域居住の方が抱える悩みに寄り添い、適切な解決を導いていきたいと思います。</p>
+				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人福山事務所開設に伴い、福山支部長に就任することになりました。</p>
+				<p>今まで、当事務所に相談したかったけれども広島まで出かけられないという福山地域居住の方にとっては利便性が高まるものと思います。福山地域居住の方が抱える悩みに寄り添い、適切な解決を導いていきたいと思います。</p>
 				<p>若輩者ではございますが、みなさまのご期待に応えられるよう日々努力していきますので、今後ともご指導ご鞭撻のほどよろしくお願いします。</p>
 				<p class="text-right"><a href="<?php echo get_the_permalink( '2906' ); ?>" class="button" title="宮部明典について">宮部明典について<i class="fa fa-angle-right ml1"></i></a></p>
 			</div>

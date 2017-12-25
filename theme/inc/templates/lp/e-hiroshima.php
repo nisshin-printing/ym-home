@@ -34,8 +34,8 @@
 </div>
 <div class="row">
 	<div class="column">
-		<p class="text-center"><img src="https://www.law-yamashita.com/wp-content/themes/law-yamashita/assets/img/access/map-higashi.png" alt="山下江法律事務所東広島支部までのアクセス方法"></p>
-		<p class="button-group text-center"><a class="button link-external" href="https://www.google.com/maps/place/Sunsquare/@34.4277718,132.7403102,20.25z/data=!4m12!1m6!3m5!1s0x3550657c4028c6c3:0x1eaf7fc1e65e6880!2z5p2x5bqD5bO25biC56uL44K144Oz44K544Kv44Ko44Ki5YWQ56ul6Z2S5bCR5bm05Zuz5pu46aSo!8m2!3d34.427758!4d132.740465!3m4!1s0x0:0xdf90322e3d84df2d!8m2!3d34.4278349!4d132.7406151?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a></p>
+		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/access/map-higashi.png'; ?>" alt="山下江法律事務所東広島支部までのアクセス方法"></p>
+		<p class="button-group text-center"><a class="button link-external" href="https://www.google.com/maps/place/Sunsquare/@34.4277718,132.7403102,20.25z/data=!4m12!1m6!3m5!1s0x3550657c4028c6c3:0x1eaf7fc1e65e6880!2z5p2x5bqD5bO25biC56uL44K144Oz44K544Kv44Ko44Ki5YWQ56ul6Z2S5bCR5bm05Zuz5pu46aSo!8m2!3d34.427758!4d132.740465!3m4!1s0x0:0xdf90322e3d84df2d!8m2!3d34.4278349!4d132.7406151?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--e-hiroshima.pdf" class="button">印刷用PDF</a></p>
 		<p>〒739-0043　広島県東広島市西条西本町２８－６ サンスクエア東広島３－１<br>TEL： 082-423-1511　FAX： 082-423-1512<br>営業時間：　9：00～18：00</p>
 	</div>
 </div>

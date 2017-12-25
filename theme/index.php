@@ -87,6 +87,12 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 						get_template_part( 'inc/templates/lp/e-hiroshima' );
 					} elseif ( is_single( '4137' ) ) {
 						get_template_part( 'inc/templates/lp/kure' );
+					} elseif ( is_single( '4136' ) ) {
+						get_template_part( 'inc/templates/lp/e-hiroshima' );
+					} elseif ( is_single( '5585' ) ) {
+						get_template_part( 'inc/templates/lp/fukuyama' );
+					} elseif ( is_single( '5587' ) ) {
+						get_template_part( 'inc/templates/lp/iwakuni' );
 					}
 				} else if ( is_page() || is_single() ) {
 					the_content();

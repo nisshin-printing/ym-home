@@ -1,5 +1,7 @@
 $E-hiroshima_id: '4136';
 $kure_id: '4137';
+$fukuyama_id: '5585';
+$iwakuni_id: '5587';
 .postid-#{$E-hiroshima_id} {
 		.header-lp {
 				background-image: url(#{$p_images}lp/e-hiroshima/1.jpg);
@@ -14,9 +16,24 @@ $kure_id: '4137';
 		}
 }
 
+.postid-#{$fukuyama_id} {
+		.header-lp {
+				background-image: url(#{$p_images}lp/kure/1.jpg);
+				background-position: center center;
+		}
+}
+
+.postid-#{$iwakuni_id} {
+		.header-lp {
+				background-image: url(#{$p_images}lp/kure/1.jpg);
+				background-position: center center;
+		}
+}
+
 .postid-#{$E-hiroshima_id},
 .postid-#{$kure_id},
-{
+.postid-#{$fukuyama_id},
+.postid-#{$iwakuni_id} {
 		.header-lp {
 				background: {
 						size: cover;
