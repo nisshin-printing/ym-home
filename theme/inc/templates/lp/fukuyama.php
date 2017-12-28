@@ -13,7 +13,7 @@
 </div>
 <div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/2.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/fukuyama/2.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>プライバシー保護環境</h3>
@@ -22,7 +22,7 @@
 </div>
 <div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/3.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/fukuyama/3.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>安心して相談できる空間</h3>
@@ -54,7 +54,6 @@
 				<h3>渡辺　晃子</h3>
 				<p class="meta-name">わたなべ　あきこ</p>
 			</div>
-			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
 				<p>この度，弁護士法人山下江法律事務所岩国支部開設に伴い，岩国支部長に就任することとなりました。</p>
 				<p>生まれ育った故郷で，弁護士としての活動をさせていただけることを大変嬉しく思っております。</p>

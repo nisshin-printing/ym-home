@@ -13,7 +13,7 @@
 </div>
 <div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/2.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/iwakuni/2.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>プライバシー保護環境</h3>
@@ -22,7 +22,7 @@
 </div>
 <div class="row align-middle">
 	<div class="column small-12 medium-6">
-		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/kure/3.jpg'; ?>" alt="">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/iwakuni/3.jpg'; ?>" alt="">
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>安心して相談できる空間</h3>
@@ -54,7 +54,6 @@
 				<h3>廣田　麻由美</h3>
 				<p class="meta-name">ひろた　まゆみ</p>
 			</div>
-			<h2 class="header-title">支部開設のお知らせ</h2>
 			<div>
 				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人岩国事務所開設に伴い、岩国支部長に就任することになりました。</p>
 				<p>今まで、当事務所に相談したかったけれども広島まで出かけられないという岩国地域居住の方にとっては利便性が高まるものと思います。岩国地域居住の方が抱える悩みに寄り添い、適切な解決を導いていきたいと思います。</p>

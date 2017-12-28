@@ -106,6 +106,6 @@ $('.js--modal-button').on('click', event => {
 /**
  * Revealが閉じられたとき空にする。
  */
-$('#js--ajax-modal').on('closed.zf.reveal', event => {
+$('#js--ajax-modal').on('closed.zf.reveal', () => {
 	$modal.html('<p class="modal--loading">読み込み中...</p>');
 });
