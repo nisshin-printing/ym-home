@@ -24,7 +24,7 @@
 							$link_title = ( get_post_meta( $id, 'slider_link_title', true ) ) ? get_post_meta( $id, 'slider_link_title', true ) : get_the_title();
 				?>
 				<article class="slick-slide slide--item card">
-					<div class="card--img"><img src="<?php echo $img; ?>" alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>"></div>
+					<div class="card--img"><img data-lazy="<?php echo $img; ?>" alt="<?php the_title(); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>"></div>
 					<div class="card--content">
 						<p class="card--title"><?php the_title(); ?></p>
 						<p><?php
@@ -51,7 +51,7 @@
 			</div>
 			<p class="topheader--button"><a href="tel:0120783409" title="電話する" class="button hollow expanded"><img src="<?php echo get_template_directory_uri(), '/assets/img/header-tel.jpg'; ?>" alt=""></a></p>
 			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow expanded" title="メールで相談予約"><?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a></p>
-			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/3674'; ?>" class="button hollow expanded" title="東広島支部について">東広島支部について</a><a href="<?php echo home_url( '/' ), 'lp/4137'; ?>" class="button hollow expanded" title="呉支部について">呉支部について</a></p>
+			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" class="button hollow expanded" title="福山支部について">福山支部について</a><a href="<?php echo home_url( '/' ), 'lp/5587'; ?>" class="button hollow expanded" title="岩国支部について">岩国支部について</a></p>
 			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'seminar'; ?>" class="button hollow expanded" title="セミナーのご案内"><?php NID_SVG::icon( 'megaphone', array( 'class' => 'button--icon' ), 'セミナー案内' ); ?>セミナーのご案内</a></p>
 		</div>
 	</div>
