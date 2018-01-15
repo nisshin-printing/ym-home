@@ -11,7 +11,7 @@ import '../vendor/foundation.accordion';
 import '../vendor/foundation.dropdownMenu';
 // import '../vendor/foundation.magellan';
 import '../vendor/foundation.reveal';
-// import '../vendor/foundation.sticky';
+import '../vendor/foundation.sticky';
 
 // Foundation Settings.
 Foundation.Accordion.defaults.allowAllClosed = true; // eslint-disable-line no-undef

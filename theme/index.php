@@ -95,7 +95,9 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 						get_template_part( 'inc/templates/lp/iwakuni' );
 					}
 				} else if ( is_page() || is_single() ) {
-					the_content();
+					while ( have_posts() ) : the_post();
+						the_content();
+					endwhile;
 				}
 			?>
 		</div>

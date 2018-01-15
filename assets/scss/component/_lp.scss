@@ -106,3 +106,54 @@
 				font-size: 1.25rem;
 		}
 }
+
+.title--section__lp {
+		text-align: center;
+		border-left: none !important;
+		padding-left: 0;
+		margin-top: 0 !important;
+}
+
+.title--section__sub {
+		text-align: center;
+		color: #555;
+}
+
+.q-a-a__wrap {
+		margin: 2rem auto;
+		@extend .no-bullet;
+		li:nth-of-type(2n) {
+				margin-bottom: 2rem;
+				border-bottom: 1px dashed $light-gray;
+		}
+		@include breakpoint(large) {
+				li {
+						margin-bottom: 2rem;
+						border-bottom: 1px dashed $light-gray;
+				}
+		}
+}
+
+.bg--circle {
+		display: inline-block;
+		text-align: center;
+		width: 2.5em;
+		height: 2.5em;
+		padding: .5em;
+		border-radius: 50%;
+		color: #FFF;
+		background-color: map-get($ym-color, kabarai);
+		&.--question {
+				background-color: blue;
+		}
+		&.--answer {
+				background-color: red;
+		}
+}
+
+.single-dtdsh-lp {
+		.accordion {
+				width: 100%;
+				margin: 2rem auto;
+		}
+}

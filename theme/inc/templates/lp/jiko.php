@@ -257,7 +257,7 @@
 					</tbody>
 				</table>
 				<h3>メールでのご相談予約</h3>
-				<?php echo do_shortcode( '[contact-form-7 id="1152" title="交通事故についての法律相談予約"]' ); ?>
+				<?php echo do_shortcode( '[contact-form-7 id="1152" title="法律相談のご予約"]' ); ?>
 			</div>
 		</div>
 	</div>
