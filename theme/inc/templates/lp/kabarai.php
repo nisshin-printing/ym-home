@@ -104,14 +104,14 @@ function Q_and_A() {
 
 		<ul class="no-bullet row">
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>1.</h3>
 				<p class="text-left">
 					<strong class="underline">まだ過払い金返還請求していない人</strong>のために無料で相談いただけます。<br>
 					一度でも<span class="underline">消費者金融</span>や<span class="underline">キャッシングカード</span>を利用した方は、過払い金があるか調査しましょう！
 				</p>
 			</li>
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>2.</h3>
 				<p class="text-left">
 					<span class="underline">月曜夜間・土曜日の相談</span>もやっています！
 					お仕事などで日中に時間が取れない方も<span class="underline">無料</span>でご相談いただけます！<br>
@@ -119,20 +119,20 @@ function Q_and_A() {
 				</p>
 			</li>
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>3.</h3>
 				<p class="text-left">
 					過払い金がなくても、借金の減額などの任意整理や個人再生・取り立てを止めさせたり、<strong class="underline">住宅を手放さずに借金の整理</strong>をしたりなど最後までサポートいたします！
 				</p>
 			</li>
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>4.</h3>
 				<p class="text-left">
 					司法書士も総額140万円以内であれば、任意整理・過払い金返還請求の依頼を受けることができますが、任意での和解が難しい場合や、そもそも総額は140万円を超える場合、弁護士に依頼することになります。<br>
 					まだ、<span class="underline">過払い金の金額がわからない</span>ときは、まず弁護士に相談したほうが無難です！
 				</p>
 			</li>
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>5.</h3>
 				<p class="text-left">
 					弁護士なら借金の総額が140万円を超えていも、交渉権が認められています。<br>
 					また、地方裁判所に訴訟を提起することで、貸金業者も弁護士に依頼せざるを得ず、弁護士費用を抑えるために<strong class="underline">早期の和解</strong>に応じることが多くあります！
@@ -140,7 +140,7 @@ function Q_and_A() {
 				</p>
 			</li>
 			<li class="column small-12">
-				<span class="bg--circle">￥</span>
+				<h3>6.</h3>
 				<p class="text-left">
 					広島最大級の山下江法律事務所では、これまでに約<span class="underline">7,000</span>名以上の借金問題を解決してきました！<br>
 					事務所の方針である「親切な相談」「適切な解決」と適切な対応をすれば、早期に解決できる場合もあります。<br>
@@ -166,7 +166,7 @@ function Q_and_A() {
 
 <section id="section-3" class="section--lp" data-magellan-target="section-3">
 	<div class="row">
-		<h2 class="title--section__lp title--border-bottom -center column small-12">解決事例</h2>
+		<h2 class="title--section__lp title--border-bottom -center column small-12">過払い金を獲得した事例</h2>
 
 		<div class="accordion" data-accordion>
 			<?php
@@ -199,7 +199,7 @@ function Q_and_A() {
 
 <section id="section-4" class="section--lp" data-magellan-target="section-3">
 	<div class="row">
-		<h2 class="title--section__lp column small-12">お客様の声</h2>
+		<h2 class="title--section__lp column small-12">過払い金を獲得した依頼者の声</h2>
 		<p class="title--section__sub column small-12">山下江法律事務所なら良き相談相手となれます！</p>
 		<p class="title--section__sub title--border-bottom -center column small-12">相談料が<span class="underline">無料</span>。しかも全力で対応！だから多くの方々に<span class="underline">ご満足</span>いただいております。</p>
 
