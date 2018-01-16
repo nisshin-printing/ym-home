@@ -25,7 +25,7 @@
 	</div>
 	<div class="column small-12 medium-6">
 		<h3>駐車場完備</h3>
-		<p>サンスクエア地下に無料共有駐車場があり、33台停められます。</p>
+		<p>サンスクエア地下に無料共有駐車場があり、8台停められます。</p>
 	</div>
 </div>
 <div id="access" class="head-title-wrapper bg-midnight-city">
