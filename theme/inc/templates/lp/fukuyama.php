@@ -37,7 +37,7 @@
 	<div class="column">
 		<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/access/map--fukuyama.png'; ?>" alt="山下江法律事務所福山支部までのアクセス方法"></p>
 		<p class="text-center"><a class="button link-external" href="https://www.google.com/maps/place/%E3%80%92720-0067+%E5%BA%83%E5%B3%B6%E7%9C%8C%E7%A6%8F%E5%B1%B1%E5%B8%82%E8%A5%BF%E7%94%BA%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%90%E2%88%92%EF%BC%91+%E7%A6%8F%E5%B1%B1%E5%95%86%E5%B7%A5%E4%BC%9A%E8%AD%B0%E6%89%80%E3%83%93%E3%83%AB/@34.489223,133.3542401,17z/data=!3m1!4b1!4m5!3m4!1s0x355110f04e3a0f3f:0x77015907f395c12c!8m2!3d34.4892591!4d133.3563925?hl=ja" title="Googleマップで見る" target="_blank" rel="nofollow">Googleマップで見る</a>　<a href="https://www.law-yamashita.com/downloads/access/print--fukuyama.pdf" class="button">印刷用PDF</a></p>
-		<p>〒720-0067　広島県福山市西町10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　9：00～18：00</p>
+		<p>〒720-0067　広島県福山市西町2-10-1　福山商工会議所ビル５階<br>TEL： 084-993-9041　FAX： 084-993-9042<br>営業時間：　9：00～18：00</p>
 	</div>
 </div>
 <div class="head-title-wrapper bg-mystic">
