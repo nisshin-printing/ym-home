@@ -34,9 +34,11 @@
 	?>
 	<div class="post--label">
 	<?php
+		echo '<span class="label secondary">', get_the_modified_date( 'Y-m-d' ),'</span>';
+		$categories = get_the_category( $post->ID );
 		foreach ( $categories as $category ) :
 	?>
-		<a href="<?php echo get_category_link( $category->cat_ID ); ?>" class="label secondary"><?php echo $category->name; ?></a>
+		<a href="<?php echo get_category_link( $category->cat_ID ); ?>" class="label"><?php echo $category->name; ?></a>
 	<?php
 			endforeach;
 	?>

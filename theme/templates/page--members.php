@@ -23,9 +23,9 @@
 					if ( get_post_meta( $post->ID, $sns, true ) ) {
 						if ( in_array( $sns, array( 'blog', 'cus1', 'cus2' ), true ) ) {
 							$sns_title = $sns . '-title';
-							echo '<a href="', get_post_meta( $post->ID, $sns, true ), '" class="label secondary">', get_post_meta( $post->ID, $sns_title, true ), '</a>';
+							echo '<a href="', get_post_meta( $post->ID, $sns, true ), '" class="label secondary" target="_blank">', get_post_meta( $post->ID, $sns_title, true ), '</a>';
 						} else {
-							echo '<a href="', get_post_meta( $post->ID, $sns, true ), '" class="label bg-', $sns,'">', $sns, '</a>';
+							echo '<a href="', get_post_meta( $post->ID, $sns, true ), '" class="label bg-', $sns,'" target="_blank">', $sns, '</a>';
 						}
 					}
 				}

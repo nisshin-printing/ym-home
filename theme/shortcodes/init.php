@@ -226,5 +226,29 @@ function cta_members_link( $atts ) {
 	return $result;
 }
 
+// 各オフィスへのアクセス
+add_shortcode( 'office-access', 'office_access' );
+function office_access() {
+	$return = <<< EOT
+<h2>広島市・呉市・東広島市・福山市・岩国市でご相談できます</h2>
+<h3>広島本部</h3>
+<p>広島本部長：　<a href="https://www.law-yamashita.com/members/shin-tanaka">田中伸</a></p>
+<p><a href="https://www.law-yamashita.com/firm/access" class="button">広島本部へのアクセス</a></p>
+<h3>呉支部</h3>
+<p>呉支部長：　<a href="https://www.law-yamashita.com/members/%e5%ae%ae%e9%83%a8%e6%98%8e%e5%85%b8">宮部明典</a></p>
+<p><a href="https://www.law-yamashita.com/lp/4137" class="button">呉支部の特設ページ</a></p>
+<h3>東広島支部</h3>
+<p>東広島支部長：　<a href="https://www.law-yamashita.com/members/%e5%b0%8f%e6%9e%97%e5%b9%b9%e5%a4%a7">小林幹大</a></p>
+<p><a href="https://www.law-yamashita.com/lp/3674" class="button">東広島支部の特設ページ</a></p>
+<h3>福山支部</h3>
+<p>福山支部長：　<a href="https://www.law-yamashita.com/members/akiko-watanabe">渡辺晃子</a></p>
+<p><a href="https://www.law-yamashita.com/lp/5585" class="button">福山支部の特設ページ</a></p>
+<h3>岩国支部</h3>
+<p>岩国支部長：　<a href="https://www.law-yamashita.com/members/mayumi-hirota">廣田麻由美</a></p>
+<p><a href="https://www.law-yamashita.com/lp/5587" class="button">岩国支部の特設ページ</a></p>
+EOT;
+	return $return;
+}
+
 include( 'seminar.php' );
 include( 'sozoku-form.php' );

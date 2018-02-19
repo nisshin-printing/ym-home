@@ -21,9 +21,9 @@ $color in $social_color {
 		}
 		@else {
 				.bg-#{$name} {
-						background-color: $color;
+						background: $color !important;
 						&:hover {
-								background-color: darken($color, 10%);
+								background: darken($color, 10%) !important;
 						}
 				}
 		}
@@ -32,9 +32,9 @@ $color in $social_color {
 @each $name,
 $color in $matelial_color {
 		.bg-#{$name} {
-				background-color: $color;
+				background: $color;
 				&:hover {
-						background-color: darken($color, 10%);
+						background: darken($color, 10%);
 				}
 		}
 }
@@ -42,9 +42,9 @@ $color in $matelial_color {
 @each $name,
 $color in $ym_color {
 		.bg-#{$name} {
-				background-color: $color;
+				background: $color;
 				&:hover {
-						background-color: darken($color, 10%);
+						background: darken($color, 10%);
 				}
 		}
 }

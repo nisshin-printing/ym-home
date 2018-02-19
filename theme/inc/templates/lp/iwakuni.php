@@ -29,6 +29,15 @@
 		<p>一時間程度の法律相談でも、知らないことや難しい用語がたくさん出てきて疲れてしまいます。気軽に、安心できる法律相談のために、安心感を与える照明やインテリア家具により、居心地の良い空間を演出しております。</p>
 	</div>
 </div>
+<div class="row align-middle">
+	<div class="column small-12 medium-6">
+		<img class="thumbnail" src="<?php echo get_template_directory_uri(), '/assets/img/lp/e-hiroshima/5.jpg'; ?>">
+	</div>
+	<div class="column small-12 medium-6">
+		<h3>駐車場あり</h3>
+		<p>徒歩1分の場所に岩国市役所がございます。そちらの駐車場をご利用ください。</p>
+	</div>
+</div>
 <div id="access" class="head-title-wrapper">
 	<p class="text-center color-gainsboro">ACCESS</p>
 	<h2 class="text-center color-white">岩国支部へのアクセス</h2>
@@ -58,7 +67,7 @@
 				<p>この度、山下江法律事務所の弁護士法人山下江法律事務所設立及び同法人岩国事務所開設に伴い、岩国支部長に就任することになりました。</p>
 				<p>今まで、当事務所に相談したかったけれども広島まで出かけられないという岩国地域居住の方にとっては利便性が高まるものと思います。岩国地域居住の方が抱える悩みに寄り添い、適切な解決を導いていきたいと思います。</p>
 				<p>若輩者ではございますが、みなさまのご期待に応えられるよう日々努力していきますので、今後ともご指導ご鞭撻のほどよろしくお願いします。</p>
-				<p class="text-right"><a href="<?php echo get_the_permalink( '4092' ); ?>" class="button" title="廣田麻由美について">廣田麻由美について<i class="fa fa-angle-right ml1"></i></a></p>
+				<p class="button-group"><a href="<?php echo get_the_permalink( '4092' ); ?>" class="button" title="廣田麻由美について">廣田麻由美について<i class="fa fa-angle-right ml1"></i></a><a href="https://www.facebook.com/lawyerhirotamayumi/" class="button" target="_blank" title="岩国支部のFacebook">岩国支部のFacebook</a></p>
 			</div>
 		</div>
 	</div>
@@ -74,7 +83,7 @@
 		<p>さらに、法律問題では<span class="bg-line">「もっと早く相談していればよかった...。」</span>と、後悔してしまうことも多いです。少しでも<span class="bg-line">「気軽に相談」</span>いただけるよう、個人のお客様には、<span class="bg-line">弁護士 ・相続アドバイザー・メンタルケア心理士&reg;など専門家との法律相談を無料</span>で受け付けており、たった一時間程度で、「適切な解決」までの流れと方法を、迅速で分かりやすく「親切な相談」でご説明します。<br>この<span class="bg-line">専門家との無料法律相談</span>で、依頼された場合にかかる費用など「納得」いくまでじっくりとご質問ください。</p>
 		<p>また、料金のお支払いには、<span class="bg-line">「相手から支払われた金銭で精算する方法」</span>や<span class="bg-line">「分割払いにする方法」</span>など少しでも「一番身近な弁護士事務所」となれるよう努めています。</p>
 		<h3>ポイント2　-　広島で多数の解決実績があります。</h3>
-		<p>当弁護士事務所での解決実績は、平成23年～平成27年末の期間で以下の解決実績件数です。</p>
+		<p>当弁護士事務所での解決実績は、平成23年～平成29年末の期間で以下の解決実績件数です。</p>
 		<table>
 			<tr>
 				<th>分野</th>
@@ -83,38 +92,38 @@
 			</tr>
 			<tr>
 				<td>交通事故</td>
-				<td class="text-center">1,578件</td>
-				<td class="text-center">701件</td>
+				<td class="text-center">2,325件</td>
+				<td class="text-center">1,045件</td>
 			</tr>
 			<tr>
 				<td>離婚・不倫慰謝料など</td>
-				<td class="text-center">2,289件</td>
-				<td class="text-center">703件</td>
+				<td class="text-center">3,811件</td>
+				<td class="text-center">1,059件</td>
 			</tr>
 			<tr>
 				<td>相続・遺言</td>
-				<td class="text-center">908件</td>
-				<td class="text-center">276件</td>
+				<td class="text-center">1,549件</td>
+				<td class="text-center">430件</td>
 			</tr>
 			<tr>
 				<td>借金・過払い</td>
-				<td class="text-center">4,290件</td>
-				<td class="text-center">3,927件</td>
+				<td class="text-center">4,847件</td>
+				<td class="text-center">4,322件</td>
 			</tr>
 			<tr>
 				<td>刑事事件</td>
-				<td class="text-center">137件</td>
-				<td class="text-center">385件</td>
+				<td class="text-center">208件</td>
+				<td class="text-center">408件</td>
 			</tr>
 			<tr>
 				<td>企業法務</td>
-				<td class="text-center">426件</td>
-				<td class="text-center">259件</td>
+				<td class="text-center">585件</td>
+				<td class="text-center">352件</td>
 			</tr>
 			<tr>
 				<td>会社の破産・整理</td>
-				<td class="text-center">72件</td>
-				<td class="text-center">38件</td>
+				<td class="text-center">92件</td>
+				<td class="text-center">61件</td>
 			</tr>
 		</table>
 		<p>地元広島における弁護士事務所で、これだけ多数の相談件数・受任件数を有しているのは当事務所のみと思われます。</p>

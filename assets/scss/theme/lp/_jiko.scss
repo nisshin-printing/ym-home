@@ -1,0 +1,84 @@
+$jiko_id: '2915';
+.postid-#{$jiko_id} {
+		.cases {
+				background: #EBE7D6;
+				border-radius: 2mm;
+				padding: 1em;
+				margin: 1em auto;
+				position: relative;
+				h4 {
+						border-radius: 20px;
+						background-color: #DD960E;
+						border: none;
+						color: #FFF;
+						display: inline-block;
+						padding: .3em 1em;
+						span {
+								display: block;
+								position: absolute;
+								right: 1em;
+								top: 1em;
+								background: #CE6016;
+								padding: 0.5em 1em;
+						}
+				}
+				.img-wrapper {
+						text-align: center;
+						position: relative;
+						top: -2.5em;
+				}
+		}
+		h4 {
+				padding-left: .8em;
+		}
+}
+
+.header--lp__jiko {
+		background-image: url('#{$p_images}/lp/jiko/bg-header.jpg');
+}
+
+.cta--lp.--jiko {
+		background-color: #faaf3b;
+}
+
+.nav--lp__jiko {
+		color: green;
+		.menu>li>a.active {
+				background-color: green;
+		}
+}
+
+.jiko-up_wrap {
+		background-color: #F9F9F9;
+		padding: 2rem;
+		margin: 1rem auto;
+}
+
+.jiko-up_title {
+		@media (min-width: 640px) {
+				font-size: 1.5rem;
+		}
+}
+
+.bg-grafpaper {
+		padding: 1rem !important;
+}
+
+.jiko-support {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		@media (min-width: 640px) {
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+		}
+}
+
+.jiko-support_title {
+		background-color: transparent !important;
+		border-left: 3px solid #FFCE9E;
+}
+
+.jiko-images {
+		display: block;
+		text-align: center;
+}

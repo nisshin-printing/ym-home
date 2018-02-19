@@ -59,7 +59,7 @@
 				<p>福山は私の生まれ故郷であり，法律問題を通して福山に貢献できることが何よりの喜びです。</p>
 				<p>福山での支部開設に伴い，今までサービスの行き届いていなかった当地域の皆様にも気軽に相談して頂けるようになると考えています。</p>
 				<p>支部開設を機に，更なる努力を重ねて参る所存ですので，今後ともご指導ご鞭撻の程，宜しくお願い申し上げます。</p>
-				<p class="text-right"><a href="<?php echo get_the_permalink( '4087' ); ?>" class="button" title="渡辺晃子について">渡辺晃子について<i class="fa fa-angle-right ml1"></i></a></p>
+				<p class="button-group"><a href="<?php echo get_the_permalink( '4087' ); ?>" class="button" title="渡辺晃子について">渡辺晃子について<i class="fa fa-angle-right ml1"></i></a><a href="https://www.facebook.com/lawyerwatanabeakiko/" class="button" target="_blank" title="福山支部のFacebook">福山支部のFacebook</a></p>
 			</div>
 		</div>
 	</div>
@@ -75,7 +75,7 @@
 		<p>さらに、法律問題では<span class="bg-line">「もっと早く相談していればよかった...。」</span>と、後悔してしまうことも多いです。少しでも<span class="bg-line">「気軽に相談」</span>いただけるよう、個人のお客様には、<span class="bg-line">弁護士 ・相続アドバイザー・メンタルケア心理士&reg;など専門家との法律相談を無料</span>で受け付けており、たった一時間程度で、「適切な解決」までの流れと方法を、迅速で分かりやすく「親切な相談」でご説明します。<br>この<span class="bg-line">専門家との無料法律相談</span>で、依頼された場合にかかる費用など「納得」いくまでじっくりとご質問ください。</p>
 		<p>また、料金のお支払いには、<span class="bg-line">「相手から支払われた金銭で精算する方法」</span>や<span class="bg-line">「分割払いにする方法」</span>など少しでも「一番身近な弁護士事務所」となれるよう努めています。</p>
 		<h3>ポイント2　-　広島で多数の解決実績があります。</h3>
-		<p>当弁護士事務所での解決実績は、平成23年～平成27年末の期間で以下の解決実績件数です。</p>
+		<p>当弁護士事務所での解決実績は、平成23年～平成29年末の期間で以下の解決実績件数です。</p>
 		<table>
 			<tr>
 				<th>分野</th>
@@ -84,38 +84,38 @@
 			</tr>
 			<tr>
 				<td>交通事故</td>
-				<td class="text-center">1,578件</td>
-				<td class="text-center">701件</td>
+				<td class="text-center">2,325件</td>
+				<td class="text-center">1,045件</td>
 			</tr>
 			<tr>
 				<td>離婚・不倫慰謝料など</td>
-				<td class="text-center">2,289件</td>
-				<td class="text-center">703件</td>
+				<td class="text-center">3,811件</td>
+				<td class="text-center">1,059件</td>
 			</tr>
 			<tr>
 				<td>相続・遺言</td>
-				<td class="text-center">908件</td>
-				<td class="text-center">276件</td>
+				<td class="text-center">1,549件</td>
+				<td class="text-center">430件</td>
 			</tr>
 			<tr>
 				<td>借金・過払い</td>
-				<td class="text-center">4,290件</td>
-				<td class="text-center">3,927件</td>
+				<td class="text-center">4,847件</td>
+				<td class="text-center">4,322件</td>
 			</tr>
 			<tr>
 				<td>刑事事件</td>
-				<td class="text-center">137件</td>
-				<td class="text-center">385件</td>
+				<td class="text-center">208件</td>
+				<td class="text-center">408件</td>
 			</tr>
 			<tr>
 				<td>企業法務</td>
-				<td class="text-center">426件</td>
-				<td class="text-center">259件</td>
+				<td class="text-center">585件</td>
+				<td class="text-center">352件</td>
 			</tr>
 			<tr>
 				<td>会社の破産・整理</td>
-				<td class="text-center">72件</td>
-				<td class="text-center">38件</td>
+				<td class="text-center">92件</td>
+				<td class="text-center">61件</td>
 			</tr>
 		</table>
 		<p>地元広島における弁護士事務所で、これだけ多数の相談件数・受任件数を有しているのは当事務所のみと思われます。</p>

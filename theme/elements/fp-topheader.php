@@ -44,10 +44,10 @@
 			</div>
 		</div>
 		<div class="column small-12 medium-6 copy--top">
-			<h1 class="copy--title">探しているのは、<br>「頼れる」<ruby><rb>弁護士</rb><rp><rt>みかた</rt></rp></ruby>。</h1>
+			<h1 class="copy--title">法律問題に直面して、<br>探しているのは頼れる<ruby><rb>弁護士</rb><rp><rt>みかた</rt></rp></ruby>。</h1>
 			<div class="copy--desc">
-				<p>相談件数12,000件以上。<small>※</small><br>選ぶなら広島最大級。<br>個人のお客様なら<strong style="background:yellow;color:red">相談無料</strong></p>
-			<small>※　平成27年12月時点</small>
+				<p>相談件数17,000件以上。<small>※</small><br>選ぶなら広島最大級。<br>個人のお客様なら<strong style="background:yellow;color:red">相談無料</strong></p>
+			<small>※　平成29年12月時点</small>
 			</div>
 			<p class="topheader--button"><a href="tel:0120783409" title="電話する" class="button hollow expanded"><img src="<?php echo get_template_directory_uri(), '/assets/img/header-tel.jpg'; ?>" alt=""></a></p>
 			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow expanded" title="メールで相談予約"><?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a></p>
