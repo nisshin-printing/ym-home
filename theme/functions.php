@@ -51,9 +51,6 @@ if ( ! function_exists( 'theme_setup' ) ) {
 		register_nav_menus( array(
 			'primary' => 'Main Menu',
 			'footer'  => 'Footer Menu',
-			'casesnav' => 'Cases Nav',
-			'advicenav' => 'Advice Nav',
-			'clientnav' => 'Client Nav',
 			'scopenav' => 'Scope Nav',
 		) );
 		// Let wp know we are going to handle styling galleries

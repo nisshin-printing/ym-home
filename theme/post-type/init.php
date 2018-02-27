@@ -6,10 +6,8 @@ include_once( "{$theme_dir}/post-type/slides.php" );
 include_once( "{$theme_dir}/post-type/members.php" );
 // 解決事例
 include_once( "{$theme_dir}/post-type/cases.php" );
-// 相談者の声
-include_once( "{$theme_dir}/post-type/advice.php" );
-// 依頼者の声
-include_once( "{$theme_dir}/post-type/client.php" );
+// お客様の声
+include_once( "{$theme_dir}/post-type/voice.php" );
 // CTA
 include_once( "{$theme_dir}/post-type/cta.php" );
 // LP
