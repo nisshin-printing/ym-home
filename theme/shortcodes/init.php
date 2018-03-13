@@ -245,7 +245,7 @@ function office_access() {
 <p><a href="https://www.law-yamashita.com/lp/5585" class="button">福山支部の特設ページ</a></p>
 <h3>岩国支部</h3>
 <p>岩国支部長：　<a href="https://www.law-yamashita.com/members/mayumi-hirota">廣田麻由美</a></p>
-<p><a href="https://www.law-yamashita.com/lp/5587" class="button">岩国支部の特設ページ</a></p>
+<p><a href="https://iwakuni.law-yamashita.com" class="button">岩国支部サイト</a></p>
 EOT;
 	return $return;
 }

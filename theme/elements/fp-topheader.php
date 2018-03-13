@@ -51,7 +51,7 @@
 			</div>
 			<p class="topheader--button"><a href="tel:0120783409" title="電話する" class="button hollow expanded"><img src="<?php echo get_template_directory_uri(), '/assets/img/header-tel.jpg'; ?>" alt=""></a></p>
 			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow expanded" title="メールで相談予約"><?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a></p>
-			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" class="button hollow expanded" title="福山支部について">福山支部について</a><a href="<?php echo home_url( '/' ), 'lp/5587'; ?>" class="button hollow expanded" title="岩国支部について">岩国支部について</a></p>
+			<p class="topheader--button button-group expanded stacked-for-small"><a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" class="button hollow expanded" title="福山支部について">福山支部について</a><a href="https://iwakuni.law-yamashita.com/" class="button hollow expanded" title="岩国支部について" target="_blank">岩国支部について</a></p>
 			<p class="topheader--button"><a href="<?php echo home_url( '/' ), 'seminar'; ?>" class="button hollow expanded" title="セミナーのご案内"><?php NID_SVG::icon( 'megaphone', array( 'class' => 'button--icon' ), 'セミナー案内' ); ?>セミナーのご案内</a></p>
 		</div>
 	</div>
