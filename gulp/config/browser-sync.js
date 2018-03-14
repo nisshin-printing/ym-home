@@ -5,7 +5,7 @@
  *
  */
 module.exports = {
-    proxy: "www.law-yamashita.dev",
+    proxy: "dev.law-yamashita.local",
     logSnippet: true,
     ghostMode: true,
     open: "local"
