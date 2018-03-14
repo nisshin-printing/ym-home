@@ -67,9 +67,7 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 						get_template_part( './templates/page--members' );
 					endwhile;endif;
 				} else if ( is_post_type_archive() || is_tax() ) {
-					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/custom-post-type' );
-					endwhile;endif;
 				} else if ( is_archive() || is_home() ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/content' );

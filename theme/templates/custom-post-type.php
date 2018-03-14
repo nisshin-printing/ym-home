@@ -1,6 +1,4 @@
 <?php
-if ( have_posts() ) : while ( have_posts() ) : the_post();
-
 if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 
 	$is_client = $is_advice = $is_komon = '';
@@ -11,7 +9,8 @@ if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 	} else if ( is_tax( 'voice-cat', 'interview' ) ) {
 		$is_komon = 'is-active';
 	}
-?>
+
+	?>
 <p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートでの満足度"></p>
 
 <ul class="menu align-center menu--voice-cat">
@@ -21,6 +20,7 @@ if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 </ul>
 <?php
 endif;
+if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
 <article <?php post_class( 'post post--show' ); ?> itemscope itemtype="http://schema.org/Article" itemref="author-prof">
 	<meta itemprop="description" content="<?php the_excerpt(); ?>">
