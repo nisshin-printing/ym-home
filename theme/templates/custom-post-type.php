@@ -1,3 +1,27 @@
+<?php
+if ( have_posts() ) : while ( have_posts() ) : the_post();
+
+if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
+
+	$is_client = $is_advice = $is_komon = '';
+	if ( is_tax( 'voice-cat', 'client' ) ) {
+		$is_client = 'is-active';
+	} else if ( is_tax( 'voice-cat', 'advice' ) ) {
+		$is_advice = 'is-active';
+	} else if ( is_tax( 'voice-cat', 'interview' ) ) {
+		$is_komon = 'is-active';
+	}
+?>
+<p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートでの満足度"></p>
+
+<ul class="menu align-center menu--voice-cat">
+	<li class="<?php echo $is_client; ?>"><a href="<?php echo get_term_link( 'client', 'voice-cat' ); ?>">依頼者様の声</a></li>
+	<li class="<?php echo $is_advice; ?>"><a href="<?php echo get_term_link( 'advice', 'voice-cat' ); ?>">相談者様の声</a></li>
+	<li class="<?php echo $is_komon; ?>"><a href="">顧問先インタビュー</a></li>
+</ul>
+<?php
+endif;
+?>
 <article <?php post_class( 'post post--show' ); ?> itemscope itemtype="http://schema.org/Article" itemref="author-prof">
 	<meta itemprop="description" content="<?php the_excerpt(); ?>">
 	<ul class="post--meta menu">
@@ -32,3 +56,5 @@
 	</div>
 	<div class="content-post content-cases"><?php the_content(); ?></div>
 </article>
+<?php
+endwhile;endif;

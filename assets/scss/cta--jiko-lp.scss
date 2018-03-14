@@ -1,0 +1,49 @@
+@import './config/paths';
+@import './config/colors';
+@import './config/foundation';
+@import './config/images';
+.cta--lp_wrap {
+		color: $white;
+		background: #76b852;
+		background: linear-gradient(to right, #76b852, #8dc26f);
+		padding: 60px 0;
+}
+
+.cta--lp_title {
+		svg,
+		img {
+				width: 2em;
+				height: 2em;
+				display: inline-block;
+				vertical-align: bottom;
+				margin-right: 1rem;
+		}
+		text-align: center;
+		padding-bottom: 1.5em;
+		position: relative;
+		&::after {
+				content: '';
+				position: absolute;
+				bottom: .75em;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 2em;
+				height: 3px;
+				background-color: $white;
+		}
+		@include breakpoint(large) {
+				text-align: left;
+				font-size: 2rem;
+		}
+		&.--contents {
+				padding-bottom: 0 !important;
+				&::after {
+						display: none;
+				}
+		}
+}
+
+.cta--lp__sub-title {
+		font-size: 1.2em;
+		font-weight: bold;
+}
