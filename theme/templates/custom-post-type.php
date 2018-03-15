@@ -1,23 +1,23 @@
 <?php
 if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 
-	$is_client = $is_advice = $is_komon = '';
+	$is_client = $is_advice = $is_komon = 'button';
 	if ( is_tax( 'voice-cat', 'client' ) ) {
-		$is_client = 'is-active';
+		$is_client = 'button hollow';
 	} else if ( is_tax( 'voice-cat', 'advice' ) ) {
-		$is_advice = 'is-active';
+		$is_advice = 'button hollow';
 	} else if ( is_tax( 'voice-cat', 'interview' ) ) {
-		$is_komon = 'is-active';
+		$is_komon = 'button hollow';
 	}
 
 	?>
 <p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートでの満足度"></p>
 
-<ul class="menu align-center menu--voice-cat">
-	<li class="<?php echo $is_client; ?>"><a href="<?php echo get_term_link( 'client', 'voice-cat' ); ?>">依頼者様の声</a></li>
-	<li class="<?php echo $is_advice; ?>"><a href="<?php echo get_term_link( 'advice', 'voice-cat' ); ?>">相談者様の声</a></li>
-	<li class="<?php echo $is_komon; ?>"><a href="">顧問先インタビュー</a></li>
-</ul>
+<div class="row align-center menu--voice-cat">
+	<div class="column"><a class="<?php echo $is_client; ?>" href="<?php echo get_term_link( 'client', 'voice-cat' ); ?>">依頼者様の声</a></div>
+	<div class="column"><a class="<?php echo $is_advice; ?>" href="<?php echo get_term_link( 'advice', 'voice-cat' ); ?>">相談者様の声</a></div>
+	<div class="column"><a class="<?php echo $is_komon; ?>" href="https://hiroshima-kigyo.com/category/interview" target="_blank">顧問先インタビュー</a></div>
+</div>
 <?php
 endif;
 if ( have_posts() ) : while ( have_posts() ) : the_post();
