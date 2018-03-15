@@ -14,9 +14,9 @@ if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 <p class="text-center"><img src="<?php echo get_template_directory_uri(), '/assets/img/voice/voice-top.png'; ?>" alt="お客様アンケートでの満足度"></p>
 
 <div class="row align-center menu--voice-cat">
-	<div class="column"><a class="<?php echo $is_client; ?>" href="<?php echo get_term_link( 'client', 'voice-cat' ); ?>">依頼者様の声</a></div>
-	<div class="column"><a class="<?php echo $is_advice; ?>" href="<?php echo get_term_link( 'advice', 'voice-cat' ); ?>">相談者様の声</a></div>
-	<div class="column"><a class="<?php echo $is_komon; ?>" href="https://hiroshima-kigyo.com/category/interview" target="_blank">顧問先インタビュー</a></div>
+	<div class="column text-center"><a class="<?php echo $is_client; ?>" href="<?php echo get_term_link( 'client', 'voice-cat' ); ?>">依頼者様の声</a></div>
+	<div class="column text-center"><a class="<?php echo $is_advice; ?>" href="<?php echo get_term_link( 'advice', 'voice-cat' ); ?>">相談者様の声</a></div>
+	<div class="column text-center"><a class="<?php echo $is_komon; ?>" href="https://hiroshima-kigyo.com/category/interview" target="_blank">顧問先インタビュー</a></div>
 </div>
 <?php
 endif;
