@@ -182,6 +182,16 @@ function show_seminar_lists() {
 			'document'  => '21-document.pdf',
 			'audio'     => '21-audio.mp3',
 		),
+		array(
+			'num'       => '22',
+			'time'      => '2018年3月22日',
+			'title'     => '「知らないと怖い。民法改正」
+			～民法を知らないと会社は大損する～',
+			'lawyer'    => '岡篤志',
+			'lawyer_id' => '4090',
+			'resume'    => '22-resume.pdf',
+			'audio'     => '22-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';
@@ -194,7 +204,7 @@ function show_seminar_lists() {
 		$html .= '<article class="seminar-list card">';
 		$html .= '<h3>第' . $seminar["num"] . '回 - ' . $seminar["title"] . '</h3>';
 		if ( ! empty( $member_img ) ) {
-			$html .= '<div class="card-img thumb--members">' . $member_img . '</div>';
+			$html .= '<div class="card-img thumb--members" style="width:210px;height:auto">' . $member_img . '</div>';
 		}
 		$html .= '<div class="seminar-content"><p class="time">開催日：　' . $seminar["time"] . '</p>';
 		if ( ! empty( $seminar["lawyer_id"] ) ) {

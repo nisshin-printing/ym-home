@@ -34,7 +34,7 @@
 	?>
 	<div class="post--label">
 	<?php
-		echo '<span class="label secondary">', get_the_modified_date( 'Y-m-d' ),'</span>';
+		echo '<span class="label secondary">', get_the_date( 'Y-m-d' ),'</span>';
 		$categories = get_the_category( $post->ID );
 		foreach ( $categories as $category ) :
 	?>
