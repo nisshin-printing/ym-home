@@ -2,15 +2,15 @@
 
 if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 	$title = '解決事例';
-} else if ( is_tax( 'cases-cat' ) ) {
+} else if ( is_tax( 'cases-cat' ) || is_tax( 'cases-tag' ) ) {
 	$title = single_cat_title( '解決事例カテゴリ：', false );
-} else if ( is_post_type_archive( 'voice' ) || is_singular( 'voice' ) || is_tax( 'voice-cat' ) ) {
+} else if ( is_post_type_archive( 'voice' ) || is_singular( 'voice' ) || is_tax( 'voice-cat' ) || is_tax( 'voice-tag' ) ) {
 	$title = 'お客様の声';
 } else if ( is_tax( 'voice-cat' ) ) {
 	$title = single_cat_title( 'お客様の声カテゴリ：', false );
 } else if ( is_post_type_archive( 'members' ) || is_singular( 'members' ) ) {
 	$title = '弁護士等紹介';
-} else if ( is_tax( 'members-cat' ) ) {
+} else if ( is_tax( 'members-cat' ) || is_tax( 'members-hobby' ) || is_tax( 'members-specialty' ) || is_tax( 'members-group' ) ) {
 	$title = single_cat_title( 'メンバーカテゴリ：', false );
 } else if ( is_archive() || is_single() || is_home() ) {
 	$title = 'トピックス';
@@ -62,7 +62,7 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 		<div class="sidenav--overlay js--sidenav--button"></div>
 		<div class="column contents">
 			<?php
-				if ( is_post_type_archive( 'members' ) || is_tax( 'members-cat' ) || is_singular( 'members' ) ) {
+				if ( is_post_type_archive( 'members' ) || is_tax( 'members-cat' ) || is_singular( 'members' ) || is_tax( 'members-hobby' ) || is_tax( 'members-specialty' ) || is_tax( 'members-group' ) ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/page--members' );
 					endwhile;endif;
