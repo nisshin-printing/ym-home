@@ -92,6 +92,8 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 					} elseif ( is_single( '5587' ) ) {
 						get_template_part( 'inc/templates/lp/iwakuni' );
 					}
+				} else if ( is_page( 'scope/kabarai' ) ) {
+					get_template_part( './elements/page--kabarai' );
 				} else if ( is_page() || is_single() ) {
 					while ( have_posts() ) : the_post();
 						the_content();
