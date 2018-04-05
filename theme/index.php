@@ -29,7 +29,7 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 		</div>
 	</header>
 	<?php
-		NID_Crumbs::crumbs();
+		if ( ! is_singular( 'dtdsh-lp' ) ) NID_Crumbs::crumbs();
 		if ( is_post_type_archive( 'members' ) || is_tax( 'members-cat' ) || is_singular( 'members' ) ) {
 	?>
 	<div class="row menu--members__wrap">
