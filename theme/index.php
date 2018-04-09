@@ -72,6 +72,9 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/content' );
 					endwhile;endif;
+				} else if ( is_page( '3421' ) ) {
+					// セミナー資料
+					get_template_part( './templates/page--seminar' );
 				} else if ( is_singular( 'dtdsh-lp' ) ) {
 					if ( is_single( '2915' ) ) {
 						get_template_part( 'inc/templates/lp/jiko' );
