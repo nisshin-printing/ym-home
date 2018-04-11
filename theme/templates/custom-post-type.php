@@ -1,4 +1,7 @@
 <?php
+get_template_part( './elements/filter--custom-post' );
+
+
 if ( is_post_type_archive( 'voice' ) || is_tax( 'voice-cat' ) ) :
 
 	$is_client = $is_advice = $is_komon = 'button';

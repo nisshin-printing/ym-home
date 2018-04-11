@@ -63,6 +63,8 @@ if ( is_post_type_archive( 'cases' ) || is_singular( 'cases' ) ) {
 		<div class="column contents">
 			<?php
 				if ( is_post_type_archive( 'members' ) || is_tax( 'members-cat' ) || is_singular( 'members' ) || is_tax( 'members-hobby' ) || is_tax( 'members-specialty' ) || is_tax( 'members-group' ) ) {
+					$post_type = 'members';
+					include locate_template( './elements/filter--custom-post.php' );
 					if ( have_posts() ) : while ( have_posts() ) : the_post();
 						get_template_part( './templates/page--members' );
 					endwhile;endif;
