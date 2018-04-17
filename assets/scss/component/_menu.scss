@@ -63,3 +63,13 @@
 				margin-bottom: 0;
 		}
 }
+
+.filter--item a {
+		display: inline-block;
+		margin: .25rem;
+		cursor: pointer;
+}
+
+.filter--title {
+		margin-bottom: 0 !important;
+}
