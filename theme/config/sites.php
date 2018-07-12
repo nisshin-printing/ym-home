@@ -7,16 +7,16 @@ $sites = array(
 		'alt' => '賠償金額が増額するケースが大半！交通事故の専門サイト'
 	),
 	array(
-		'name' => 'rikon',
-		'ssl' => true,
-		'bg' => true,
-		'alt' => '女性弁護士3名所属！離婚・男女トラブルの専門サイト'
-	),
-	array(
 		'name' => 'sozoku',
 		'ssl' => true,
 		'bg' => true,
 		'alt' => '相続アドバイザーがサポート！相続・遺言の専門サイト'
+	),
+	array(
+		'name' => 'rikon',
+		'ssl' => true,
+		'bg' => true,
+		'alt' => '女性弁護士3名所属！離婚・男女トラブルの専門サイト'
 	),
 	array(
 		'name' => 'saimu',
