@@ -31,11 +31,11 @@
 			if($site01 !== null) {
 				echo '<li class="grid-item"><a target="_blank" class="link-external img" href="http://www.hiroshima-jiko.com/" title="賠償金額が増額するケースが大半！交通事故の専門サイト"><img src="'.home_url().'/wp-content/uploads/2015/05/external-links-1.png" alt="賠償金額が増額するケースが大半！交通事故の専門サイト"></a></li>';
 			}
-			if($site02 !== null) {
-				echo '<li class="grid-item"><a target="_blank" class="link-external img" href="http://www.hiroshima-rikon.com/" title="女性弁護士3名所属！離婚・男女トラブルの専門サイト"><img src="'.home_url().'/wp-content/uploads/2015/05/external-links-2.png" alt="女性弁護士3名所属！離婚・男女トラブルの専門サイト"></a></li>';
-			}
 			if($site03 !== null) {
 				echo '<li class="grid-item"><a target="_blank" class="link-external img" href="http://www.hiroshima-sozoku.com/" title="相続アドバイザーがサポート！相続・遺言の専門サイト"><img src="'.home_url().'/wp-content/uploads/2015/05/external-links-3.png" alt="相続アドバイザーがサポート！相続・遺言の専門サイト"></a></li>';
+			}
+			if($site02 !== null) {
+				echo '<li class="grid-item"><a target="_blank" class="link-external img" href="http://www.hiroshima-rikon.com/" title="女性弁護士3名所属！離婚・男女トラブルの専門サイト"><img src="'.home_url().'/wp-content/uploads/2015/05/external-links-2.png" alt="女性弁護士3名所属！離婚・男女トラブルの専門サイト"></a></li>';
 			}
 			if($site04 !== null) {
 				echo '<li class="grid-item"><a target="_blank" class="link-external img" href="http://www.hiroshima-saimu.com/" title="女性専用の相談もあります！借金問題の専門サイト"><img src="'.home_url().'/wp-content/uploads/2015/10/external-links-4.png" alt="女性専用の相談もあります！借金問題の専門サイト"></a></li>';
