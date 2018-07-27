@@ -192,6 +192,16 @@ function show_seminar_lists() {
 			'resume'    => '22-resume.pdf',
 			'audio'     => '22-audio.mp3',
 		),
+		array(
+			'num'       => '23',
+			'time'      => '2018年7月26日',
+			'title'     => '次世代のための事業承継',
+			'lawyer'    => '久井春樹',
+			'lawyer_id' => '561',
+			'resume'    => '23-resume.pdf',
+			'document'  => '23-document.mp3',
+			'audio'     => '23-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';
