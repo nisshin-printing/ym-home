@@ -199,7 +199,7 @@ function show_seminar_lists() {
 			'lawyer'    => '久井春樹',
 			'lawyer_id' => '561',
 			'resume'    => '23-resume.pdf',
-			'document'  => '23-document.mp3',
+			'document'  => '23-document.pdf',
 			'audio'     => '23-audio.mp3',
 		),
 	);
