@@ -202,6 +202,15 @@ function show_seminar_lists() {
 			'document'  => '23-document.pdf',
 			'audio'     => '23-audio.mp3',
 		),
+		array(
+			'num'       => '24',
+			'time'      => '2018年11月22日',
+			'title'     => '法改正と最新判例でみる、同一労働同一賃金',
+			'lawyer'    => '松浦亮介',
+			'lawyer_id' => '558',
+			'resume'    => '24-resume.pdf',
+			'audio'     => '24-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';

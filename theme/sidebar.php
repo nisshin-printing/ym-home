@@ -58,7 +58,7 @@
 		<h5 class="sidebar--title">相談予約</h5>
 		<p class="free-call"><a href="tel:0120783409"><?php NID_SVG::icon( 'phone', array( 'class' => 'free-call--icon' ), '電話する' ); ?>0120-7834-09</a></p>
 		<p class="free-call--hours">平日9時～18時<br>土曜10時～17時</p>
-		<p class="free-call--button"><a href="" class="button large">お問い合わせ</a></p>
+		<p class="free-call--button"><a href="<?php echo home_url(), '/reserve'; ?>" class="button large">Web予約フォーム</a></p>
 	</div>
 <?php /*
 	<div class="sidebar--item sidebar--banner">

@@ -73,8 +73,8 @@
 					</a>
 				</p>
 				<p class="topheader--button">
-					<a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button hollow expanded" title="メールで相談予約">
-						<?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>メールで相談予約</a>
+					<a href="<?php echo home_url( '/' ), 'reserve'; ?>" class="button hollow expanded" title="Web予約フォーム">
+						<?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>Web予約フォーム</a>
 				</p>
 				<p class="topheader--button button-group expanded stacked-for-small">
 					<a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" class="button hollow expanded" title="福山支部について">福山支部について</a>

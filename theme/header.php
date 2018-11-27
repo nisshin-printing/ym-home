@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<rt>まるく</rt>
 					</rp>
 				</ruby></a></p>
-				<a href="<?php echo home_url(), '/contact'; ?>" class="free-call_button button hollow secondary">お問い合わせ</a>
+				<a href="<?php echo home_url(), '/reserve'; ?>" class="free-call_button button hollow secondary">Web予約フォーム</a>
 			</div>
 		</div>
 		<?php

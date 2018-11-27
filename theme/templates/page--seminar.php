@@ -1,5 +1,5 @@
 <?php
-	$pass = 'sunflower';
+	$pass = 'christmas';
 	if ( $pass !== $_POST['pass'] || empty( $_POST['pass'] ) ) {
 		if ( $_POST['pass'] ) {
 			echo '<div class="callout alert"><p>パスワードが古いか違います。顧問先企業様はお問い合わせください。</p></div>';
