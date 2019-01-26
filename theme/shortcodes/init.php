@@ -230,7 +230,7 @@ function cta_members_link( $atts ) {
 add_shortcode( 'office-access', 'office_access' );
 function office_access() {
 	$return = <<< EOT
-<h2>広島市・呉市・東広島市・福山市・岩国市でご相談できます</h2>
+<h2>広島・呉・東広島・福山・岩国・東京虎ノ門でご相談できます</h2>
 <h3>広島本部</h3>
 <p>広島本部長：　<a href="https://www.law-yamashita.com/members/shin-tanaka">田中伸</a></p>
 <p><a href="https://www.law-yamashita.com/firm/access" class="button">広島本部へのアクセス</a></p>
@@ -246,6 +246,9 @@ function office_access() {
 <h3>岩国支部</h3>
 <p>岩国支部長：　<a href="https://www.law-yamashita.com/members/mayumi-hirota">廣田麻由美</a></p>
 <p><a href="https://iwakuni.law-yamashita.com" class="button">岩国支部サイト</a></p>
+<h3>東京虎ノ門オフィス</h3>
+<p>東京支部長：　<a href="https://www.law-yamashita.com/members/atsushi-oka">岡篤志</a></p>
+<p><a href="https://tokyo.law-yamashita.com" class="button">東京虎ノ門オフィスサイト</a></p>
 EOT;
 	return $return;
 }

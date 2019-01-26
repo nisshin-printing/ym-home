@@ -14,5 +14,6 @@ get_header();
 	get_template_part( './elements/fp-news' );
 	get_template_part( './elements/fp-cases' );
 	get_template_part( './elements/fp-special-sites' );
+	get_template_part( './elements/fp--access' );
 	echo '</main>';
 get_footer();

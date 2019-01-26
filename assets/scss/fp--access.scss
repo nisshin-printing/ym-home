@@ -1,0 +1,134 @@
+@import './config/colors';
+.map--wrap {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+		// height: 200px;
+		iframe {
+				width: 100%;
+				height: 200px;
+				z-index: 5;
+		}
+		@media screen and (min-width: 40em) {
+				height: 391px;
+				border-bottom: 5px solid #BBB !important;
+				iframe {
+						width: 150%;
+						height: 391px;
+				}
+		}
+}
+
+.map--textbox--wrap {
+		width: 100%;
+		@media screen and (min-width: 40em) {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				width: 50%;
+				z-index: 10;
+		}
+		#map--home & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, home), 1), rgba(map-get($ym_color, home), .8));
+		}
+		#map--tokyo & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, tokyo), 1), rgba(map-get($ym_color, tokyo), .8));
+		}
+		#map--fukuyama & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, fukuyama), 1), rgba(map-get($ym_color, fukuyama), .8));
+		}
+		#map--higashi & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, higashi), 1), rgba(map-get($ym_color, higashi), .8));
+		}
+		#map--kure & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, kure), 1), rgba(map-get($ym_color, kure), .8));
+		}
+		#map--iwakuni & {
+				background: linear-gradient(to right, rgba(map-get($ym_color, iwakuni), 1), rgba(map-get($ym_color, iwakuni), .8));
+		}
+}
+
+.map--textbox {
+		margin: 0 auto;
+		width: auto;
+		padding: 0 1em;
+		color: #FFF;
+		font-size: 15px;
+		letter-spacing: 2px;
+		@media screen and (min-width: 64em) {
+				margin: 0 0 0 auto;
+				width: 500px;
+		}
+}
+
+.map--title {
+		font-size: 20px;
+		text-indent: -50px;
+		margin: 0;
+		padding: {
+				top: 20px;
+				right: 0;
+				bottom: 10px;
+				left: 50px;
+		}
+		font-weight: bold;
+		@media screen and (min-width: 64em) {
+				padding-top: 54px;
+		}
+}
+
+.map--text {
+		margin: 0;
+		padding: {
+				top: 5px;
+				right: 0;
+				bottom: 5px;
+				left: 50px;
+		}
+		b {
+				font-size: 18px;
+		}
+		&.indent {
+				text-indent: -50px;
+		}
+}
+
+.map--tel {
+		margin: 0;
+		padding: {
+				top: 5px;
+				right: 0;
+				bottom: 5px;
+				left: 0;
+		}
+		font-size: 18px;
+		font-weight: bold;
+		a {
+				color: #FFF;
+		}
+}
+
+.map--button-group {
+		margin: 0;
+		padding: {
+				top: 10px;
+				right: 0;
+				bottom: 10px;
+				left: 0;
+		}
+		text-align: center;
+		@media screen and (min-width: 64em) {
+				text-align: left;
+		}
+		.button:first-of-type {
+				margin-right: 1em;
+				@media screen and (min-width: 64em) {
+						margin-right: 2em;
+				}
+		}
+		.button {
+				color: #FFF;
+				border-color: #FFF;
+		}
+}

@@ -59,13 +59,13 @@
 						</rp>
 					</ruby>。</h1>
 				<div class="copy--desc">
-					<p>相談件数17,000件以上。
+					<p>相談件数20,000件以上。
 						<small>※</small>
 						<br>選ぶなら広島最大級。
 						<br>個人のお客様なら
-						<strong style="background:yellow;color:red">相談無料</strong>
+						<strong style="background:yellow;color:red">初回相談無料</strong>
 					</p>
-					<small>※　平成29年12月時点（事務所総数）</small>
+					<small>※　2018年12月末時点（事務所総数）</small>
 				</div>
 				<p class="topheader--button">
 					<a href="tel:0120783409" title="電話する" class="button hollow expanded">
@@ -76,9 +76,8 @@
 					<a href="<?php echo home_url( '/' ), 'reserve'; ?>" class="button hollow expanded" title="Web予約フォーム">
 						<?php NID_SVG::icon( 'mail', array( 'class' => 'button--icon' ), 'メール' ); ?>Web予約フォーム</a>
 				</p>
-				<p class="topheader--button button-group expanded stacked-for-small">
-					<a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" class="button hollow expanded" title="福山支部について">福山支部について</a>
-					<a href="https://iwakuni.law-yamashita.com/" class="button hollow expanded" title="岩国支部について" target="_blank">岩国支部について</a>
+				<p class="topheader--button">
+					<a href="https://tokyo.law-yamashita.com/" class="button hollow expanded" title="東京虎ノ門オフィス開設">東京虎ノ門オフィス開設</a>
 				</p>
 				<p class="topheader--button">
 					<a href="<?php echo home_url( '/' ), 'seminar'; ?>" class="button hollow expanded" title="セミナーのご案内">
