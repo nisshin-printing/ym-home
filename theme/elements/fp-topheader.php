@@ -63,7 +63,7 @@
 				<p>相談件数20,000件以上。
 					<small>※</small>
 					<br>選ぶなら広島最大級。
-					<br>交通事故、相続・遺言、借金・過払いは
+					<br>交通事故、相続・遺言、借金・過払いは<br>
 					<strong style="background:yellow;color:red">初回相談無料</strong>
 				</p>
 				<small>※　平成29年12月時点（事務所総数）</small>
