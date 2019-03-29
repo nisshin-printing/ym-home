@@ -17,8 +17,8 @@
 		<div class="column small-12 medium-4 cta--footer-column">
 			<div class="cta--footer-container">
 			<?php NID_SVG::icon( 'telephone-operator-imai', array(), '今井絵美似お問い合わせのアイコン' ); ?>
-				<h3 class="cta--footer-title">お問い合わせ<span class="cta--footer-title -half">Contact</span></h3>
-				<a href="<?php echo home_url( '/' ), 'contact'; ?>" class="button expanded">▶　詳しく見る</a>
+				<h3 class="cta--footer-title">Web予約フォーム<span class="cta--footer-title -half">Reserve</span></h3>
+				<a href="<?php echo home_url( '/' ), 'reserve'; ?>" class="button expanded">▶　詳しく見る</a>
 			</div>
 		</div>
 	</div>

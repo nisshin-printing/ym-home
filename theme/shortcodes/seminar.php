@@ -202,6 +202,25 @@ function show_seminar_lists() {
 			'document'  => '23-document.pdf',
 			'audio'     => '23-audio.mp3',
 		),
+		array(
+			'num'       => '24',
+			'time'      => '2018年11月22日',
+			'title'     => '法改正と最新判例でみる、同一労働同一賃金',
+			'lawyer'    => '松浦亮介',
+			'lawyer_id' => '558',
+			'resume'    => '24-resume.pdf',
+			'audio'     => '24-audio.mp3',
+		),
+		array(
+			'num'       => '25',
+			'time'      => '2019年3月14日',
+			'title'     => 'ポイント解説！！能力不足・勤怠不良・メンタル不調の社員対応',
+			'lawyer'    => '笠原輔',
+			'lawyer_id' => '553',
+			'resume'    => '25-resume.pdf',
+			'document'  => '25-document.pdf',
+			'audio'     => '25-audio.mp3',
+		),
 	);
 	$seminar_array = array_reverse( $seminar_array );
 	$html = '';

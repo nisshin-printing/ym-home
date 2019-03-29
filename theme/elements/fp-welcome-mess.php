@@ -15,7 +15,7 @@
 				<h2 class="title--border-bottom">代表あいさつ</h2>
 				<div class="message--paragraph">
 					<p>山下江法律事務所サイトへのご訪問ありがとうございます。<br>お悩みやお困りごとがありましたら，お気軽に当事務所にご連絡ください。</p>
-					<p>当事務所は，平成7年7月11日創立以来「親切な相談」「適切な解決」をモットーに業務に励んできました。現在，広島本部のほかに，<a href="<?php echo home_url( '/' ), 'lp/4137'; ?>" title="呉支部" target="_blank">呉支部</a>，<a href="<?php echo home_url( '/' ), 'lp/3674'; ?>" title="東広島支部" target="_blank">東広島支部</a>，<a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" title="福山支部" target="_blank">福山支部</a>，<a href="https://iwakuni.law-yamashita.com/" title="岩国支部" target="_blank">岩国支部</a>があり，広島近辺の方々への法的サービスを提供させていただいております。</p>
+					<p>当事務所は，平成7年7月11日創立以来「親切な相談」「適切な解決」をモットーに業務に励んできました。広島本部を中心に<a href="<?php echo home_url( '/' ), 'lp/5585'; ?>" title="福山支部" target="_blank">福山支部</a>、<a href="https://kure.law-yamashita.com/" title="呉支部" target="_blank">呉支部</a>，<a href="<?php echo home_url( '/' ), 'lp/3674'; ?>" title="東広島支部" target="_blank">東広島支部</a>，<a href="https://iwakuni.law-yamashita.com/" title="岩国支部" target="_blank">岩国支部</a>があり，広島近辺の方々への法的サービスを提供させていただいております。<br>また、平成３１年１月には<a href="https://tokyo.law-yamashita.com" target="_blank">東京虎ノ門オフィス</a>を開設し、東京近辺の方々を対象に法的サービスを提供するとともに、東京と広島との法的な橋渡しも可能としております。</p>
 					<p>トラブルに巻き込まれた場合，法律的にはどうなるのだろうというご質問に的確にお答えし，法律で保証された権利を依頼者様に寄り添いながら実現していきます。さらに，法律的には困難な場合でも，どのようにすれば依頼者様にとっての最善の道に向かうのかについて，依頼者様に寄り添い一緒に考え，闘います。</p>
 					<p>あなたは一人ではありません。<br>私たち弁護士・秘書があなたを全力で支えます。私たちはあなたの味方です。<br>一人で悩まず，まずは当事務所までご連絡ください。山下江法律事務所サイトへのご訪問ありがとうございます。</p>
 					<p class="text-right"><a href="<?php echo get_permalink( '548' ); ?>" class="button" title="山下江について">山下江について　></a></p>

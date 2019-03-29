@@ -7,14 +7,14 @@
  * @param path
  * @returns {Function}
  */
-module.exports = function (require, path) {
-	var worker = '';
+module.exports = function(require, path) {
+		var worker = '';
 
-	return function (a, b, c, d, e, f, g) {
-		if (!worker) {
-			worker = require(path);
-		}
+		return function(a, b, c, d, e, f, g) {
+				if (!worker) {
+						worker = require(path);
+				}
 
-		return worker(a, b, c, d, e, f, g);
-	};
+				return worker(a, b, c, d, e, f, g);
+		};
 };
