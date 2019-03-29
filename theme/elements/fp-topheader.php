@@ -66,7 +66,7 @@
 					<br>交通事故、相続・遺言、借金・過払いは<br>
 					<strong style="background:yellow;color:red">初回相談無料</strong>
 				</p>
-				<small>※　平成29年12月時点（事務所総数）</small>
+				<small>※　2018年12月末時点（事務所総数）</small>
 			</div>
 			<p class="topheader--button">
 				<a href="tel:0120783409" title="電話する" class="button hollow expanded">
