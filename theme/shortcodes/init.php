@@ -1,23 +1,4 @@
 <?php
-// メンバーページに関連記事を表示
-add_shortcode( 'have-posts', 'have_relate_posts' );
-function have_relate_posts() {
-	global $post;
-	$member_id = $post->ID;
-	$args = array(
-		'posts_per_page' => -1,
-		'meta_key' => 'charge_lawyer',
-		'meta_value_num' => $member_id,
-		'order' => 'ASC'
-	);
-	$posts = new WP_Query( $args );
-	$return = '<div id="test">';
-	if ( $posts->have_posts() ) : while ( $posts->have_posts() ) : $posts->the_post();
-	$return .= '<a href="' . get_the_permalink( $member_id ) . '">' . get_the_title( $member_id ) . '</a>';
-	endwhile; endif;
-	$return .= '</div>';
-	return $return;
-}
 // 記事にメンバーが言っている風な画像と「」を表示させたい
 add_shortcode( 'speak-member', 'members_speak_message' );
 function members_speak_message( $atts ) {
