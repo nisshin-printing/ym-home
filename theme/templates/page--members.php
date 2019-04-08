@@ -63,7 +63,7 @@
 		);
 		wp_link_pages( $args );
 	?>
-	<h3>弁護士の人柄で選んでください！</h3>
+	<h3>弁護士・専門家の人柄で選んでください！</h3>
 	<div class="cta--select-members">
 		<div class="row align-middle">
 			<div class="column small-2 medium-4"><a href="<?php echo get_page_link( '1126' ); ?>" title="<?php echo get_the_title( '1126' ); ?>"><?php the_post_thumbnail(); ?></a></div>
